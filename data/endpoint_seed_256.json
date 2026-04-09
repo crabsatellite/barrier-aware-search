@@ -1,0 +1,28 @@
+{
+  "seed": 256,
+  "r": 0.5946223735809326,
+  "feasible": false,
+  "n_violations": 1,
+  "np_density": 0.0402,
+  "sensitivity_importance": 0.23944555359326453,
+  "cancel_weight_frac": 0.04886327985378545,
+  "cancel_l1": 0.4694764796154763,
+  "signal_l1": 9.13848436583434,
+  "cross_term_mass": 0.03265107615858034,
+  "cross_term_frac": 0.15095944938155895,
+  "total_quad_mass": 0.216290376602407,
+  "barrier_status": {
+    "natural_proof": {
+      "passes": false,
+      "density": 0.0402
+    },
+    "relativization": {
+      "passes": true,
+      "density": 0.0
+    },
+    "algebrization": {
+      "passes": true,
+      "density": 0.0
+    }
+  }
+}

@@ -1,0 +1,4232 @@
+{
+  "full_seed1": {
+    "seed": 1,
+    "variant": "full",
+    "elapsed_s": 2388.4539053440094,
+    "final": {
+      "gen": 3000,
+      "r": 0.5924292802810669,
+      "phi_sens": 0.005116285513720631,
+      "regime": "C",
+      "np_density": 0.0396,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5828099250793457,
+        "phi_sens": 0.07095314461065769,
+        "regime": "B",
+        "np_density": 0.026,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5906491875648499,
+        "phi_sens": 0.06256016008409455,
+        "regime": "B",
+        "np_density": 0.0244,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5929558277130127,
+        "phi_sens": 0.04380358700954596,
+        "regime": "C",
+        "np_density": 0.0238,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5924292802810669,
+        "phi_sens": 0.005116285513720631,
+        "regime": "C",
+        "np_density": 0.0396,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed1": {
+    "seed": 1,
+    "variant": "sep",
+    "elapsed_s": 2367.229351043701,
+    "final": {
+      "gen": 3000,
+      "r": 0.585277259349823,
+      "phi_sens": 0.07748023571666264,
+      "regime": "B",
+      "np_density": 0.0395,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5738182067871094,
+        "phi_sens": 0.08366914688666782,
+        "regime": "B",
+        "np_density": 0.0197,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5820823907852173,
+        "phi_sens": 0.07106409165665233,
+        "regime": "B",
+        "np_density": 0.0396,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5839012265205383,
+        "phi_sens": 0.0676737621704049,
+        "regime": "B",
+        "np_density": 0.0402,
+        "feasible": false
+      },
+      {
+        "gen": 3000,
+        "r": 0.585277259349823,
+        "phi_sens": 0.07748023571666264,
+        "regime": "B",
+        "np_density": 0.0395,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed1": {
+    "seed": 1,
+    "variant": "isotropic",
+    "elapsed_s": 2433.1146161556244,
+    "final": {
+      "gen": 3000,
+      "r": 0.5809838771820068,
+      "phi_sens": 0.03772330624545363,
+      "regime": "C",
+      "np_density": 0.0399,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5660519599914551,
+        "phi_sens": 0.04270924878465974,
+        "regime": "C",
+        "np_density": 0.0354,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5757230520248413,
+        "phi_sens": 0.045209606433946614,
+        "regime": "C",
+        "np_density": 0.0376,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.579700231552124,
+        "phi_sens": 0.03998827682454063,
+        "regime": "C",
+        "np_density": 0.0399,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5809838771820068,
+        "phi_sens": 0.03772330624545363,
+        "regime": "C",
+        "np_density": 0.0399,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed2": {
+    "seed": 2,
+    "variant": "full",
+    "elapsed_s": 2407.5713834762573,
+    "final": {
+      "gen": 3000,
+      "r": 0.5918815732002258,
+      "phi_sens": 0.0034839320966453587,
+      "regime": "C",
+      "np_density": 0.038,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5806517004966736,
+        "phi_sens": 0.0381949435515898,
+        "regime": "C",
+        "np_density": 0.0278,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5891140103340149,
+        "phi_sens": 0.04430489162072243,
+        "regime": "C",
+        "np_density": 0.0366,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5910773873329163,
+        "phi_sens": 0.009512024328005209,
+        "regime": "C",
+        "np_density": 0.0376,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5918815732002258,
+        "phi_sens": 0.0034839320966453587,
+        "regime": "C",
+        "np_density": 0.038,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed2": {
+    "seed": 2,
+    "variant": "sep",
+    "elapsed_s": 2457.078387737274,
+    "final": {
+      "gen": 3000,
+      "r": 0.5824902653694153,
+      "phi_sens": 0.0725928297223149,
+      "regime": "B",
+      "np_density": 0.0398,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5680745840072632,
+        "phi_sens": 0.05866117209356741,
+        "regime": "B",
+        "np_density": 0.0315,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5751578211784363,
+        "phi_sens": 0.06621855383117187,
+        "regime": "B",
+        "np_density": 0.0384,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5770025253295898,
+        "phi_sens": 0.07002416592343075,
+        "regime": "B",
+        "np_density": 0.0389,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5824902653694153,
+        "phi_sens": 0.0725928297223149,
+        "regime": "B",
+        "np_density": 0.0398,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed2": {
+    "seed": 2,
+    "variant": "isotropic",
+    "elapsed_s": 2501.980250597,
+    "final": {
+      "gen": 3000,
+      "r": 0.5767270922660828,
+      "phi_sens": 0.06873051881031708,
+      "regime": "B",
+      "np_density": 0.0401,
+      "feasible": false
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5687763094902039,
+        "phi_sens": 0.05923234400755968,
+        "regime": "B",
+        "np_density": 0.0346,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5750102400779724,
+        "phi_sens": 0.06805316590404739,
+        "regime": "B",
+        "np_density": 0.0396,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5760992765426636,
+        "phi_sens": 0.06904922029022262,
+        "regime": "B",
+        "np_density": 0.04,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5767270922660828,
+        "phi_sens": 0.06873051881031708,
+        "regime": "B",
+        "np_density": 0.0401,
+        "feasible": false
+      }
+    ]
+  },
+  "full_seed3": {
+    "seed": 3,
+    "variant": "full",
+    "elapsed_s": 2524.9061233997345,
+    "final": {
+      "gen": 3000,
+      "r": 0.5905197858810425,
+      "phi_sens": 0.0330399635460722,
+      "regime": "C",
+      "np_density": 0.0392,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5735286474227905,
+        "phi_sens": 0.04271816744974419,
+        "regime": "C",
+        "np_density": 0.034,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5789318680763245,
+        "phi_sens": 0.04159344057243892,
+        "regime": "C",
+        "np_density": 0.0388,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5837488770484924,
+        "phi_sens": 0.01611145065909028,
+        "regime": "C",
+        "np_density": 0.0401,
+        "feasible": false
+      },
+      {
+        "gen": 3000,
+        "r": 0.5905197858810425,
+        "phi_sens": 0.0330399635460722,
+        "regime": "C",
+        "np_density": 0.0392,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed3": {
+    "seed": 3,
+    "variant": "sep",
+    "elapsed_s": 2570.7137322425842,
+    "final": {
+      "gen": 3000,
+      "r": 0.5823935270309448,
+      "phi_sens": 0.026235699747448233,
+      "regime": "C",
+      "np_density": 0.0398,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5718603134155273,
+        "phi_sens": 0.03173418951151228,
+        "regime": "C",
+        "np_density": 0.0387,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5799073576927185,
+        "phi_sens": 0.03133020414195867,
+        "regime": "C",
+        "np_density": 0.0385,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5817013382911682,
+        "phi_sens": 0.02682294405543093,
+        "regime": "C",
+        "np_density": 0.0397,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5823935270309448,
+        "phi_sens": 0.026235699747448233,
+        "regime": "C",
+        "np_density": 0.0398,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed3": {
+    "seed": 3,
+    "variant": "isotropic",
+    "elapsed_s": 2598.0230436325073,
+    "final": {
+      "gen": 3000,
+      "r": 0.5899016261100769,
+      "phi_sens": 0.04784092720670632,
+      "regime": "C",
+      "np_density": 0.0377,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5753155946731567,
+        "phi_sens": 0.03398876439414524,
+        "regime": "C",
+        "np_density": 0.0194,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.583374559879303,
+        "phi_sens": 0.03663006318371923,
+        "regime": "C",
+        "np_density": 0.0261,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5873526930809021,
+        "phi_sens": 0.04408477943598352,
+        "regime": "C",
+        "np_density": 0.026,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5899016261100769,
+        "phi_sens": 0.04784092720670632,
+        "regime": "C",
+        "np_density": 0.0377,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed4": {
+    "seed": 4,
+    "variant": "full",
+    "elapsed_s": 2610.6484503746033,
+    "final": {
+      "gen": 3000,
+      "r": 0.5841333866119385,
+      "phi_sens": 0.18844676477659697,
+      "regime": "B",
+      "np_density": 0.0397,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5717965960502625,
+        "phi_sens": 0.02970502245481624,
+        "regime": "C",
+        "np_density": 0.0346,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5774176716804504,
+        "phi_sens": 0.039681209536165024,
+        "regime": "C",
+        "np_density": 0.0371,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5823581218719482,
+        "phi_sens": 0.12534991872490908,
+        "regime": "B",
+        "np_density": 0.0393,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5841333866119385,
+        "phi_sens": 0.18844676477659697,
+        "regime": "B",
+        "np_density": 0.0397,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed4": {
+    "seed": 4,
+    "variant": "sep",
+    "elapsed_s": 2676.1097428798676,
+    "final": {
+      "gen": 3000,
+      "r": 0.5790959596633911,
+      "phi_sens": 0.11873562642546753,
+      "regime": "B",
+      "np_density": 0.0398,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.571905255317688,
+        "phi_sens": 0.09625063814535088,
+        "regime": "B",
+        "np_density": 0.0207,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5775684714317322,
+        "phi_sens": 0.09981267970660684,
+        "regime": "B",
+        "np_density": 0.0398,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5784563422203064,
+        "phi_sens": 0.10833919089484187,
+        "regime": "B",
+        "np_density": 0.0382,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5790959596633911,
+        "phi_sens": 0.11873562642546753,
+        "regime": "B",
+        "np_density": 0.0398,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed4": {
+    "seed": 4,
+    "variant": "isotropic",
+    "elapsed_s": 2551.359819173813,
+    "final": {
+      "gen": 3000,
+      "r": 0.5844892263412476,
+      "phi_sens": 0.03518830838087359,
+      "regime": "C",
+      "np_density": 0.0392,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5757035613059998,
+        "phi_sens": 0.048796323573638015,
+        "regime": "C",
+        "np_density": 0.0155,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5815207958221436,
+        "phi_sens": 0.04179399851599199,
+        "regime": "C",
+        "np_density": 0.0377,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5834478735923767,
+        "phi_sens": 0.03716467880377904,
+        "regime": "C",
+        "np_density": 0.0399,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5844892263412476,
+        "phi_sens": 0.03518830838087359,
+        "regime": "C",
+        "np_density": 0.0392,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed5": {
+    "seed": 5,
+    "variant": "full",
+    "elapsed_s": 2593.7742533683777,
+    "final": {
+      "gen": 3000,
+      "r": 0.5915136337280273,
+      "phi_sens": 0.21895895811922303,
+      "regime": "B",
+      "np_density": 0.0399,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5791407227516174,
+        "phi_sens": 0.09296283355613391,
+        "regime": "B",
+        "np_density": 0.0397,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5837584733963013,
+        "phi_sens": 0.07055629414775248,
+        "regime": "B",
+        "np_density": 0.0365,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.589937686920166,
+        "phi_sens": 0.09811213081721698,
+        "regime": "B",
+        "np_density": 0.0399,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5915136337280273,
+        "phi_sens": 0.21895895811922303,
+        "regime": "B",
+        "np_density": 0.0399,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed5": {
+    "seed": 5,
+    "variant": "sep",
+    "elapsed_s": 2608.430318593979,
+    "final": {
+      "gen": 3000,
+      "r": 0.584779679775238,
+      "phi_sens": 0.03518187356539584,
+      "regime": "C",
+      "np_density": 0.0396,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5681420564651489,
+        "phi_sens": 0.034505513651467715,
+        "regime": "C",
+        "np_density": 0.03,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5771265029907227,
+        "phi_sens": 0.03548877637061218,
+        "regime": "C",
+        "np_density": 0.0401,
+        "feasible": false
+      },
+      {
+        "gen": 2000,
+        "r": 0.5817204117774963,
+        "phi_sens": 0.03516933138044166,
+        "regime": "C",
+        "np_density": 0.0398,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.584779679775238,
+        "phi_sens": 0.03518187356539584,
+        "regime": "C",
+        "np_density": 0.0396,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed5": {
+    "seed": 5,
+    "variant": "isotropic",
+    "elapsed_s": 2502.9903059005737,
+    "final": {
+      "gen": 3000,
+      "r": 0.5892550349235535,
+      "phi_sens": 0.009999040221699491,
+      "regime": "C",
+      "np_density": 0.0357,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5759560465812683,
+        "phi_sens": 0.02259599898758031,
+        "regime": "C",
+        "np_density": 0.0382,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5829731822013855,
+        "phi_sens": 0.019055671154068768,
+        "regime": "C",
+        "np_density": 0.0304,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5860846638679504,
+        "phi_sens": 0.01412077129853125,
+        "regime": "C",
+        "np_density": 0.0321,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5892550349235535,
+        "phi_sens": 0.009999040221699491,
+        "regime": "C",
+        "np_density": 0.0357,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed6": {
+    "seed": 6,
+    "variant": "full",
+    "elapsed_s": 2416.0452523231506,
+    "final": {
+      "gen": 3000,
+      "r": 0.5926276445388794,
+      "phi_sens": 0.07033868566819901,
+      "regime": "B",
+      "np_density": 0.0348,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5812680125236511,
+        "phi_sens": 0.013817108669102443,
+        "regime": "C",
+        "np_density": 0.0162,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5905894637107849,
+        "phi_sens": 0.01382736573391335,
+        "regime": "C",
+        "np_density": 0.0277,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5928233861923218,
+        "phi_sens": 0.06529594935177349,
+        "regime": "B",
+        "np_density": 0.0226,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5926276445388794,
+        "phi_sens": 0.07033868566819901,
+        "regime": "B",
+        "np_density": 0.0348,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed6": {
+    "seed": 6,
+    "variant": "sep",
+    "elapsed_s": 2413.1302268505096,
+    "final": {
+      "gen": 3000,
+      "r": 0.591927707195282,
+      "phi_sens": 0.08157215048593826,
+      "regime": "B",
+      "np_density": 0.0385,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5804463624954224,
+        "phi_sens": 0.056465252529795666,
+        "regime": "B",
+        "np_density": 0.0178,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5894086956977844,
+        "phi_sens": 0.05724777907262279,
+        "regime": "B",
+        "np_density": 0.035,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5916096568107605,
+        "phi_sens": 0.06982375014991134,
+        "regime": "B",
+        "np_density": 0.0361,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.591927707195282,
+        "phi_sens": 0.08157215048593826,
+        "regime": "B",
+        "np_density": 0.0385,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed6": {
+    "seed": 6,
+    "variant": "isotropic",
+    "elapsed_s": 2413.7496531009674,
+    "final": {
+      "gen": 3000,
+      "r": 0.5904530882835388,
+      "phi_sens": 0.012248057535328602,
+      "regime": "C",
+      "np_density": 0.0399,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5772250294685364,
+        "phi_sens": 0.034825165824571784,
+        "regime": "C",
+        "np_density": 0.0366,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5835953950881958,
+        "phi_sens": 0.024329036335207815,
+        "regime": "C",
+        "np_density": 0.0354,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5885902643203735,
+        "phi_sens": 0.013165287868709658,
+        "regime": "C",
+        "np_density": 0.0374,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5904530882835388,
+        "phi_sens": 0.012248057535328602,
+        "regime": "C",
+        "np_density": 0.0399,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed7": {
+    "seed": 7,
+    "variant": "full",
+    "elapsed_s": 2427.6710073947906,
+    "final": {
+      "gen": 3000,
+      "r": 0.5896379351615906,
+      "phi_sens": 0.1152449306190273,
+      "regime": "B",
+      "np_density": 0.0387,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5755083560943604,
+        "phi_sens": 0.03495883307609419,
+        "regime": "C",
+        "np_density": 0.0388,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5818670392036438,
+        "phi_sens": 0.03833707857025088,
+        "regime": "C",
+        "np_density": 0.0364,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5884112119674683,
+        "phi_sens": 0.054838170501609454,
+        "regime": "B",
+        "np_density": 0.0388,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5896379351615906,
+        "phi_sens": 0.1152449306190273,
+        "regime": "B",
+        "np_density": 0.0387,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed7": {
+    "seed": 7,
+    "variant": "sep",
+    "elapsed_s": 2406.6682233810425,
+    "final": {
+      "gen": 3000,
+      "r": 0.5861190557479858,
+      "phi_sens": 0.05780905110130433,
+      "regime": "B",
+      "np_density": 0.0399,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5752393007278442,
+        "phi_sens": 0.04508256601975244,
+        "regime": "C",
+        "np_density": 0.0338,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5811049342155457,
+        "phi_sens": 0.05750239553008419,
+        "regime": "B",
+        "np_density": 0.0372,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5838609933853149,
+        "phi_sens": 0.05442886357159688,
+        "regime": "B",
+        "np_density": 0.0399,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5861190557479858,
+        "phi_sens": 0.05780905110130433,
+        "regime": "B",
+        "np_density": 0.0399,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed7": {
+    "seed": 7,
+    "variant": "isotropic",
+    "elapsed_s": 2411.0368704795837,
+    "final": {
+      "gen": 3000,
+      "r": 0.5906167030334473,
+      "phi_sens": 0.014179649385956446,
+      "regime": "C",
+      "np_density": 0.0399,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5800119042396545,
+        "phi_sens": 0.02315460598134442,
+        "regime": "C",
+        "np_density": 0.0382,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5873092412948608,
+        "phi_sens": 0.01613017899363594,
+        "regime": "C",
+        "np_density": 0.0338,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5892373323440552,
+        "phi_sens": 0.01511747209455349,
+        "regime": "C",
+        "np_density": 0.039,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5906167030334473,
+        "phi_sens": 0.014179649385956446,
+        "regime": "C",
+        "np_density": 0.0399,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed8": {
+    "seed": 8,
+    "variant": "full",
+    "elapsed_s": 2407.3959267139435,
+    "final": {
+      "gen": 3000,
+      "r": 0.5959948301315308,
+      "phi_sens": 0.028703205338223424,
+      "regime": "C",
+      "np_density": 0.0002,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5825888514518738,
+        "phi_sens": 0.03449259331612389,
+        "regime": "C",
+        "np_density": 0.0338,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5907347202301025,
+        "phi_sens": 0.019585900016386465,
+        "regime": "C",
+        "np_density": 0.027,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5957673192024231,
+        "phi_sens": 0.018378104397356376,
+        "regime": "C",
+        "np_density": 0.0338,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5959948301315308,
+        "phi_sens": 0.028703205338223424,
+        "regime": "C",
+        "np_density": 0.0002,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed8": {
+    "seed": 8,
+    "variant": "sep",
+    "elapsed_s": 2410.0074813365936,
+    "final": {
+      "gen": 3000,
+      "r": 0.5912119150161743,
+      "phi_sens": 0.009124044928717826,
+      "regime": "C",
+      "np_density": 0.0383,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.579889178276062,
+        "phi_sens": 0.0253170431171552,
+        "regime": "C",
+        "np_density": 0.0273,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5857783555984497,
+        "phi_sens": 0.01434903049620234,
+        "regime": "C",
+        "np_density": 0.039,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5908381938934326,
+        "phi_sens": 0.009571664850071894,
+        "regime": "C",
+        "np_density": 0.0349,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5912119150161743,
+        "phi_sens": 0.009124044928717826,
+        "regime": "C",
+        "np_density": 0.0383,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed8": {
+    "seed": 8,
+    "variant": "isotropic",
+    "elapsed_s": 2422.853483438492,
+    "final": {
+      "gen": 3000,
+      "r": 0.5904865860939026,
+      "phi_sens": 0.017974113500042018,
+      "regime": "C",
+      "np_density": 0.0392,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5789219737052917,
+        "phi_sens": 0.024271679129602878,
+        "regime": "C",
+        "np_density": 0.0291,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.587174117565155,
+        "phi_sens": 0.022154536005419126,
+        "regime": "C",
+        "np_density": 0.0401,
+        "feasible": false
+      },
+      {
+        "gen": 2000,
+        "r": 0.589020311832428,
+        "phi_sens": 0.020596200213774542,
+        "regime": "C",
+        "np_density": 0.0397,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5904865860939026,
+        "phi_sens": 0.017974113500042018,
+        "regime": "C",
+        "np_density": 0.0392,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed9": {
+    "seed": 9,
+    "variant": "full",
+    "elapsed_s": 2424.2332634925842,
+    "final": {
+      "gen": 3000,
+      "r": 0.5903648734092712,
+      "phi_sens": 0.037538461160699206,
+      "regime": "C",
+      "np_density": 0.0237,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5773207545280457,
+        "phi_sens": 0.06111300713775408,
+        "regime": "B",
+        "np_density": 0.0314,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5802934169769287,
+        "phi_sens": 0.0425943223286544,
+        "regime": "C",
+        "np_density": 0.0393,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5852790474891663,
+        "phi_sens": 0.03953703776006368,
+        "regime": "C",
+        "np_density": 0.04,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5903648734092712,
+        "phi_sens": 0.037538461160699206,
+        "regime": "C",
+        "np_density": 0.0237,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed9": {
+    "seed": 9,
+    "variant": "sep",
+    "elapsed_s": 2407.474850654602,
+    "final": {
+      "gen": 3000,
+      "r": 0.5866671800613403,
+      "phi_sens": 0.0821268711964047,
+      "regime": "B",
+      "np_density": 0.0396,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.573924720287323,
+        "phi_sens": 0.07335858087982948,
+        "regime": "B",
+        "np_density": 0.0206,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5815617442131042,
+        "phi_sens": 0.07771813025222259,
+        "regime": "B",
+        "np_density": 0.0393,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5851559042930603,
+        "phi_sens": 0.07881113276146691,
+        "regime": "B",
+        "np_density": 0.0393,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5866671800613403,
+        "phi_sens": 0.0821268711964047,
+        "regime": "B",
+        "np_density": 0.0396,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed9": {
+    "seed": 9,
+    "variant": "isotropic",
+    "elapsed_s": 2414.0916583538055,
+    "final": {
+      "gen": 3000,
+      "r": 0.5813103318214417,
+      "phi_sens": 0.08763300458382965,
+      "regime": "B",
+      "np_density": 0.0395,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5634852647781372,
+        "phi_sens": 0.08448252521038327,
+        "regime": "B",
+        "np_density": 0.0178,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5776723027229309,
+        "phi_sens": 0.09377449494800923,
+        "regime": "B",
+        "np_density": 0.0376,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5806595087051392,
+        "phi_sens": 0.08783787760535867,
+        "regime": "B",
+        "np_density": 0.0398,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5813103318214417,
+        "phi_sens": 0.08763300458382965,
+        "regime": "B",
+        "np_density": 0.0395,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed10": {
+    "seed": 10,
+    "variant": "full",
+    "elapsed_s": 2427.520964384079,
+    "final": {
+      "gen": 3000,
+      "r": 0.5911526083946228,
+      "phi_sens": 0.10574212179172512,
+      "regime": "B",
+      "np_density": 0.039,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5821146965026855,
+        "phi_sens": 0.05598419584428034,
+        "regime": "B",
+        "np_density": 0.03,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5873890519142151,
+        "phi_sens": 0.06264744793447481,
+        "regime": "B",
+        "np_density": 0.0345,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5913954973220825,
+        "phi_sens": 0.08456859303577728,
+        "regime": "B",
+        "np_density": 0.0327,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5911526083946228,
+        "phi_sens": 0.10574212179172512,
+        "regime": "B",
+        "np_density": 0.039,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed10": {
+    "seed": 10,
+    "variant": "sep",
+    "elapsed_s": 2534.410649061203,
+    "final": {
+      "gen": 3000,
+      "r": 0.5912200808525085,
+      "phi_sens": 0.03455412854680507,
+      "regime": "C",
+      "np_density": 0.0356,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5790989995002747,
+        "phi_sens": 0.041209914341513415,
+        "regime": "C",
+        "np_density": 0.0341,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5869356989860535,
+        "phi_sens": 0.03763060981345374,
+        "regime": "C",
+        "np_density": 0.0346,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.590850293636322,
+        "phi_sens": 0.03171546697349472,
+        "regime": "C",
+        "np_density": 0.0355,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5912200808525085,
+        "phi_sens": 0.03455412854680507,
+        "regime": "C",
+        "np_density": 0.0356,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed10": {
+    "seed": 10,
+    "variant": "isotropic",
+    "elapsed_s": 2598.0822200775146,
+    "final": {
+      "gen": 3000,
+      "r": 0.5901898741722107,
+      "phi_sens": 0.011781340307108661,
+      "regime": "C",
+      "np_density": 0.037,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5786265730857849,
+        "phi_sens": 0.026747515267188174,
+        "regime": "C",
+        "np_density": 0.0289,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5865887403488159,
+        "phi_sens": 0.019851473383444587,
+        "regime": "C",
+        "np_density": 0.0245,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5890320539474487,
+        "phi_sens": 0.013850562951023196,
+        "regime": "C",
+        "np_density": 0.0372,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5901898741722107,
+        "phi_sens": 0.011781340307108661,
+        "regime": "C",
+        "np_density": 0.037,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed11": {
+    "seed": 11,
+    "variant": "full",
+    "elapsed_s": 2605.9168136119843,
+    "final": {
+      "gen": 3000,
+      "r": 0.5916723012924194,
+      "phi_sens": 0.1529018638890967,
+      "regime": "B",
+      "np_density": 0.0396,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5806834697723389,
+        "phi_sens": 0.03476409263128711,
+        "regime": "C",
+        "np_density": 0.0313,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5870177745819092,
+        "phi_sens": 0.05661122209719315,
+        "regime": "B",
+        "np_density": 0.0132,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5918381810188293,
+        "phi_sens": 0.12380561295778998,
+        "regime": "B",
+        "np_density": 0.0379,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5916723012924194,
+        "phi_sens": 0.1529018638890967,
+        "regime": "B",
+        "np_density": 0.0396,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed11": {
+    "seed": 11,
+    "variant": "sep",
+    "elapsed_s": 2576.667576789856,
+    "final": {
+      "gen": 3000,
+      "r": 0.5881175994873047,
+      "phi_sens": 0.021314669786507826,
+      "regime": "C",
+      "np_density": 0.038,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5798952579498291,
+        "phi_sens": 0.03225663711774035,
+        "regime": "C",
+        "np_density": 0.0163,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.583421528339386,
+        "phi_sens": 0.025656865877226324,
+        "regime": "C",
+        "np_density": 0.0348,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5867453217506409,
+        "phi_sens": 0.02171724614284784,
+        "regime": "C",
+        "np_density": 0.0342,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5881175994873047,
+        "phi_sens": 0.021314669786507826,
+        "regime": "C",
+        "np_density": 0.038,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed11": {
+    "seed": 11,
+    "variant": "isotropic",
+    "elapsed_s": 2546.4204983711243,
+    "final": {
+      "gen": 3000,
+      "r": 0.5865618586540222,
+      "phi_sens": 0.10102311115366587,
+      "regime": "B",
+      "np_density": 0.0389,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5742340087890625,
+        "phi_sens": 0.08441233766617982,
+        "regime": "B",
+        "np_density": 0.0206,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5841390490531921,
+        "phi_sens": 0.09234815877689692,
+        "regime": "B",
+        "np_density": 0.0346,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5859609246253967,
+        "phi_sens": 0.0970945482001851,
+        "regime": "B",
+        "np_density": 0.0366,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5865618586540222,
+        "phi_sens": 0.10102311115366587,
+        "regime": "B",
+        "np_density": 0.0389,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed12": {
+    "seed": 12,
+    "variant": "full",
+    "elapsed_s": 2568.3380115032196,
+    "final": {
+      "gen": 3000,
+      "r": 0.5916094183921814,
+      "phi_sens": 0.0217042197188157,
+      "regime": "C",
+      "np_density": 0.0389,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5823856592178345,
+        "phi_sens": 0.029965770385887328,
+        "regime": "C",
+        "np_density": 0.0244,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5881858468055725,
+        "phi_sens": 0.005823029666850813,
+        "regime": "C",
+        "np_density": 0.0283,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5909919142723083,
+        "phi_sens": 0.02224799394468508,
+        "regime": "C",
+        "np_density": 0.0355,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5916094183921814,
+        "phi_sens": 0.0217042197188157,
+        "regime": "C",
+        "np_density": 0.0389,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed12": {
+    "seed": 12,
+    "variant": "sep",
+    "elapsed_s": 2633.0759069919586,
+    "final": {
+      "gen": 3000,
+      "r": 0.582211971282959,
+      "phi_sens": 0.032980921159845036,
+      "regime": "C",
+      "np_density": 0.0391,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.568270206451416,
+        "phi_sens": 0.049427595976833834,
+        "regime": "C",
+        "np_density": 0.0149,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5792825818061829,
+        "phi_sens": 0.047489990161401464,
+        "regime": "C",
+        "np_density": 0.0387,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.581490159034729,
+        "phi_sens": 0.03672839033655195,
+        "regime": "C",
+        "np_density": 0.0397,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.582211971282959,
+        "phi_sens": 0.032980921159845036,
+        "regime": "C",
+        "np_density": 0.0391,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed12": {
+    "seed": 12,
+    "variant": "isotropic",
+    "elapsed_s": 2630.3030643463135,
+    "final": {
+      "gen": 3000,
+      "r": 0.5775762796401978,
+      "phi_sens": 0.05293685049977675,
+      "regime": "B",
+      "np_density": 0.04,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5648108720779419,
+        "phi_sens": 0.05523747271584649,
+        "regime": "B",
+        "np_density": 0.0221,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.576131284236908,
+        "phi_sens": 0.053388818523116756,
+        "regime": "B",
+        "np_density": 0.0381,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5773347020149231,
+        "phi_sens": 0.05291383236046699,
+        "regime": "B",
+        "np_density": 0.0399,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5775762796401978,
+        "phi_sens": 0.05293685049977675,
+        "regime": "B",
+        "np_density": 0.04,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed13": {
+    "seed": 13,
+    "variant": "full",
+    "elapsed_s": 2618.0022644996643,
+    "final": {
+      "gen": 3000,
+      "r": 0.5927308201789856,
+      "phi_sens": 0.24114616875658512,
+      "regime": "B",
+      "np_density": 0.0398,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5803967118263245,
+        "phi_sens": 0.09258920498115854,
+        "regime": "B",
+        "np_density": 0.0198,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5906391739845276,
+        "phi_sens": 0.1078077156521531,
+        "regime": "B",
+        "np_density": 0.033,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5916309356689453,
+        "phi_sens": 0.1972196152755152,
+        "regime": "B",
+        "np_density": 0.0389,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5927308201789856,
+        "phi_sens": 0.24114616875658512,
+        "regime": "B",
+        "np_density": 0.0398,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed13": {
+    "seed": 13,
+    "variant": "sep",
+    "elapsed_s": 2629.176391363144,
+    "final": {
+      "gen": 3000,
+      "r": 0.5907268524169922,
+      "phi_sens": 0.023105735623132964,
+      "regime": "C",
+      "np_density": 0.0363,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5755577087402344,
+        "phi_sens": 0.030366113915979535,
+        "regime": "C",
+        "np_density": 0.0241,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5841506719589233,
+        "phi_sens": 0.027244485864029413,
+        "regime": "C",
+        "np_density": 0.0348,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5902326703071594,
+        "phi_sens": 0.0221653444729742,
+        "regime": "C",
+        "np_density": 0.0374,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5907268524169922,
+        "phi_sens": 0.023105735623132964,
+        "regime": "C",
+        "np_density": 0.0363,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed13": {
+    "seed": 13,
+    "variant": "isotropic",
+    "elapsed_s": 2603.3871388435364,
+    "final": {
+      "gen": 3000,
+      "r": 0.5905873775482178,
+      "phi_sens": 0.014110184168947293,
+      "regime": "C",
+      "np_density": 0.0304,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5825724601745605,
+        "phi_sens": 0.014322300177902212,
+        "regime": "C",
+        "np_density": 0.0168,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5871381759643555,
+        "phi_sens": 0.008790193827182326,
+        "regime": "C",
+        "np_density": 0.0367,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5892341136932373,
+        "phi_sens": 0.011005979560606215,
+        "regime": "C",
+        "np_density": 0.0306,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5905873775482178,
+        "phi_sens": 0.014110184168947293,
+        "regime": "C",
+        "np_density": 0.0304,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed14": {
+    "seed": 14,
+    "variant": "full",
+    "elapsed_s": 2635.2580189704895,
+    "final": {
+      "gen": 3000,
+      "r": 0.5917442440986633,
+      "phi_sens": 0.22142470290101152,
+      "regime": "B",
+      "np_density": 0.04,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5802866220474243,
+        "phi_sens": 0.04194573595431228,
+        "regime": "C",
+        "np_density": 0.0268,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5899668335914612,
+        "phi_sens": 0.06490104768504479,
+        "regime": "B",
+        "np_density": 0.0369,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5912758111953735,
+        "phi_sens": 0.16641228728826643,
+        "regime": "B",
+        "np_density": 0.0365,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5917442440986633,
+        "phi_sens": 0.22142470290101152,
+        "regime": "B",
+        "np_density": 0.04,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed14": {
+    "seed": 14,
+    "variant": "sep",
+    "elapsed_s": 2635.321384906769,
+    "final": {
+      "gen": 3000,
+      "r": 0.5887727737426758,
+      "phi_sens": 0.041748378965403864,
+      "regime": "C",
+      "np_density": 0.0387,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5812734365463257,
+        "phi_sens": 0.03844757080478651,
+        "regime": "C",
+        "np_density": 0.0162,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5845633745193481,
+        "phi_sens": 0.03169034877196855,
+        "regime": "C",
+        "np_density": 0.0395,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5875107049942017,
+        "phi_sens": 0.037005273495738504,
+        "regime": "C",
+        "np_density": 0.0324,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5887727737426758,
+        "phi_sens": 0.041748378965403864,
+        "regime": "C",
+        "np_density": 0.0387,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed14": {
+    "seed": 14,
+    "variant": "isotropic",
+    "elapsed_s": 2666.009556531906,
+    "final": {
+      "gen": 3000,
+      "r": 0.5865974426269531,
+      "phi_sens": 0.012376571905602077,
+      "regime": "C",
+      "np_density": 0.0369,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5774994492530823,
+        "phi_sens": 0.020452560637311965,
+        "regime": "C",
+        "np_density": 0.0278,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5832260847091675,
+        "phi_sens": 0.014449496379950313,
+        "regime": "C",
+        "np_density": 0.0375,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5856958031654358,
+        "phi_sens": 0.012976987861676573,
+        "regime": "C",
+        "np_density": 0.0385,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5865974426269531,
+        "phi_sens": 0.012376571905602077,
+        "regime": "C",
+        "np_density": 0.0369,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed15": {
+    "seed": 15,
+    "variant": "full",
+    "elapsed_s": 2650.192726135254,
+    "final": {
+      "gen": 3000,
+      "r": 0.5899801850318909,
+      "phi_sens": 0.21492267477495916,
+      "regime": "B",
+      "np_density": 0.0361,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5749791860580444,
+        "phi_sens": 0.0509220813145221,
+        "regime": "B",
+        "np_density": 0.0397,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5805772542953491,
+        "phi_sens": 0.04427515122994689,
+        "regime": "C",
+        "np_density": 0.0307,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5860931277275085,
+        "phi_sens": 0.12918037576355734,
+        "regime": "B",
+        "np_density": 0.0394,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5899801850318909,
+        "phi_sens": 0.21492267477495916,
+        "regime": "B",
+        "np_density": 0.0361,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed15": {
+    "seed": 15,
+    "variant": "sep",
+    "elapsed_s": 2992.426202058792,
+    "final": {
+      "gen": 3000,
+      "r": 0.5903779864311218,
+      "phi_sens": 0.05235566641035878,
+      "regime": "B",
+      "np_density": 0.0395,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5810867547988892,
+        "phi_sens": 0.0563027250325276,
+        "regime": "B",
+        "np_density": 0.0247,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5850656032562256,
+        "phi_sens": 0.04656531275927263,
+        "regime": "C",
+        "np_density": 0.0261,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5887420773506165,
+        "phi_sens": 0.04736866777972013,
+        "regime": "C",
+        "np_density": 0.0356,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5903779864311218,
+        "phi_sens": 0.05235566641035878,
+        "regime": "B",
+        "np_density": 0.0395,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed15": {
+    "seed": 15,
+    "variant": "isotropic",
+    "elapsed_s": 2421.376466989517,
+    "final": {
+      "gen": 3000,
+      "r": 0.5887224078178406,
+      "phi_sens": 0.055310571214563425,
+      "regime": "B",
+      "np_density": 0.0344,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5778466463088989,
+        "phi_sens": 0.04696534453186418,
+        "regime": "C",
+        "np_density": 0.0202,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5843335390090942,
+        "phi_sens": 0.04656532935699602,
+        "regime": "C",
+        "np_density": 0.0345,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5866647362709045,
+        "phi_sens": 0.051366743972372786,
+        "regime": "B",
+        "np_density": 0.0386,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5887224078178406,
+        "phi_sens": 0.055310571214563425,
+        "regime": "B",
+        "np_density": 0.0344,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed16": {
+    "seed": 16,
+    "variant": "full",
+    "elapsed_s": 2414.0753400325775,
+    "final": {
+      "gen": 3000,
+      "r": 0.589163601398468,
+      "phi_sens": 0.15362799837643826,
+      "regime": "B",
+      "np_density": 0.0401,
+      "feasible": false
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5727635622024536,
+        "phi_sens": 0.041848654381816335,
+        "regime": "C",
+        "np_density": 0.0349,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.583004891872406,
+        "phi_sens": 0.03606934849010059,
+        "regime": "C",
+        "np_density": 0.0339,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.588901937007904,
+        "phi_sens": 0.06108488255639565,
+        "regime": "B",
+        "np_density": 0.0387,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.589163601398468,
+        "phi_sens": 0.15362799837643826,
+        "regime": "B",
+        "np_density": 0.0401,
+        "feasible": false
+      }
+    ]
+  },
+  "sep_seed16": {
+    "seed": 16,
+    "variant": "sep",
+    "elapsed_s": 2428.1421308517456,
+    "final": {
+      "gen": 3000,
+      "r": 0.5926917791366577,
+      "phi_sens": 0.044257304243247204,
+      "regime": "C",
+      "np_density": 0.037,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5761027932167053,
+        "phi_sens": 0.0315494196194414,
+        "regime": "C",
+        "np_density": 0.0286,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5873720049858093,
+        "phi_sens": 0.035019223753281994,
+        "regime": "C",
+        "np_density": 0.0347,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5919914245605469,
+        "phi_sens": 0.03885397383643159,
+        "regime": "C",
+        "np_density": 0.0369,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5926917791366577,
+        "phi_sens": 0.044257304243247204,
+        "regime": "C",
+        "np_density": 0.037,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed16": {
+    "seed": 16,
+    "variant": "isotropic",
+    "elapsed_s": 2412.9727256298065,
+    "final": {
+      "gen": 3000,
+      "r": 0.5799974799156189,
+      "phi_sens": 0.029046793413159248,
+      "regime": "C",
+      "np_density": 0.04,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5705167055130005,
+        "phi_sens": 0.04455129829792986,
+        "regime": "C",
+        "np_density": 0.0343,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5778588652610779,
+        "phi_sens": 0.03381867319703034,
+        "regime": "C",
+        "np_density": 0.0375,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5792844891548157,
+        "phi_sens": 0.030818585110519558,
+        "regime": "C",
+        "np_density": 0.0398,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5799974799156189,
+        "phi_sens": 0.029046793413159248,
+        "regime": "C",
+        "np_density": 0.04,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed17": {
+    "seed": 17,
+    "variant": "full",
+    "elapsed_s": 2429.2632126808167,
+    "final": {
+      "gen": 3000,
+      "r": 0.5973345637321472,
+      "phi_sens": 0.05743281609210232,
+      "regime": "B",
+      "np_density": 0.0337,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.58343905210495,
+        "phi_sens": 0.03515010053120398,
+        "regime": "C",
+        "np_density": 0.0251,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5920096039772034,
+        "phi_sens": 0.054283472034726186,
+        "regime": "B",
+        "np_density": 0.0388,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5973055958747864,
+        "phi_sens": 0.05893014146018807,
+        "regime": "B",
+        "np_density": 0.0011,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5973345637321472,
+        "phi_sens": 0.05743281609210232,
+        "regime": "B",
+        "np_density": 0.0337,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed17": {
+    "seed": 17,
+    "variant": "sep",
+    "elapsed_s": 2447.4762337207794,
+    "final": {
+      "gen": 3000,
+      "r": 0.5918027758598328,
+      "phi_sens": 0.0501030700971699,
+      "regime": "B",
+      "np_density": 0.0377,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5803917646408081,
+        "phi_sens": 0.035219152389940424,
+        "regime": "C",
+        "np_density": 0.0359,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5866937637329102,
+        "phi_sens": 0.036279595492696715,
+        "regime": "C",
+        "np_density": 0.0314,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5912286639213562,
+        "phi_sens": 0.04496762195032408,
+        "regime": "C",
+        "np_density": 0.0384,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5918027758598328,
+        "phi_sens": 0.0501030700971699,
+        "regime": "B",
+        "np_density": 0.0377,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed17": {
+    "seed": 17,
+    "variant": "isotropic",
+    "elapsed_s": 2449.2281641960144,
+    "final": {
+      "gen": 3000,
+      "r": 0.5913788080215454,
+      "phi_sens": 0.05040576813410335,
+      "regime": "B",
+      "np_density": 0.0398,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5804632306098938,
+        "phi_sens": 0.0492188762386048,
+        "regime": "C",
+        "np_density": 0.0187,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5888306498527527,
+        "phi_sens": 0.05046050425680953,
+        "regime": "B",
+        "np_density": 0.036,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5910691022872925,
+        "phi_sens": 0.04939411256315715,
+        "regime": "C",
+        "np_density": 0.0401,
+        "feasible": false
+      },
+      {
+        "gen": 3000,
+        "r": 0.5913788080215454,
+        "phi_sens": 0.05040576813410335,
+        "regime": "B",
+        "np_density": 0.0398,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed18": {
+    "seed": 18,
+    "variant": "full",
+    "elapsed_s": 2450.8917882442474,
+    "final": {
+      "gen": 3000,
+      "r": 0.5854727625846863,
+      "phi_sens": 0.01672272189294559,
+      "regime": "C",
+      "np_density": 0.0393,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5718136429786682,
+        "phi_sens": 0.03095398118529944,
+        "regime": "C",
+        "np_density": 0.0378,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5811548233032227,
+        "phi_sens": 0.019835208718033046,
+        "regime": "C",
+        "np_density": 0.0392,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5851929187774658,
+        "phi_sens": 0.02084959719010548,
+        "regime": "C",
+        "np_density": 0.0395,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5854727625846863,
+        "phi_sens": 0.01672272189294559,
+        "regime": "C",
+        "np_density": 0.0393,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed18": {
+    "seed": 18,
+    "variant": "sep",
+    "elapsed_s": 2510.7097997665405,
+    "final": {
+      "gen": 3000,
+      "r": 0.5876850485801697,
+      "phi_sens": 0.02005697731988636,
+      "regime": "C",
+      "np_density": 0.0394,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5800274014472961,
+        "phi_sens": 0.020845754924038607,
+        "regime": "C",
+        "np_density": 0.0172,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5838572978973389,
+        "phi_sens": 0.019249725508618882,
+        "regime": "C",
+        "np_density": 0.0314,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.586948037147522,
+        "phi_sens": 0.02002215871293802,
+        "regime": "C",
+        "np_density": 0.0378,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5876850485801697,
+        "phi_sens": 0.02005697731988636,
+        "regime": "C",
+        "np_density": 0.0394,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed18": {
+    "seed": 18,
+    "variant": "isotropic",
+    "elapsed_s": 2967.146482229233,
+    "final": {
+      "gen": 3000,
+      "r": 0.5825709700584412,
+      "phi_sens": 0.1374239098047827,
+      "regime": "B",
+      "np_density": 0.0398,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5669214129447937,
+        "phi_sens": 0.1382708949851036,
+        "regime": "B",
+        "np_density": 0.0197,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5776203870773315,
+        "phi_sens": 0.13841358408134014,
+        "regime": "B",
+        "np_density": 0.0377,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5818046927452087,
+        "phi_sens": 0.1371441579094901,
+        "regime": "B",
+        "np_density": 0.0392,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5825709700584412,
+        "phi_sens": 0.1374239098047827,
+        "regime": "B",
+        "np_density": 0.0398,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed19": {
+    "seed": 19,
+    "variant": "full",
+    "elapsed_s": 2925.4067525863647,
+    "final": {
+      "gen": 3000,
+      "r": 0.589918851852417,
+      "phi_sens": 0.054137736872152654,
+      "regime": "B",
+      "np_density": 0.0386,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5742354393005371,
+        "phi_sens": 0.03274011653384853,
+        "regime": "C",
+        "np_density": 0.032,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5778743028640747,
+        "phi_sens": 0.025016308557623046,
+        "regime": "C",
+        "np_density": 0.0387,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5877130627632141,
+        "phi_sens": 0.030513396418728408,
+        "regime": "C",
+        "np_density": 0.0384,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.589918851852417,
+        "phi_sens": 0.054137736872152654,
+        "regime": "B",
+        "np_density": 0.0386,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed19": {
+    "seed": 19,
+    "variant": "sep",
+    "elapsed_s": 2274.1926774978638,
+    "final": {
+      "gen": 3000,
+      "r": 0.5842409133911133,
+      "phi_sens": 0.07534510431311155,
+      "regime": "B",
+      "np_density": 0.0399,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5696774125099182,
+        "phi_sens": 0.06948471212129795,
+        "regime": "B",
+        "np_density": 0.0296,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5758368372917175,
+        "phi_sens": 0.07492166034143297,
+        "regime": "B",
+        "np_density": 0.0393,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5825108289718628,
+        "phi_sens": 0.0730682899993247,
+        "regime": "B",
+        "np_density": 0.0381,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5842409133911133,
+        "phi_sens": 0.07534510431311155,
+        "regime": "B",
+        "np_density": 0.0399,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed19": {
+    "seed": 19,
+    "variant": "isotropic",
+    "elapsed_s": 2225.0087864398956,
+    "final": {
+      "gen": 3000,
+      "r": 0.5814405679702759,
+      "phi_sens": 0.03836517846732607,
+      "regime": "C",
+      "np_density": 0.0398,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5692269802093506,
+        "phi_sens": 0.04016007683850346,
+        "regime": "C",
+        "np_density": 0.0184,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5790519118309021,
+        "phi_sens": 0.037538443396398224,
+        "regime": "C",
+        "np_density": 0.0396,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5808995366096497,
+        "phi_sens": 0.039016846861707845,
+        "regime": "C",
+        "np_density": 0.0399,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5814405679702759,
+        "phi_sens": 0.03836517846732607,
+        "regime": "C",
+        "np_density": 0.0398,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed20": {
+    "seed": 20,
+    "variant": "full",
+    "elapsed_s": 2227.0842413902283,
+    "final": {
+      "gen": 3000,
+      "r": 0.5915107727050781,
+      "phi_sens": 0.06659500179221399,
+      "regime": "B",
+      "np_density": 0.036,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5805802345275879,
+        "phi_sens": 0.029126661746812346,
+        "regime": "C",
+        "np_density": 0.0372,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5871800780296326,
+        "phi_sens": 0.013875833068162678,
+        "regime": "C",
+        "np_density": 0.0348,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5917975306510925,
+        "phi_sens": 0.02999073579213472,
+        "regime": "C",
+        "np_density": 0.0058,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5915107727050781,
+        "phi_sens": 0.06659500179221399,
+        "regime": "B",
+        "np_density": 0.036,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed20": {
+    "seed": 20,
+    "variant": "sep",
+    "elapsed_s": 2233.838857650757,
+    "final": {
+      "gen": 3000,
+      "r": 0.5892115235328674,
+      "phi_sens": 0.038598470705308065,
+      "regime": "C",
+      "np_density": 0.0368,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5772432088851929,
+        "phi_sens": 0.032954297672370736,
+        "regime": "C",
+        "np_density": 0.0294,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5839533805847168,
+        "phi_sens": 0.0345062223404243,
+        "regime": "C",
+        "np_density": 0.0328,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5869022011756897,
+        "phi_sens": 0.03567657515433575,
+        "regime": "C",
+        "np_density": 0.0352,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5892115235328674,
+        "phi_sens": 0.038598470705308065,
+        "regime": "C",
+        "np_density": 0.0368,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed20": {
+    "seed": 20,
+    "variant": "isotropic",
+    "elapsed_s": 2248.7503538131714,
+    "final": {
+      "gen": 3000,
+      "r": 0.5788400173187256,
+      "phi_sens": 0.029378971022969873,
+      "regime": "C",
+      "np_density": 0.0399,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5692909955978394,
+        "phi_sens": 0.031157052774664542,
+        "regime": "C",
+        "np_density": 0.0387,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5767785906791687,
+        "phi_sens": 0.03331261570341304,
+        "regime": "C",
+        "np_density": 0.036,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5783571004867554,
+        "phi_sens": 0.03110156883964712,
+        "regime": "C",
+        "np_density": 0.04,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5788400173187256,
+        "phi_sens": 0.029378971022969873,
+        "regime": "C",
+        "np_density": 0.0399,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed21": {
+    "seed": 21,
+    "variant": "full",
+    "elapsed_s": 2433.3186643123627,
+    "final": {
+      "gen": 3000,
+      "r": 0.592697262763977,
+      "phi_sens": 0.03159345110131569,
+      "regime": "C",
+      "np_density": 0.0366,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5807428956031799,
+        "phi_sens": 0.047441051322825424,
+        "regime": "C",
+        "np_density": 0.0368,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5890864133834839,
+        "phi_sens": 0.034687666405227434,
+        "regime": "C",
+        "np_density": 0.0282,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5920835733413696,
+        "phi_sens": 0.03753734999145021,
+        "regime": "C",
+        "np_density": 0.0277,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.592697262763977,
+        "phi_sens": 0.03159345110131569,
+        "regime": "C",
+        "np_density": 0.0366,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed21": {
+    "seed": 21,
+    "variant": "sep",
+    "elapsed_s": 2403.5150821208954,
+    "final": {
+      "gen": 3000,
+      "r": 0.5861213803291321,
+      "phi_sens": 0.1183340924231427,
+      "regime": "B",
+      "np_density": 0.0401,
+      "feasible": false
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5714231133460999,
+        "phi_sens": 0.1329514943640474,
+        "regime": "B",
+        "np_density": 0.0337,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5816949605941772,
+        "phi_sens": 0.11556538858730582,
+        "regime": "B",
+        "np_density": 0.0387,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5852754712104797,
+        "phi_sens": 0.11672921089387417,
+        "regime": "B",
+        "np_density": 0.0382,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5861213803291321,
+        "phi_sens": 0.1183340924231427,
+        "regime": "B",
+        "np_density": 0.0401,
+        "feasible": false
+      }
+    ]
+  },
+  "isotropic_seed21": {
+    "seed": 21,
+    "variant": "isotropic",
+    "elapsed_s": 2434.4273416996,
+    "final": {
+      "gen": 3000,
+      "r": 0.5792756676673889,
+      "phi_sens": 0.08459697990512949,
+      "regime": "B",
+      "np_density": 0.04,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5670294165611267,
+        "phi_sens": 0.07637862446583688,
+        "regime": "B",
+        "np_density": 0.0277,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.576400101184845,
+        "phi_sens": 0.08652555215543117,
+        "regime": "B",
+        "np_density": 0.0369,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5785990953445435,
+        "phi_sens": 0.08618258989381213,
+        "regime": "B",
+        "np_density": 0.04,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5792756676673889,
+        "phi_sens": 0.08459697990512949,
+        "regime": "B",
+        "np_density": 0.04,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed22": {
+    "seed": 22,
+    "variant": "full",
+    "elapsed_s": 2466.2701740264893,
+    "final": {
+      "gen": 3000,
+      "r": 0.5847495794296265,
+      "phi_sens": 0.11439023855194236,
+      "regime": "B",
+      "np_density": 0.0399,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5741462111473083,
+        "phi_sens": 0.04818127051398735,
+        "regime": "C",
+        "np_density": 0.0346,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5803771018981934,
+        "phi_sens": 0.018499605807345526,
+        "regime": "C",
+        "np_density": 0.0357,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5833498239517212,
+        "phi_sens": 0.054578589451585065,
+        "regime": "B",
+        "np_density": 0.0399,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5847495794296265,
+        "phi_sens": 0.11439023855194236,
+        "regime": "B",
+        "np_density": 0.0399,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed22": {
+    "seed": 22,
+    "variant": "sep",
+    "elapsed_s": 2524.0664191246033,
+    "final": {
+      "gen": 3000,
+      "r": 0.5835805535316467,
+      "phi_sens": 0.06424499471724858,
+      "regime": "B",
+      "np_density": 0.0396,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5678642392158508,
+        "phi_sens": 0.05909273441655535,
+        "regime": "B",
+        "np_density": 0.0321,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5773043036460876,
+        "phi_sens": 0.05553905466039134,
+        "regime": "B",
+        "np_density": 0.039,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5806269645690918,
+        "phi_sens": 0.0542819407682454,
+        "regime": "B",
+        "np_density": 0.0394,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5835805535316467,
+        "phi_sens": 0.06424499471724858,
+        "regime": "B",
+        "np_density": 0.0396,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed22": {
+    "seed": 22,
+    "variant": "isotropic",
+    "elapsed_s": 2407.9863970279694,
+    "final": {
+      "gen": 3000,
+      "r": 0.5902381539344788,
+      "phi_sens": 0.04977946905981604,
+      "regime": "C",
+      "np_density": 0.0358,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5773364901542664,
+        "phi_sens": 0.04658959590756691,
+        "regime": "C",
+        "np_density": 0.022,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5838680863380432,
+        "phi_sens": 0.044342270184459624,
+        "regime": "C",
+        "np_density": 0.0334,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5879302024841309,
+        "phi_sens": 0.046652821562588966,
+        "regime": "C",
+        "np_density": 0.0329,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5902381539344788,
+        "phi_sens": 0.04977946905981604,
+        "regime": "C",
+        "np_density": 0.0358,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed23": {
+    "seed": 23,
+    "variant": "full",
+    "elapsed_s": 2644.316366672516,
+    "final": {
+      "gen": 3000,
+      "r": 0.5853071212768555,
+      "phi_sens": 0.09007639030400652,
+      "regime": "B",
+      "np_density": 0.0399,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5736346244812012,
+        "phi_sens": 0.036878443200983144,
+        "regime": "C",
+        "np_density": 0.0323,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5796868801116943,
+        "phi_sens": 0.018507860005043782,
+        "regime": "C",
+        "np_density": 0.0394,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5812013149261475,
+        "phi_sens": 0.04141699329807947,
+        "regime": "C",
+        "np_density": 0.0385,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5853071212768555,
+        "phi_sens": 0.09007639030400652,
+        "regime": "B",
+        "np_density": 0.0399,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed23": {
+    "seed": 23,
+    "variant": "sep",
+    "elapsed_s": 2611.778879880905,
+    "final": {
+      "gen": 3000,
+      "r": 0.5806544423103333,
+      "phi_sens": 0.039520750582901,
+      "regime": "C",
+      "np_density": 0.0395,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5724886059761047,
+        "phi_sens": 0.04227629500049007,
+        "regime": "C",
+        "np_density": 0.0348,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5766974687576294,
+        "phi_sens": 0.0415864198728583,
+        "regime": "C",
+        "np_density": 0.039,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5777907371520996,
+        "phi_sens": 0.03923608285702291,
+        "regime": "C",
+        "np_density": 0.0397,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5806544423103333,
+        "phi_sens": 0.039520750582901,
+        "regime": "C",
+        "np_density": 0.0395,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed23": {
+    "seed": 23,
+    "variant": "isotropic",
+    "elapsed_s": 2524.412830352783,
+    "final": {
+      "gen": 3000,
+      "r": 0.5779852271080017,
+      "phi_sens": 0.09311217453805276,
+      "regime": "B",
+      "np_density": 0.0401,
+      "feasible": false
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5700975656509399,
+        "phi_sens": 0.07271151703759006,
+        "regime": "B",
+        "np_density": 0.026,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5757273435592651,
+        "phi_sens": 0.08608332002635599,
+        "regime": "B",
+        "np_density": 0.04,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5773130655288696,
+        "phi_sens": 0.09035737709161785,
+        "regime": "B",
+        "np_density": 0.04,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5779852271080017,
+        "phi_sens": 0.09311217453805276,
+        "regime": "B",
+        "np_density": 0.0401,
+        "feasible": false
+      }
+    ]
+  },
+  "full_seed24": {
+    "seed": 24,
+    "variant": "full",
+    "elapsed_s": 2599.430200099945,
+    "final": {
+      "gen": 3000,
+      "r": 0.5900202989578247,
+      "phi_sens": 0.06055559298838471,
+      "regime": "B",
+      "np_density": 0.04,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5776936411857605,
+        "phi_sens": 0.045754891111690316,
+        "regime": "C",
+        "np_density": 0.0383,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5824458003044128,
+        "phi_sens": 0.029377101380467882,
+        "regime": "C",
+        "np_density": 0.0402,
+        "feasible": false
+      },
+      {
+        "gen": 2000,
+        "r": 0.5876563191413879,
+        "phi_sens": 0.060530981837366785,
+        "regime": "B",
+        "np_density": 0.0398,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5900202989578247,
+        "phi_sens": 0.06055559298838471,
+        "regime": "B",
+        "np_density": 0.04,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed24": {
+    "seed": 24,
+    "variant": "sep",
+    "elapsed_s": 2587.231941461563,
+    "final": {
+      "gen": 3000,
+      "r": 0.5842875242233276,
+      "phi_sens": 0.07739409538985717,
+      "regime": "B",
+      "np_density": 0.04,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5736290812492371,
+        "phi_sens": 0.06986824476059743,
+        "regime": "B",
+        "np_density": 0.0299,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5796449184417725,
+        "phi_sens": 0.06812287024350575,
+        "regime": "B",
+        "np_density": 0.0398,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5831733345985413,
+        "phi_sens": 0.0735900723378799,
+        "regime": "B",
+        "np_density": 0.0395,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5842875242233276,
+        "phi_sens": 0.07739409538985717,
+        "regime": "B",
+        "np_density": 0.04,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed24": {
+    "seed": 24,
+    "variant": "isotropic",
+    "elapsed_s": 2956.029987335205,
+    "final": {
+      "gen": 3000,
+      "r": 0.5801301598548889,
+      "phi_sens": 0.03397961546701411,
+      "regime": "C",
+      "np_density": 0.0397,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5731801986694336,
+        "phi_sens": 0.042438177992590774,
+        "regime": "C",
+        "np_density": 0.0231,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5766613483428955,
+        "phi_sens": 0.04067971722927742,
+        "regime": "C",
+        "np_density": 0.0387,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5787479281425476,
+        "phi_sens": 0.03424688371723656,
+        "regime": "C",
+        "np_density": 0.0399,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5801301598548889,
+        "phi_sens": 0.03397961546701411,
+        "regime": "C",
+        "np_density": 0.0397,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed25": {
+    "seed": 25,
+    "variant": "full",
+    "elapsed_s": 2346.176334619522,
+    "final": {
+      "gen": 3000,
+      "r": 0.5911217927932739,
+      "phi_sens": 0.030311578884068754,
+      "regime": "C",
+      "np_density": 0.04,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5813707709312439,
+        "phi_sens": 0.04943110611863609,
+        "regime": "C",
+        "np_density": 0.0267,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5871097445487976,
+        "phi_sens": 0.018033174730609714,
+        "regime": "C",
+        "np_density": 0.0305,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5906932950019836,
+        "phi_sens": 0.021862880015333288,
+        "regime": "C",
+        "np_density": 0.0375,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5911217927932739,
+        "phi_sens": 0.030311578884068754,
+        "regime": "C",
+        "np_density": 0.04,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed25": {
+    "seed": 25,
+    "variant": "sep",
+    "elapsed_s": 2338.061362504959,
+    "final": {
+      "gen": 3000,
+      "r": 0.5919615030288696,
+      "phi_sens": 0.013117970637729634,
+      "regime": "C",
+      "np_density": 0.0398,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.579725980758667,
+        "phi_sens": 0.024324158543899643,
+        "regime": "C",
+        "np_density": 0.0117,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5876617431640625,
+        "phi_sens": 0.015219472000975112,
+        "regime": "C",
+        "np_density": 0.0237,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.591513991355896,
+        "phi_sens": 0.012495034721494186,
+        "regime": "C",
+        "np_density": 0.0373,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5919615030288696,
+        "phi_sens": 0.013117970637729634,
+        "regime": "C",
+        "np_density": 0.0398,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed25": {
+    "seed": 25,
+    "variant": "isotropic",
+    "elapsed_s": 2300.003543615341,
+    "final": {
+      "gen": 3000,
+      "r": 0.5773701071739197,
+      "phi_sens": 0.054676298721928626,
+      "regime": "B",
+      "np_density": 0.04,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5681819915771484,
+        "phi_sens": 0.06234232805255304,
+        "regime": "B",
+        "np_density": 0.0211,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5758017301559448,
+        "phi_sens": 0.05570312714245927,
+        "regime": "B",
+        "np_density": 0.04,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5771347284317017,
+        "phi_sens": 0.05560456962914384,
+        "regime": "B",
+        "np_density": 0.0398,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5773701071739197,
+        "phi_sens": 0.054676298721928626,
+        "regime": "B",
+        "np_density": 0.04,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed26": {
+    "seed": 26,
+    "variant": "full",
+    "elapsed_s": 2340.528731107712,
+    "final": {
+      "gen": 3000,
+      "r": 0.5969326496124268,
+      "phi_sens": 0.15404974496738333,
+      "regime": "B",
+      "np_density": 0.0397,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5723665356636047,
+        "phi_sens": 0.11073025468152715,
+        "regime": "B",
+        "np_density": 0.0336,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5802932977676392,
+        "phi_sens": 0.10884258019637753,
+        "regime": "B",
+        "np_density": 0.0392,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5882800221443176,
+        "phi_sens": 0.14287806068444425,
+        "regime": "B",
+        "np_density": 0.0395,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5969326496124268,
+        "phi_sens": 0.15404974496738333,
+        "regime": "B",
+        "np_density": 0.0397,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed26": {
+    "seed": 26,
+    "variant": "sep",
+    "elapsed_s": 2338.744262456894,
+    "final": {
+      "gen": 3000,
+      "r": 0.588487446308136,
+      "phi_sens": 0.028549820595964434,
+      "regime": "C",
+      "np_density": 0.039,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5769969820976257,
+        "phi_sens": 0.03210165972937212,
+        "regime": "C",
+        "np_density": 0.0226,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5842186808586121,
+        "phi_sens": 0.026782401997906578,
+        "regime": "C",
+        "np_density": 0.0352,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5875346064567566,
+        "phi_sens": 0.027553562763061985,
+        "regime": "C",
+        "np_density": 0.0396,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.588487446308136,
+        "phi_sens": 0.028549820595964434,
+        "regime": "C",
+        "np_density": 0.039,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed26": {
+    "seed": 26,
+    "variant": "isotropic",
+    "elapsed_s": 2314.3520510196686,
+    "final": {
+      "gen": 3000,
+      "r": 0.580267071723938,
+      "phi_sens": 0.12539929053219706,
+      "regime": "B",
+      "np_density": 0.04,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5673859119415283,
+        "phi_sens": 0.11466555337615549,
+        "regime": "B",
+        "np_density": 0.02,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.576923131942749,
+        "phi_sens": 0.13107723212672193,
+        "regime": "B",
+        "np_density": 0.04,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5795726180076599,
+        "phi_sens": 0.12653679499224035,
+        "regime": "B",
+        "np_density": 0.039,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.580267071723938,
+        "phi_sens": 0.12539929053219706,
+        "regime": "B",
+        "np_density": 0.04,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed27": {
+    "seed": 27,
+    "variant": "full",
+    "elapsed_s": 2335.8622109889984,
+    "final": {
+      "gen": 3000,
+      "r": 0.5918077230453491,
+      "phi_sens": 0.12993937465911148,
+      "regime": "B",
+      "np_density": 0.0022,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.578937292098999,
+        "phi_sens": 0.025439435392812182,
+        "regime": "C",
+        "np_density": 0.0177,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5863741040229797,
+        "phi_sens": 0.043913712232488675,
+        "regime": "C",
+        "np_density": 0.029,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5917768478393555,
+        "phi_sens": 0.09925672533221519,
+        "regime": "B",
+        "np_density": 0.0387,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5918077230453491,
+        "phi_sens": 0.12993937465911148,
+        "regime": "B",
+        "np_density": 0.0022,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed27": {
+    "seed": 27,
+    "variant": "sep",
+    "elapsed_s": 2336.1922478675842,
+    "final": {
+      "gen": 3000,
+      "r": 0.5856350660324097,
+      "phi_sens": 0.019516428038742296,
+      "regime": "C",
+      "np_density": 0.0396,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5729294419288635,
+        "phi_sens": 0.03919030474050703,
+        "regime": "C",
+        "np_density": 0.034,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5814906358718872,
+        "phi_sens": 0.0292983290002917,
+        "regime": "C",
+        "np_density": 0.0365,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5841787457466125,
+        "phi_sens": 0.02171032663926858,
+        "regime": "C",
+        "np_density": 0.0399,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5856350660324097,
+        "phi_sens": 0.019516428038742296,
+        "regime": "C",
+        "np_density": 0.0396,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed27": {
+    "seed": 27,
+    "variant": "isotropic",
+    "elapsed_s": 2363.737066268921,
+    "final": {
+      "gen": 3000,
+      "r": 0.5901098847389221,
+      "phi_sens": 0.017803453162586177,
+      "regime": "C",
+      "np_density": 0.0381,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5768101811408997,
+        "phi_sens": 0.021389811731876204,
+        "regime": "C",
+        "np_density": 0.0176,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5868173837661743,
+        "phi_sens": 0.024118777031709022,
+        "regime": "C",
+        "np_density": 0.0353,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5886178016662598,
+        "phi_sens": 0.01884375153657599,
+        "regime": "C",
+        "np_density": 0.0396,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5901098847389221,
+        "phi_sens": 0.017803453162586177,
+        "regime": "C",
+        "np_density": 0.0381,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed28": {
+    "seed": 28,
+    "variant": "full",
+    "elapsed_s": 2365.0731868743896,
+    "final": {
+      "gen": 3000,
+      "r": 0.5926419496536255,
+      "phi_sens": 0.01444772093934114,
+      "regime": "C",
+      "np_density": 0.0395,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5846292972564697,
+        "phi_sens": 0.02467815332389051,
+        "regime": "C",
+        "np_density": 0.0353,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5910044312477112,
+        "phi_sens": 0.00748223750086575,
+        "regime": "C",
+        "np_density": 0.023,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5923850536346436,
+        "phi_sens": 0.030357617852997242,
+        "regime": "C",
+        "np_density": 0.0393,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5926419496536255,
+        "phi_sens": 0.01444772093934114,
+        "regime": "C",
+        "np_density": 0.0395,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed28": {
+    "seed": 28,
+    "variant": "sep",
+    "elapsed_s": 2350.6458401679993,
+    "final": {
+      "gen": 3000,
+      "r": 0.5895197987556458,
+      "phi_sens": 0.021993671473896234,
+      "regime": "C",
+      "np_density": 0.0391,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5802650451660156,
+        "phi_sens": 0.033821320892694816,
+        "regime": "C",
+        "np_density": 0.0216,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5848511457443237,
+        "phi_sens": 0.025651361366342808,
+        "regime": "C",
+        "np_density": 0.0301,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5883134603500366,
+        "phi_sens": 0.022134658965230317,
+        "regime": "C",
+        "np_density": 0.0398,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5895197987556458,
+        "phi_sens": 0.021993671473896234,
+        "regime": "C",
+        "np_density": 0.0391,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed28": {
+    "seed": 28,
+    "variant": "isotropic",
+    "elapsed_s": 2351.42195892334,
+    "final": {
+      "gen": 3000,
+      "r": 0.590654730796814,
+      "phi_sens": 0.016659674866757512,
+      "regime": "C",
+      "np_density": 0.0394,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5787193775177002,
+        "phi_sens": 0.028486288473758864,
+        "regime": "C",
+        "np_density": 0.0151,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5841962099075317,
+        "phi_sens": 0.020567001171601255,
+        "regime": "C",
+        "np_density": 0.0291,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5886648297309875,
+        "phi_sens": 0.016666602254910522,
+        "regime": "C",
+        "np_density": 0.039,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.590654730796814,
+        "phi_sens": 0.016659674866757512,
+        "regime": "C",
+        "np_density": 0.0394,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed29": {
+    "seed": 29,
+    "variant": "full",
+    "elapsed_s": 2355.545296192169,
+    "final": {
+      "gen": 3000,
+      "r": 0.584825873374939,
+      "phi_sens": 0.23434768522727062,
+      "regime": "B",
+      "np_density": 0.0395,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5721689462661743,
+        "phi_sens": 0.05332830805399475,
+        "regime": "B",
+        "np_density": 0.039,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5783112049102783,
+        "phi_sens": 0.05965707612357817,
+        "regime": "B",
+        "np_density": 0.0398,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5831441283226013,
+        "phi_sens": 0.12667131482602645,
+        "regime": "B",
+        "np_density": 0.0393,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.584825873374939,
+        "phi_sens": 0.23434768522727062,
+        "regime": "B",
+        "np_density": 0.0395,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed29": {
+    "seed": 29,
+    "variant": "sep",
+    "elapsed_s": 2363.8665657043457,
+    "final": {
+      "gen": 3000,
+      "r": 0.5911520719528198,
+      "phi_sens": 0.036123597816564684,
+      "regime": "C",
+      "np_density": 0.0376,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5776544809341431,
+        "phi_sens": 0.03495370437211876,
+        "regime": "C",
+        "np_density": 0.0371,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5833243131637573,
+        "phi_sens": 0.033306808957620296,
+        "regime": "C",
+        "np_density": 0.0358,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5869438052177429,
+        "phi_sens": 0.03534786978821952,
+        "regime": "C",
+        "np_density": 0.0389,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5911520719528198,
+        "phi_sens": 0.036123597816564684,
+        "regime": "C",
+        "np_density": 0.0376,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed29": {
+    "seed": 29,
+    "variant": "isotropic",
+    "elapsed_s": 2439.51798415184,
+    "final": {
+      "gen": 3000,
+      "r": 0.5914353728294373,
+      "phi_sens": 0.09006071241289242,
+      "regime": "B",
+      "np_density": 0.0356,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5804612040519714,
+        "phi_sens": 0.08393814338779129,
+        "regime": "B",
+        "np_density": 0.0196,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5879468321800232,
+        "phi_sens": 0.08132788464585776,
+        "regime": "B",
+        "np_density": 0.034,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5902413725852966,
+        "phi_sens": 0.08502513597079449,
+        "regime": "B",
+        "np_density": 0.0359,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5914353728294373,
+        "phi_sens": 0.09006071241289242,
+        "regime": "B",
+        "np_density": 0.0356,
+        "feasible": true
+      }
+    ]
+  },
+  "full_seed30": {
+    "seed": 30,
+    "variant": "full",
+    "elapsed_s": 2556.971555709839,
+    "final": {
+      "gen": 3000,
+      "r": 0.5919555425643921,
+      "phi_sens": 0.14128929201136184,
+      "regime": "B",
+      "np_density": 0.0394,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5804818272590637,
+        "phi_sens": 0.06764010802181326,
+        "regime": "B",
+        "np_density": 0.0287,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5888465642929077,
+        "phi_sens": 0.05707031866662102,
+        "regime": "B",
+        "np_density": 0.0354,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5918099284172058,
+        "phi_sens": 0.11840046134191992,
+        "regime": "B",
+        "np_density": 0.0302,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5919555425643921,
+        "phi_sens": 0.14128929201136184,
+        "regime": "B",
+        "np_density": 0.0394,
+        "feasible": true
+      }
+    ]
+  },
+  "sep_seed30": {
+    "seed": 30,
+    "variant": "sep",
+    "elapsed_s": 2420.319909095764,
+    "final": {
+      "gen": 3000,
+      "r": 0.5919739007949829,
+      "phi_sens": 0.00783812027082005,
+      "regime": "C",
+      "np_density": 0.0365,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5779508948326111,
+        "phi_sens": 0.026705373779918808,
+        "regime": "C",
+        "np_density": 0.0161,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.587493896484375,
+        "phi_sens": 0.015106089476997334,
+        "regime": "C",
+        "np_density": 0.028,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5916058421134949,
+        "phi_sens": 0.00967769245725151,
+        "regime": "C",
+        "np_density": 0.0386,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5919739007949829,
+        "phi_sens": 0.00783812027082005,
+        "regime": "C",
+        "np_density": 0.0365,
+        "feasible": true
+      }
+    ]
+  },
+  "isotropic_seed30": {
+    "seed": 30,
+    "variant": "isotropic",
+    "elapsed_s": 2398.6161081790924,
+    "final": {
+      "gen": 3000,
+      "r": 0.5862598419189453,
+      "phi_sens": 0.010337333962073396,
+      "regime": "C",
+      "np_density": 0.0392,
+      "feasible": true
+    },
+    "trajectory": [
+      {
+        "gen": 500,
+        "r": 0.5793750882148743,
+        "phi_sens": 0.01953618010587361,
+        "regime": "C",
+        "np_density": 0.0162,
+        "feasible": true
+      },
+      {
+        "gen": 1000,
+        "r": 0.5834382176399231,
+        "phi_sens": 0.011970421209823704,
+        "regime": "C",
+        "np_density": 0.0309,
+        "feasible": true
+      },
+      {
+        "gen": 2000,
+        "r": 0.5853517651557922,
+        "phi_sens": 0.010668758934420076,
+        "regime": "C",
+        "np_density": 0.0378,
+        "feasible": true
+      },
+      {
+        "gen": 3000,
+        "r": 0.5862598419189453,
+        "phi_sens": 0.010337333962073396,
+        "regime": "C",
+        "np_density": 0.0392,
+        "feasible": true
+      }
+    ]
+  }
+}

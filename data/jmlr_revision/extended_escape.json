@@ -1,0 +1,1302 @@
+{
+  "seed2_full_standard": {
+    "seed": 2,
+    "condition": "full_standard",
+    "variant": "full",
+    "sigma0": 0.3,
+    "phi_sens_pre": 0.050075706854327995,
+    "phi_sens_post": 0.08100409165466314,
+    "regime_pre": "B",
+    "regime_post": "B",
+    "returned_to_c": false,
+    "mutations_accepted": 1097,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.36566666666666664,
+    "elapsed_s": 727.3410398960114,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.028151297632974515,
+        "regime": "C",
+        "r": 0.5871924757957458,
+        "sigma": 0.041107758031342735,
+        "mutations_accepted_cumul": 165
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.05998220909139852,
+        "regime": "B",
+        "r": 0.5911052823066711,
+        "sigma": 0.012421058538878519,
+        "mutations_accepted_cumul": 362
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.10019425440767019,
+        "regime": "B",
+        "r": 0.5923122763633728,
+        "sigma": 0.0018976154567332895,
+        "mutations_accepted_cumul": 558
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.09944153940625813,
+        "regime": "B",
+        "r": 0.5930151343345642,
+        "sigma": 0.0009348061763632006,
+        "mutations_accepted_cumul": 743
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.08495057354050516,
+        "regime": "B",
+        "r": 0.5928583741188049,
+        "sigma": 0.0008545173339483696,
+        "mutations_accepted_cumul": 933
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.08100409165466314,
+        "regime": "B",
+        "r": 0.593002200126648,
+        "sigma": 0.0003776476338179647,
+        "mutations_accepted_cumul": 1097
+      }
+    ]
+  },
+  "seed2_full_large_sigma": {
+    "seed": 2,
+    "condition": "full_large_sigma",
+    "variant": "full",
+    "sigma0": 1.0,
+    "phi_sens_pre": 0.050075706854327995,
+    "phi_sens_post": 0.05608790008546599,
+    "regime_pre": "B",
+    "regime_post": "B",
+    "returned_to_c": false,
+    "mutations_accepted": 1137,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.379,
+    "elapsed_s": 826.016058921814,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.026320092773060057,
+        "regime": "C",
+        "r": 0.5860791802406311,
+        "sigma": 0.039430716547185475,
+        "mutations_accepted_cumul": 176
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.027709091056458853,
+        "regime": "C",
+        "r": 0.591071605682373,
+        "sigma": 0.012384501541385238,
+        "mutations_accepted_cumul": 353
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.011712476695748944,
+        "regime": "C",
+        "r": 0.5920563340187073,
+        "sigma": 0.002067476860095654,
+        "mutations_accepted_cumul": 548
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.018933223000584788,
+        "regime": "C",
+        "r": 0.592218279838562,
+        "sigma": 0.003918469922438091,
+        "mutations_accepted_cumul": 737
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.04846511608511493,
+        "regime": "C",
+        "r": 0.5924736261367798,
+        "sigma": 0.0005586945583086941,
+        "mutations_accepted_cumul": 939
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.05608790008546599,
+        "regime": "B",
+        "r": 0.5924756526947021,
+        "sigma": 3.060638726153792e-05,
+        "mutations_accepted_cumul": 1137
+      }
+    ]
+  },
+  "seed2_sep_from_B": {
+    "seed": 2,
+    "condition": "sep_from_B",
+    "variant": "sep",
+    "sigma0": 0.3,
+    "phi_sens_pre": 0.050075706854327995,
+    "phi_sens_post": 0.01977248966907727,
+    "regime_pre": "B",
+    "regime_post": "C",
+    "returned_to_c": true,
+    "mutations_accepted": 936,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.312,
+    "elapsed_s": 761.7250406742096,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.026339433359921775,
+        "regime": "C",
+        "r": 0.5815542936325073,
+        "sigma": 0.029269914610381653,
+        "mutations_accepted_cumul": 180
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.021774310792822795,
+        "regime": "C",
+        "r": 0.585469126701355,
+        "sigma": 0.019313314211385473,
+        "mutations_accepted_cumul": 326
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.01875374136343366,
+        "regime": "C",
+        "r": 0.5897630453109741,
+        "sigma": 0.011454362333342665,
+        "mutations_accepted_cumul": 493
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.018724002101488023,
+        "regime": "C",
+        "r": 0.5907832980155945,
+        "sigma": 0.006032080891717643,
+        "mutations_accepted_cumul": 644
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.019584406172946087,
+        "regime": "C",
+        "r": 0.5909692049026489,
+        "sigma": 0.0043395123675732976,
+        "mutations_accepted_cumul": 807
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.01977248966907727,
+        "regime": "C",
+        "r": 0.591062605381012,
+        "sigma": 0.004186688442208473,
+        "mutations_accepted_cumul": 936
+      }
+    ]
+  },
+  "seed2_frozen_cov": {
+    "seed": 2,
+    "condition": "frozen_cov",
+    "variant": "isotropic",
+    "sigma0": 0.3,
+    "phi_sens_pre": 0.050075706854327995,
+    "phi_sens_post": 0.02828305848544706,
+    "regime_pre": "B",
+    "regime_post": "C",
+    "returned_to_c": true,
+    "mutations_accepted": 939,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.313,
+    "elapsed_s": 753.0090160369873,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.030895349714622173,
+        "regime": "C",
+        "r": 0.5803243517875671,
+        "sigma": 0.029963059166649514,
+        "mutations_accepted_cumul": 181
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.02671688673095104,
+        "regime": "C",
+        "r": 0.5837960243225098,
+        "sigma": 0.01235842056885265,
+        "mutations_accepted_cumul": 329
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.030325457927068433,
+        "regime": "C",
+        "r": 0.5855879783630371,
+        "sigma": 0.012537732460193074,
+        "mutations_accepted_cumul": 478
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.027257735711559317,
+        "regime": "C",
+        "r": 0.5875677466392517,
+        "sigma": 0.007809628798507339,
+        "mutations_accepted_cumul": 637
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.028077476060749326,
+        "regime": "C",
+        "r": 0.5888267755508423,
+        "sigma": 0.006218770336409698,
+        "mutations_accepted_cumul": 786
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.02828305848544706,
+        "regime": "C",
+        "r": 0.5895747542381287,
+        "sigma": 0.0038416708875236437,
+        "mutations_accepted_cumul": 939
+      }
+    ]
+  },
+  "seed3_full_standard": {
+    "seed": 3,
+    "condition": "full_standard",
+    "variant": "full",
+    "sigma0": 0.3,
+    "phi_sens_pre": 0.16242820750376055,
+    "phi_sens_post": 0.09182763686642381,
+    "regime_pre": "B",
+    "regime_post": "B",
+    "returned_to_c": false,
+    "mutations_accepted": 1153,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.38433333333333336,
+    "elapsed_s": 691.1157157421112,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.022648842603125382,
+        "regime": "C",
+        "r": 0.587573230266571,
+        "sigma": 0.06368485557905569,
+        "mutations_accepted_cumul": 190
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.03696138926678539,
+        "regime": "C",
+        "r": 0.5919129848480225,
+        "sigma": 0.015920721946846964,
+        "mutations_accepted_cumul": 389
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.055288790284021935,
+        "regime": "B",
+        "r": 0.5924264788627625,
+        "sigma": 0.004489896723559502,
+        "mutations_accepted_cumul": 593
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.05454397679822624,
+        "regime": "B",
+        "r": 0.5928259491920471,
+        "sigma": 0.0024102062213343114,
+        "mutations_accepted_cumul": 779
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.06513098394233886,
+        "regime": "B",
+        "r": 0.5929619073867798,
+        "sigma": 0.0011848469324733705,
+        "mutations_accepted_cumul": 973
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.09182763686642381,
+        "regime": "B",
+        "r": 0.5928128361701965,
+        "sigma": 0.00011128328519471096,
+        "mutations_accepted_cumul": 1153
+      }
+    ]
+  },
+  "seed3_full_large_sigma": {
+    "seed": 3,
+    "condition": "full_large_sigma",
+    "variant": "full",
+    "sigma0": 1.0,
+    "phi_sens_pre": 0.16242820750376055,
+    "phi_sens_post": 0.09000896050901078,
+    "regime_pre": "B",
+    "regime_post": "B",
+    "returned_to_c": false,
+    "mutations_accepted": 1117,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.37233333333333335,
+    "elapsed_s": 630.1217105388641,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.030611777489689438,
+        "regime": "C",
+        "r": 0.5864507555961609,
+        "sigma": 0.04993332623580817,
+        "mutations_accepted_cumul": 182
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.04559178926779028,
+        "regime": "C",
+        "r": 0.5910475254058838,
+        "sigma": 0.013387771129584735,
+        "mutations_accepted_cumul": 349
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.03438326648342025,
+        "regime": "C",
+        "r": 0.592268705368042,
+        "sigma": 0.003524821715763126,
+        "mutations_accepted_cumul": 551
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.019369750668859157,
+        "regime": "C",
+        "r": 0.5923765301704407,
+        "sigma": 0.003051149206321734,
+        "mutations_accepted_cumul": 728
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.0281305102252288,
+        "regime": "C",
+        "r": 0.5926130414009094,
+        "sigma": 0.0002601390655482366,
+        "mutations_accepted_cumul": 918
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.09000896050901078,
+        "regime": "B",
+        "r": 0.5943542718887329,
+        "sigma": 0.0001476440151194222,
+        "mutations_accepted_cumul": 1117
+      }
+    ]
+  },
+  "seed3_sep_from_B": {
+    "seed": 3,
+    "condition": "sep_from_B",
+    "variant": "sep",
+    "sigma0": 0.3,
+    "phi_sens_pre": 0.16242820750376055,
+    "phi_sens_post": 0.03184052185126408,
+    "regime_pre": "B",
+    "regime_post": "C",
+    "returned_to_c": true,
+    "mutations_accepted": 878,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.2926666666666667,
+    "elapsed_s": 693.1465458869934,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.034935932783345246,
+        "regime": "C",
+        "r": 0.5834096074104309,
+        "sigma": 0.07404940255381508,
+        "mutations_accepted_cumul": 153
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.02972257180350215,
+        "regime": "C",
+        "r": 0.5888641476631165,
+        "sigma": 0.028522697753313023,
+        "mutations_accepted_cumul": 291
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.029964641680758717,
+        "regime": "C",
+        "r": 0.5913065075874329,
+        "sigma": 0.016460047330568918,
+        "mutations_accepted_cumul": 437
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.0291580382471723,
+        "regime": "C",
+        "r": 0.5918776988983154,
+        "sigma": 0.008989065114481947,
+        "mutations_accepted_cumul": 588
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.03156558983955839,
+        "regime": "C",
+        "r": 0.5921545624732971,
+        "sigma": 0.008231569046736087,
+        "mutations_accepted_cumul": 732
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.03184052185126408,
+        "regime": "C",
+        "r": 0.5923522114753723,
+        "sigma": 0.006553487308098912,
+        "mutations_accepted_cumul": 878
+      }
+    ]
+  },
+  "seed3_frozen_cov": {
+    "seed": 3,
+    "condition": "frozen_cov",
+    "variant": "isotropic",
+    "sigma0": 0.3,
+    "phi_sens_pre": 0.16242820750376055,
+    "phi_sens_post": 0.04528556192125265,
+    "regime_pre": "B",
+    "regime_post": "C",
+    "returned_to_c": true,
+    "mutations_accepted": 901,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.30033333333333334,
+    "elapsed_s": 816.7110860347748,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.030791628828765887,
+        "regime": "C",
+        "r": 0.5820799469947815,
+        "sigma": 0.07944973974614945,
+        "mutations_accepted_cumul": 166
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.038780499890685514,
+        "regime": "C",
+        "r": 0.5873675346374512,
+        "sigma": 0.02019728033997091,
+        "mutations_accepted_cumul": 310
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.04019193088148371,
+        "regime": "C",
+        "r": 0.5889019966125488,
+        "sigma": 0.013496858818820689,
+        "mutations_accepted_cumul": 460
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.04221773687339503,
+        "regime": "C",
+        "r": 0.5898415446281433,
+        "sigma": 0.008044768658567663,
+        "mutations_accepted_cumul": 601
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.04317201020365544,
+        "regime": "C",
+        "r": 0.590595006942749,
+        "sigma": 0.008866938411330072,
+        "mutations_accepted_cumul": 741
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.04528556192125265,
+        "regime": "C",
+        "r": 0.5911760330200195,
+        "sigma": 0.006897675886289033,
+        "mutations_accepted_cumul": 901
+      }
+    ]
+  },
+  "seed4_full_standard": {
+    "seed": 4,
+    "condition": "full_standard",
+    "variant": "full",
+    "sigma0": 0.3,
+    "phi_sens_pre": 0.05867497325748473,
+    "phi_sens_post": 0.0746879183543966,
+    "regime_pre": "B",
+    "regime_post": "B",
+    "returned_to_c": false,
+    "mutations_accepted": 1097,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.36566666666666664,
+    "elapsed_s": 670.4411962032318,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.021329456539661302,
+        "regime": "C",
+        "r": 0.5851216316223145,
+        "sigma": 0.06653319071140985,
+        "mutations_accepted_cumul": 171
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.012834435140450502,
+        "regime": "C",
+        "r": 0.5913015007972717,
+        "sigma": 0.01822042780933785,
+        "mutations_accepted_cumul": 342
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.019429784431303013,
+        "regime": "C",
+        "r": 0.5921664834022522,
+        "sigma": 0.0037591368134081943,
+        "mutations_accepted_cumul": 533
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.027498382514356955,
+        "regime": "C",
+        "r": 0.592354416847229,
+        "sigma": 0.003264485695155362,
+        "mutations_accepted_cumul": 702
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.06448109489193164,
+        "regime": "B",
+        "r": 0.5928166508674622,
+        "sigma": 0.001568964118773313,
+        "mutations_accepted_cumul": 895
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.0746879183543966,
+        "regime": "B",
+        "r": 0.5942305326461792,
+        "sigma": 0.000753291290203703,
+        "mutations_accepted_cumul": 1097
+      }
+    ]
+  },
+  "seed4_full_large_sigma": {
+    "seed": 4,
+    "condition": "full_large_sigma",
+    "variant": "full",
+    "sigma0": 1.0,
+    "phi_sens_pre": 0.05867497325748473,
+    "phi_sens_post": 0.25636626979314714,
+    "regime_pre": "B",
+    "regime_post": "B",
+    "returned_to_c": false,
+    "mutations_accepted": 1133,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.37766666666666665,
+    "elapsed_s": 614.6216239929199,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.014551361795014739,
+        "regime": "C",
+        "r": 0.5855582356452942,
+        "sigma": 0.0599934964096439,
+        "mutations_accepted_cumul": 187
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.016883585984878324,
+        "regime": "C",
+        "r": 0.5915120840072632,
+        "sigma": 0.017600710970032716,
+        "mutations_accepted_cumul": 371
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.034813772291087564,
+        "regime": "C",
+        "r": 0.5923346877098083,
+        "sigma": 0.004898861164129014,
+        "mutations_accepted_cumul": 571
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.07804109012610956,
+        "regime": "B",
+        "r": 0.5921411514282227,
+        "sigma": 0.0019590287423412347,
+        "mutations_accepted_cumul": 745
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.18245895218626734,
+        "regime": "B",
+        "r": 0.5925501585006714,
+        "sigma": 0.0005348537494246382,
+        "mutations_accepted_cumul": 936
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.25636626979314714,
+        "regime": "B",
+        "r": 0.5931593775749207,
+        "sigma": 0.0004898721148538687,
+        "mutations_accepted_cumul": 1133
+      }
+    ]
+  },
+  "seed4_sep_from_B": {
+    "seed": 4,
+    "condition": "sep_from_B",
+    "variant": "sep",
+    "sigma0": 0.3,
+    "phi_sens_pre": 0.05867497325748473,
+    "phi_sens_post": 0.011822789478826007,
+    "regime_pre": "B",
+    "regime_post": "C",
+    "returned_to_c": true,
+    "mutations_accepted": 885,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.295,
+    "elapsed_s": 539.52077293396,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.027190692224761427,
+        "regime": "C",
+        "r": 0.5801947712898254,
+        "sigma": 0.05989504172921375,
+        "mutations_accepted_cumul": 183
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.01691585381375273,
+        "regime": "C",
+        "r": 0.5854535698890686,
+        "sigma": 0.021273921776292216,
+        "mutations_accepted_cumul": 321
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.016169230406929424,
+        "regime": "C",
+        "r": 0.5870406627655029,
+        "sigma": 0.012762635014682243,
+        "mutations_accepted_cumul": 473
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.014974001278255367,
+        "regime": "C",
+        "r": 0.5877421498298645,
+        "sigma": 0.010605639085993905,
+        "mutations_accepted_cumul": 612
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.01351760387927382,
+        "regime": "C",
+        "r": 0.5896451473236084,
+        "sigma": 0.011023646426657145,
+        "mutations_accepted_cumul": 747
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.011822789478826007,
+        "regime": "C",
+        "r": 0.5901164412498474,
+        "sigma": 0.005933641352370172,
+        "mutations_accepted_cumul": 885
+      }
+    ]
+  },
+  "seed4_frozen_cov": {
+    "seed": 4,
+    "condition": "frozen_cov",
+    "variant": "isotropic",
+    "sigma0": 0.3,
+    "phi_sens_pre": 0.05867497325748473,
+    "phi_sens_post": 0.039504320129025126,
+    "regime_pre": "B",
+    "regime_post": "C",
+    "returned_to_c": true,
+    "mutations_accepted": 888,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.296,
+    "elapsed_s": 538.0916512012482,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.04616710315496901,
+        "regime": "C",
+        "r": 0.5821364521980286,
+        "sigma": 0.06788014262888874,
+        "mutations_accepted_cumul": 157
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.04224675586904959,
+        "regime": "C",
+        "r": 0.5876612663269043,
+        "sigma": 0.01674470354658614,
+        "mutations_accepted_cumul": 299
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.04097939192119669,
+        "regime": "C",
+        "r": 0.588869571685791,
+        "sigma": 0.013441069345157434,
+        "mutations_accepted_cumul": 448
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.04012013275516468,
+        "regime": "C",
+        "r": 0.5899567604064941,
+        "sigma": 0.007898981338315647,
+        "mutations_accepted_cumul": 588
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.039579741704542995,
+        "regime": "C",
+        "r": 0.5907679796218872,
+        "sigma": 0.007413178846623286,
+        "mutations_accepted_cumul": 728
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.039504320129025126,
+        "regime": "C",
+        "r": 0.5912535786628723,
+        "sigma": 0.005435006295627598,
+        "mutations_accepted_cumul": 888
+      }
+    ]
+  },
+  "seed5_full_standard": {
+    "seed": 5,
+    "condition": "full_standard",
+    "variant": "full",
+    "sigma0": 0.3,
+    "phi_sens_pre": 0.14267423544747831,
+    "phi_sens_post": 0.30409408289333,
+    "regime_pre": "B",
+    "regime_post": "B",
+    "returned_to_c": false,
+    "mutations_accepted": 1142,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.38066666666666665,
+    "elapsed_s": 547.0345673561096,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.04436296135075419,
+        "regime": "C",
+        "r": 0.5847805142402649,
+        "sigma": 0.05722947117732882,
+        "mutations_accepted_cumul": 152
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.06692119747715321,
+        "regime": "B",
+        "r": 0.591451108455658,
+        "sigma": 0.006771672503304375,
+        "mutations_accepted_cumul": 358
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.05925978373848328,
+        "regime": "B",
+        "r": 0.5920935273170471,
+        "sigma": 0.0021805963013718558,
+        "mutations_accepted_cumul": 540
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.01970903812388773,
+        "regime": "C",
+        "r": 0.5918484926223755,
+        "sigma": 0.0036587639003922852,
+        "mutations_accepted_cumul": 731
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.1578990298083844,
+        "regime": "B",
+        "r": 0.5921024084091187,
+        "sigma": 0.0004631832145985458,
+        "mutations_accepted_cumul": 937
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.30409408289333,
+        "regime": "B",
+        "r": 0.5943819880485535,
+        "sigma": 2.24861541855661e-05,
+        "mutations_accepted_cumul": 1142
+      }
+    ]
+  },
+  "seed5_full_large_sigma": {
+    "seed": 5,
+    "condition": "full_large_sigma",
+    "variant": "full",
+    "sigma0": 1.0,
+    "phi_sens_pre": 0.14267423544747831,
+    "phi_sens_post": 0.14609636230643788,
+    "regime_pre": "B",
+    "regime_post": "B",
+    "returned_to_c": false,
+    "mutations_accepted": 1154,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.38466666666666666,
+    "elapsed_s": 536.211434841156,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.024474324626683707,
+        "regime": "C",
+        "r": 0.5890787839889526,
+        "sigma": 0.06038954357441616,
+        "mutations_accepted_cumul": 181
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.05738712385601343,
+        "regime": "B",
+        "r": 0.591812014579773,
+        "sigma": 0.015779711712027078,
+        "mutations_accepted_cumul": 361
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.0848247518642584,
+        "regime": "B",
+        "r": 0.5927503108978271,
+        "sigma": 0.00288300859524318,
+        "mutations_accepted_cumul": 554
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.10299964926607788,
+        "regime": "B",
+        "r": 0.5927315354347229,
+        "sigma": 0.0020178730411997852,
+        "mutations_accepted_cumul": 743
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.11592038468974443,
+        "regime": "B",
+        "r": 0.5927293300628662,
+        "sigma": 0.0010508517875317052,
+        "mutations_accepted_cumul": 948
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.14609636230643788,
+        "regime": "B",
+        "r": 0.5927579998970032,
+        "sigma": 0.0002101258337798159,
+        "mutations_accepted_cumul": 1154
+      }
+    ]
+  },
+  "seed5_sep_from_B": {
+    "seed": 5,
+    "condition": "sep_from_B",
+    "variant": "sep",
+    "sigma0": 0.3,
+    "phi_sens_pre": 0.14267423544747831,
+    "phi_sens_post": 0.010586482420915776,
+    "regime_pre": "B",
+    "regime_post": "C",
+    "returned_to_c": true,
+    "mutations_accepted": 921,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.307,
+    "elapsed_s": 533.0531423091888,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.02908389872167656,
+        "regime": "C",
+        "r": 0.5793096423149109,
+        "sigma": 0.067729399320897,
+        "mutations_accepted_cumul": 165
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.017167667712148074,
+        "regime": "C",
+        "r": 0.5878138542175293,
+        "sigma": 0.026460994618632907,
+        "mutations_accepted_cumul": 309
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.01213961857524749,
+        "regime": "C",
+        "r": 0.5915027856826782,
+        "sigma": 0.010731641633048813,
+        "mutations_accepted_cumul": 474
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.012454769905135783,
+        "regime": "C",
+        "r": 0.5917072296142578,
+        "sigma": 0.007907167635699913,
+        "mutations_accepted_cumul": 626
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.011295176785680235,
+        "regime": "C",
+        "r": 0.5918704867362976,
+        "sigma": 0.006966137893444376,
+        "mutations_accepted_cumul": 776
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.010586482420915776,
+        "regime": "C",
+        "r": 0.591884970664978,
+        "sigma": 0.007388263026980437,
+        "mutations_accepted_cumul": 921
+      }
+    ]
+  },
+  "seed5_frozen_cov": {
+    "seed": 5,
+    "condition": "frozen_cov",
+    "variant": "isotropic",
+    "sigma0": 0.3,
+    "phi_sens_pre": 0.14267423544747831,
+    "phi_sens_post": 0.05697360185648576,
+    "regime_pre": "B",
+    "regime_post": "B",
+    "returned_to_c": false,
+    "mutations_accepted": 875,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.2916666666666667,
+    "elapsed_s": 534.589663028717,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.03488056627230476,
+        "regime": "C",
+        "r": 0.5777420401573181,
+        "sigma": 0.07374843393491663,
+        "mutations_accepted_cumul": 133
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.04683076058044288,
+        "regime": "C",
+        "r": 0.5834278464317322,
+        "sigma": 0.02248054527356987,
+        "mutations_accepted_cumul": 258
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.049205772649474545,
+        "regime": "C",
+        "r": 0.5857090353965759,
+        "sigma": 0.014218347752464342,
+        "mutations_accepted_cumul": 406
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.0533419889420587,
+        "regime": "B",
+        "r": 0.5873720049858093,
+        "sigma": 0.007380468395806148,
+        "mutations_accepted_cumul": 562
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.05587696048643255,
+        "regime": "B",
+        "r": 0.5888306498527527,
+        "sigma": 0.008539764142105367,
+        "mutations_accepted_cumul": 714
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.05697360185648576,
+        "regime": "B",
+        "r": 0.5898709893226624,
+        "sigma": 0.004608197126760117,
+        "mutations_accepted_cumul": 875
+      }
+    ]
+  },
+  "seed6_full_standard": {
+    "seed": 6,
+    "condition": "full_standard",
+    "variant": "full",
+    "sigma0": 0.3,
+    "phi_sens_pre": 0.05909401560017581,
+    "phi_sens_post": 0.2078087259573069,
+    "regime_pre": "B",
+    "regime_post": "B",
+    "returned_to_c": false,
+    "mutations_accepted": 1099,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.36633333333333334,
+    "elapsed_s": 533.8478157520294,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.020183743656810908,
+        "regime": "C",
+        "r": 0.5871241092681885,
+        "sigma": 0.04915480286864645,
+        "mutations_accepted_cumul": 167
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.0502788302808981,
+        "regime": "B",
+        "r": 0.591606080532074,
+        "sigma": 0.017905760901112157,
+        "mutations_accepted_cumul": 329
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.12278012848974945,
+        "regime": "B",
+        "r": 0.5927610993385315,
+        "sigma": 0.0030737211341247093,
+        "mutations_accepted_cumul": 527
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.16121468564780136,
+        "regime": "B",
+        "r": 0.592345654964447,
+        "sigma": 0.0012900377495321587,
+        "mutations_accepted_cumul": 718
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.1668336079300367,
+        "regime": "B",
+        "r": 0.5924733877182007,
+        "sigma": 0.001242387184514751,
+        "mutations_accepted_cumul": 897
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.2078087259573069,
+        "regime": "B",
+        "r": 0.5926947593688965,
+        "sigma": 3.9124621107218724e-05,
+        "mutations_accepted_cumul": 1099
+      }
+    ]
+  },
+  "seed6_full_large_sigma": {
+    "seed": 6,
+    "condition": "full_large_sigma",
+    "variant": "full",
+    "sigma0": 1.0,
+    "phi_sens_pre": 0.05909401560017581,
+    "phi_sens_post": 0.001815880200432641,
+    "regime_pre": "B",
+    "regime_post": "C",
+    "returned_to_c": true,
+    "mutations_accepted": 1119,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.373,
+    "elapsed_s": 533.323117017746,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.023032667369921295,
+        "regime": "C",
+        "r": 0.5839127898216248,
+        "sigma": 0.06581625770107467,
+        "mutations_accepted_cumul": 180
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.018092485552174856,
+        "regime": "C",
+        "r": 0.5909914374351501,
+        "sigma": 0.01359678022453409,
+        "mutations_accepted_cumul": 367
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.007877814688724009,
+        "regime": "C",
+        "r": 0.5916451811790466,
+        "sigma": 0.0034193747485141705,
+        "mutations_accepted_cumul": 561
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.003652906934825294,
+        "regime": "C",
+        "r": 0.5927044749259949,
+        "sigma": 0.001308611166383911,
+        "mutations_accepted_cumul": 752
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.003164488933549259,
+        "regime": "C",
+        "r": 0.5929025411605835,
+        "sigma": 0.0009695667976158206,
+        "mutations_accepted_cumul": 937
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.001815880200432641,
+        "regime": "C",
+        "r": 0.5930559039115906,
+        "sigma": 1.5686619833049035e-05,
+        "mutations_accepted_cumul": 1119
+      }
+    ]
+  },
+  "seed6_sep_from_B": {
+    "seed": 6,
+    "condition": "sep_from_B",
+    "variant": "sep",
+    "sigma0": 0.3,
+    "phi_sens_pre": 0.05909401560017581,
+    "phi_sens_post": 0.04085505238578985,
+    "regime_pre": "B",
+    "regime_post": "C",
+    "returned_to_c": true,
+    "mutations_accepted": 936,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.312,
+    "elapsed_s": 532.9697961807251,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.024174497480277325,
+        "regime": "C",
+        "r": 0.5839768052101135,
+        "sigma": 0.05731272363547707,
+        "mutations_accepted_cumul": 159
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.03051727272178529,
+        "regime": "C",
+        "r": 0.5892029404640198,
+        "sigma": 0.02472373763864874,
+        "mutations_accepted_cumul": 331
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.0349564587888055,
+        "regime": "C",
+        "r": 0.5914297103881836,
+        "sigma": 0.012653754850473032,
+        "mutations_accepted_cumul": 482
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.0359720432213502,
+        "regime": "C",
+        "r": 0.5918755531311035,
+        "sigma": 0.011835802569526226,
+        "mutations_accepted_cumul": 633
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.03901652999592255,
+        "regime": "C",
+        "r": 0.5921915769577026,
+        "sigma": 0.008505836255038892,
+        "mutations_accepted_cumul": 789
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.04085505238578985,
+        "regime": "C",
+        "r": 0.5923445820808411,
+        "sigma": 0.008146142209978951,
+        "mutations_accepted_cumul": 936
+      }
+    ]
+  },
+  "seed6_frozen_cov": {
+    "seed": 6,
+    "condition": "frozen_cov",
+    "variant": "isotropic",
+    "sigma0": 0.3,
+    "phi_sens_pre": 0.05909401560017581,
+    "phi_sens_post": 0.02307467549888691,
+    "regime_pre": "B",
+    "regime_post": "C",
+    "returned_to_c": true,
+    "mutations_accepted": 876,
+    "total_generations": 3000,
+    "mutation_acceptance_rate": 0.292,
+    "elapsed_s": 533.6772356033325,
+    "trajectory": [
+      {
+        "gen": 500,
+        "phi_sens": 0.03209644963323141,
+        "regime": "C",
+        "r": 0.5790968537330627,
+        "sigma": 0.07642080201235453,
+        "mutations_accepted_cumul": 157
+      },
+      {
+        "gen": 1000,
+        "phi_sens": 0.022411194175273673,
+        "regime": "C",
+        "r": 0.5850954055786133,
+        "sigma": 0.026534581095733197,
+        "mutations_accepted_cumul": 307
+      },
+      {
+        "gen": 1500,
+        "phi_sens": 0.021733405185730772,
+        "regime": "C",
+        "r": 0.5882415771484375,
+        "sigma": 0.014054159060374119,
+        "mutations_accepted_cumul": 457
+      },
+      {
+        "gen": 2000,
+        "phi_sens": 0.021936560099411122,
+        "regime": "C",
+        "r": 0.5898151397705078,
+        "sigma": 0.00848780484743665,
+        "mutations_accepted_cumul": 609
+      },
+      {
+        "gen": 2500,
+        "phi_sens": 0.022621227021050103,
+        "regime": "C",
+        "r": 0.5905571579933167,
+        "sigma": 0.006599445836480934,
+        "mutations_accepted_cumul": 744
+      },
+      {
+        "gen": 3000,
+        "phi_sens": 0.02307467549888691,
+        "regime": "C",
+        "r": 0.5908851623535156,
+        "sigma": 0.004551485281644485,
+        "mutations_accepted_cumul": 876
+      }
+    ]
+  }
+}

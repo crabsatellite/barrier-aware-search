@@ -1,0 +1,443 @@
+[
+  {
+    "alpha": 0.0,
+    "r": 0.5974834561347961,
+    "feasible": true,
+    "n_violations": 0,
+    "np_density": 0.0377,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": true,
+        "density": 0.0377
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.05,
+    "r": 0.5781431794166565,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.0651,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.0651
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.1,
+    "r": 0.5279134511947632,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.1585,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.1585
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.15000000000000002,
+    "r": 0.4700782299041748,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.3005,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.3005
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.2,
+    "r": 0.41962695121765137,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.4576,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.4576
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.25,
+    "r": 0.37906280159950256,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.5676,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.5676
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.30000000000000004,
+    "r": 0.34896567463874817,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.741,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.741
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.35000000000000003,
+    "r": 0.3256245255470276,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.8071,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.8071
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.4,
+    "r": 0.3086528778076172,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.9437,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.9437
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.45,
+    "r": 0.2962004542350769,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.9624,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.9624
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.5,
+    "r": 0.28169915080070496,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.9831,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.9831
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.55,
+    "r": 0.27081936597824097,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.9909,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.9909
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.6000000000000001,
+    "r": 0.25366243720054626,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.9925,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.9925
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.65,
+    "r": 0.242823988199234,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.993,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.993
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.7000000000000001,
+    "r": 0.22092236578464508,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.9915,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.9915
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.75,
+    "r": 0.20129843056201935,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.9852,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.9852
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.8,
+    "r": 0.18920090794563293,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.9569,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.9569
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.8500000000000001,
+    "r": 0.1796560287475586,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.8598,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.8598
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.9,
+    "r": 0.21026423573493958,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.6085,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.6085
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 0.9500000000000001,
+    "r": 0.3178195357322693,
+    "feasible": false,
+    "n_violations": 1,
+    "np_density": 0.2298,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": false,
+        "density": 0.2298
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  },
+  {
+    "alpha": 1.0,
+    "r": 0.5956247448921204,
+    "feasible": true,
+    "n_violations": 0,
+    "np_density": 0.04,
+    "barrier_status": {
+      "natural_proof": {
+        "passes": true,
+        "density": 0.04
+      },
+      "relativization": {
+        "passes": true,
+        "density": 0.0
+      },
+      "algebrization": {
+        "passes": true,
+        "density": 0.0
+      }
+    }
+  }
+]

@@ -1,0 +1,2806 @@
+{
+  "n_total": 50,
+  "n_feasible": 50,
+  "n_generations": 10000,
+  "candidates": [
+    {
+      "rank": 1,
+      "spearman_r": 0.594174861907959,
+      "generation": 7679,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.16446299791348762
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.2351670285889389
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 1.0766369082970897e-05,
+          "spectral_entropy": 0.08856562146200403,
+          "lz76_complexity": 3.076926649893859e-06,
+          "run_length": 4.983408461433843e-05,
+          "gzip_ratio": 5.07780814184854e-05,
+          "algebraic_degree": -0.031634489027124735,
+          "nonlinearity": 0.00015079475033297551,
+          "autocorrelation_sum": 1.1883322331281003e-05,
+          "sensitivity": -0.37275168234965683,
+          "influence": 0.03809056593201556
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -3.0157131626631974e-06,
+          "shannon_entropy * spectral_entropy": -4.218110944245196e-05,
+          "shannon_entropy * lz76_complexity": 1.0887356514385065e-06,
+          "shannon_entropy * run_length": -2.0129257869971185e-05,
+          "shannon_entropy * gzip_ratio": -1.5852622465226756e-05,
+          "shannon_entropy * algebraic_degree": -1.437405315530408e-05,
+          "shannon_entropy * nonlinearity": 9.070576742678976e-06,
+          "shannon_entropy * autocorrelation_sum": 3.3260147941350526e-05,
+          "shannon_entropy * sensitivity": -3.421464426329411e-05,
+          "shannon_entropy * influence": 5.29881956968227e-05,
+          "spectral_entropy * spectral_entropy": -0.0005815883251709874,
+          "spectral_entropy * lz76_complexity": -1.2756963985670501e-05,
+          "spectral_entropy * run_length": -6.012744013955335e-05,
+          "spectral_entropy * gzip_ratio": -1.2176465374970114e-05,
+          "spectral_entropy * algebraic_degree": 0.00023953402274788318,
+          "spectral_entropy * nonlinearity": 0.0007487768493897847,
+          "spectral_entropy * autocorrelation_sum": -0.0010881665385312675,
+          "spectral_entropy * sensitivity": -6.945001799624605e-06,
+          "spectral_entropy * influence": 2.0790565601333346e-05,
+          "lz76_complexity * lz76_complexity": 1.1424826955592814e-05,
+          "lz76_complexity * run_length": -8.399018411252556e-06,
+          "lz76_complexity * algebraic_degree": 4.587661219491003e-06,
+          "lz76_complexity * nonlinearity": -1.0098336475785262e-05,
+          "lz76_complexity * autocorrelation_sum": -1.5387464064446894e-05,
+          "lz76_complexity * sensitivity": -3.1947707868785832e-06,
+          "lz76_complexity * influence": -1.6460316203675502e-05,
+          "run_length * run_length": -6.378815040810158e-05,
+          "run_length * gzip_ratio": -9.904490301127964e-06,
+          "run_length * algebraic_degree": 2.179477940781949e-05,
+          "run_length * nonlinearity": 7.2940850475091335e-06,
+          "run_length * autocorrelation_sum": -4.108210815820503e-05,
+          "run_length * sensitivity": 1.2852024378277564e-05,
+          "run_length * influence": -1.2379697275969702e-06,
+          "gzip_ratio * gzip_ratio": -8.270171738472465e-06,
+          "gzip_ratio * algebraic_degree": -1.9670125867006835e-06,
+          "gzip_ratio * nonlinearity": 3.311929088641912e-06,
+          "gzip_ratio * autocorrelation_sum": 1.3994176221130018e-05,
+          "gzip_ratio * influence": -1.2120878664150376e-05,
+          "algebraic_degree * algebraic_degree": -0.009060447924482814,
+          "algebraic_degree * nonlinearity": -0.00012687824808248004,
+          "algebraic_degree * autocorrelation_sum": 0.0010619364607939747,
+          "algebraic_degree * sensitivity": -2.1388201656092047e-06,
+          "algebraic_degree * influence": -1.8275475730089505e-05,
+          "nonlinearity * nonlinearity": 5.670457961453156e-05,
+          "nonlinearity * autocorrelation_sum": -5.0918883917745594e-05,
+          "nonlinearity * influence": 5.0525248247532036e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0017946295061983149,
+          "autocorrelation_sum * sensitivity": 1.5626312564584904e-05,
+          "autocorrelation_sum * influence": 2.1296806913063864e-05,
+          "sensitivity * sensitivity": -0.06580032348303537,
+          "sensitivity * influence": -3.226103975452486e-06,
+          "influence * influence": -7.225042907953573e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.344404886517831e-05,
+            "position": -1.3129833790169883
+          },
+          "spectral_entropy": {
+            "activation": -0.08755849504721584,
+            "position": -3.0613645343384803
+          },
+          "run_length": {
+            "activation": 7.076352446279328e-05,
+            "position": 0.08058671668755656
+          },
+          "gzip_ratio": {
+            "activation": 1.4459278908898264e-05,
+            "position": -1.4854852289803364
+          },
+          "algebraic_degree": {
+            "activation": 0.043165385823962954,
+            "position": -0.405419926612479
+          },
+          "nonlinearity": {
+            "activation": -0.00011542675396411887,
+            "position": -0.0954814939521454
+          },
+          "autocorrelation_sum": {
+            "activation": 0.001035444712177347,
+            "position": -0.9868232866002258
+          },
+          "sensitivity": {
+            "activation": 0.3548399771497085,
+            "position": -1.6512848391474761
+          },
+          "influence": {
+            "activation": -0.03781511796585857,
+            "position": -2.061618062038981
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.00019236867369277631,
+        "spectral_entropy": 0.15633622446092754,
+        "lz76_complexity": 4.4639121988967516e-05,
+        "run_length": 0.00024247335613672522,
+        "gzip_ratio": 9.561876030062184e-05,
+        "algebraic_degree": 0.07438356985171679,
+        "nonlinearity": 0.0007269176992220304,
+        "autocorrelation_sum": 0.0035279479033797664,
+        "sensitivity": 0.6975657469651436,
+        "influence": 0.06688449320749108
+      },
+      "test_spearman_r": 0.5929750800132751
+    },
+    {
+      "rank": 2,
+      "spearman_r": 0.5941746830940247,
+      "generation": 7677,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.16466283956660743
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.2350673440079569
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 9.704684942677998e-06,
+          "spectral_entropy": 0.08853030595835168,
+          "lz76_complexity": 2.1239216259668374e-06,
+          "run_length": 4.960562006516363e-05,
+          "gzip_ratio": 5.2638883744832976e-05,
+          "algebraic_degree": -0.031603807118470884,
+          "nonlinearity": 0.00014872048889893452,
+          "autocorrelation_sum": 7.720685361954376e-06,
+          "sensitivity": -0.3727587495143871,
+          "influence": 0.03810197379985964
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -3.2632835204704257e-06,
+          "shannon_entropy * spectral_entropy": -4.295691871205077e-05,
+          "shannon_entropy * run_length": -2.0036024129001724e-05,
+          "shannon_entropy * gzip_ratio": -1.5855910110366563e-05,
+          "shannon_entropy * algebraic_degree": -1.404434001106394e-05,
+          "shannon_entropy * nonlinearity": 8.998578660555502e-06,
+          "shannon_entropy * autocorrelation_sum": 3.235528434356255e-05,
+          "shannon_entropy * sensitivity": -3.421343099598135e-05,
+          "shannon_entropy * influence": 5.324398124490983e-05,
+          "spectral_entropy * spectral_entropy": -0.0005830369137446283,
+          "spectral_entropy * lz76_complexity": -1.2541955347130434e-05,
+          "spectral_entropy * run_length": -6.037985768807717e-05,
+          "spectral_entropy * gzip_ratio": -1.2358687225562812e-05,
+          "spectral_entropy * algebraic_degree": 0.0002403487734789951,
+          "spectral_entropy * nonlinearity": 0.0007514681824787778,
+          "spectral_entropy * autocorrelation_sum": -0.001090624832401077,
+          "spectral_entropy * sensitivity": -7.218689412997691e-06,
+          "spectral_entropy * influence": 2.1279148828772498e-05,
+          "lz76_complexity * lz76_complexity": 1.1377646090873406e-05,
+          "lz76_complexity * run_length": -8.46680182147902e-06,
+          "lz76_complexity * algebraic_degree": 4.5949505942156954e-06,
+          "lz76_complexity * nonlinearity": -1.0030481340268019e-05,
+          "lz76_complexity * autocorrelation_sum": -1.510471778870254e-05,
+          "lz76_complexity * sensitivity": -3.467362735318897e-06,
+          "lz76_complexity * influence": -1.629033998995418e-05,
+          "run_length * run_length": -6.410895370591841e-05,
+          "run_length * gzip_ratio": -9.803265343518566e-06,
+          "run_length * algebraic_degree": 2.201691234911039e-05,
+          "run_length * nonlinearity": 7.122746314027818e-06,
+          "run_length * autocorrelation_sum": -4.155559575086668e-05,
+          "run_length * sensitivity": 1.3020308009181571e-05,
+          "run_length * influence": -1.1547054553528575e-06,
+          "gzip_ratio * gzip_ratio": -8.364829992499978e-06,
+          "gzip_ratio * algebraic_degree": -2.167547331589366e-06,
+          "gzip_ratio * nonlinearity": 3.181614106936604e-06,
+          "gzip_ratio * autocorrelation_sum": 1.4104613823230196e-05,
+          "gzip_ratio * influence": -1.2430957961908305e-05,
+          "algebraic_degree * algebraic_degree": -0.009053700027070474,
+          "algebraic_degree * nonlinearity": -0.00012707254606754445,
+          "algebraic_degree * autocorrelation_sum": 0.0010671325730413786,
+          "algebraic_degree * sensitivity": -1.9856326027345787e-06,
+          "algebraic_degree * influence": -1.8572863225047176e-05,
+          "nonlinearity * nonlinearity": 5.46249168719272e-05,
+          "nonlinearity * autocorrelation_sum": -5.379803355678648e-05,
+          "nonlinearity * influence": 5.0802613305732784e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0018031702618289114,
+          "autocorrelation_sum * sensitivity": 1.5204931917432463e-05,
+          "autocorrelation_sum * influence": 2.2241221382635452e-05,
+          "sensitivity * sensitivity": -0.06580291041405219,
+          "sensitivity * influence": -3.2600154212142155e-06,
+          "influence * influence": -7.252721561687774e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.467729143227649e-05,
+            "position": -1.312995117955673
+          },
+          "spectral_entropy": {
+            "activation": -0.08751906476495229,
+            "position": -3.061368610086045
+          },
+          "lz76_complexity": {
+            "activation": 1.4467727661106066e-06,
+            "position": -0.20048631346925036
+          },
+          "run_length": {
+            "activation": 7.128628474567624e-05,
+            "position": 0.08054655752165417
+          },
+          "gzip_ratio": {
+            "activation": 1.2848987411816094e-05,
+            "position": -1.4855357844262387
+          },
+          "algebraic_degree": {
+            "activation": 0.04312125521070753,
+            "position": -0.40541718234237906
+          },
+          "nonlinearity": {
+            "activation": -0.00010980796076597135,
+            "position": -0.09546586374941257
+          },
+          "autocorrelation_sum": {
+            "activation": 0.0010450233847296223,
+            "position": -0.9867960106330174
+          },
+          "sensitivity": {
+            "activation": 0.3548463383698354,
+            "position": -1.6512557243467714
+          },
+          "influence": {
+            "activation": -0.03782556289175387,
+            "position": -2.0617907569197333
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.00019243095313005475,
+        "spectral_entropy": 0.15628809795132895,
+        "lz76_complexity": 4.477584619662971e-05,
+        "run_length": 0.00024335736999652938,
+        "gzip_ratio": 9.63404387852644e-05,
+        "algebraic_degree": 0.07432084307216759,
+        "nonlinearity": 0.0007208656251546374,
+        "autocorrelation_sum": 0.0035451064061756445,
+        "sensitivity": 0.6976376670645441,
+        "influence": 0.0669105152725207
+      },
+      "test_spearman_r": 0.5929750800132751
+    },
+    {
+      "rank": 3,
+      "spearman_r": 0.5941745042800903,
+      "generation": 7678,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.1640436417322363
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.23521004890115185
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 1.1320715772564563e-05,
+          "spectral_entropy": 0.08859472903417492,
+          "lz76_complexity": 2.4220303236380126e-06,
+          "run_length": 4.8824499142615856e-05,
+          "gzip_ratio": 5.238717359433576e-05,
+          "algebraic_degree": -0.03166115888894225,
+          "nonlinearity": 0.00014900920434012346,
+          "autocorrelation_sum": 9.842547427042028e-06,
+          "sensitivity": -0.37274540961987623,
+          "influence": 0.03810054395505516
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -2.87973442839613e-06,
+          "shannon_entropy * spectral_entropy": -4.241385422601238e-05,
+          "shannon_entropy * run_length": -1.9969973414584714e-05,
+          "shannon_entropy * gzip_ratio": -1.5651081348994262e-05,
+          "shannon_entropy * algebraic_degree": -1.3719433305932439e-05,
+          "shannon_entropy * nonlinearity": 9.334694955127707e-06,
+          "shannon_entropy * autocorrelation_sum": 3.194268640015213e-05,
+          "shannon_entropy * sensitivity": -3.3394758070608795e-05,
+          "shannon_entropy * influence": 5.2652608009610964e-05,
+          "spectral_entropy * spectral_entropy": -0.0005747546642765769,
+          "spectral_entropy * lz76_complexity": -1.2590391676106006e-05,
+          "spectral_entropy * run_length": -5.965472915202981e-05,
+          "spectral_entropy * gzip_ratio": -1.238964612430422e-05,
+          "spectral_entropy * algebraic_degree": 0.00023651297629839234,
+          "spectral_entropy * nonlinearity": 0.0007405692298894305,
+          "spectral_entropy * autocorrelation_sum": -0.001075684284253254,
+          "spectral_entropy * sensitivity": -7.001415068849277e-06,
+          "spectral_entropy * influence": 2.0917591433837214e-05,
+          "lz76_complexity * lz76_complexity": 1.1103514546391657e-05,
+          "lz76_complexity * run_length": -8.175125408057224e-06,
+          "lz76_complexity * algebraic_degree": 4.523745962365522e-06,
+          "lz76_complexity * nonlinearity": -9.746109071506407e-06,
+          "lz76_complexity * autocorrelation_sum": -1.499038749002635e-05,
+          "lz76_complexity * sensitivity": -3.3457479854432785e-06,
+          "lz76_complexity * influence": -1.639199714549826e-05,
+          "run_length * run_length": -6.326371607121328e-05,
+          "run_length * gzip_ratio": -9.938356357408989e-06,
+          "run_length * algebraic_degree": 2.18546914899341e-05,
+          "run_length * nonlinearity": 6.877825659687935e-06,
+          "run_length * autocorrelation_sum": -4.109994161579041e-05,
+          "run_length * sensitivity": 1.2876897715129897e-05,
+          "run_length * influence": -1.1077401958007983e-06,
+          "gzip_ratio * gzip_ratio": -8.149282928978154e-06,
+          "gzip_ratio * algebraic_degree": -1.8374090451803628e-06,
+          "gzip_ratio * nonlinearity": 2.9513876315584306e-06,
+          "gzip_ratio * autocorrelation_sum": 1.3110132099496785e-05,
+          "gzip_ratio * influence": -1.2076118058614492e-05,
+          "algebraic_degree * algebraic_degree": -0.009064425451384956,
+          "algebraic_degree * nonlinearity": -0.0001250826622887867,
+          "algebraic_degree * autocorrelation_sum": 0.0010520417383163192,
+          "algebraic_degree * sensitivity": -1.9837260286037356e-06,
+          "algebraic_degree * influence": -1.8472828382526483e-05,
+          "nonlinearity * nonlinearity": 5.678545148690934e-05,
+          "nonlinearity * autocorrelation_sum": -5.174742179583183e-05,
+          "nonlinearity * influence": 5.008449323702915e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0017771594242416329,
+          "autocorrelation_sum * sensitivity": 1.5254216494978024e-05,
+          "autocorrelation_sum * influence": 2.1803091026213237e-05,
+          "sensitivity * sensitivity": -0.06579858630155964,
+          "sensitivity * influence": -3.038045232590388e-06,
+          "influence * influence": -7.149083881797521e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.143792348893215e-05,
+            "position": -1.312966580663521
+          },
+          "spectral_entropy": {
+            "activation": -0.08759871202241769,
+            "position": -3.061344869519575
+          },
+          "lz76_complexity": {
+            "activation": 1.0630373455442846e-06,
+            "position": -0.20044288970727622
+          },
+          "run_length": {
+            "activation": 7.076970055158858e-05,
+            "position": 0.08061337803695885
+          },
+          "gzip_ratio": {
+            "activation": 1.2114752700334035e-05,
+            "position": -1.4854449673526406
+          },
+          "algebraic_degree": {
+            "activation": 0.04320884668917768,
+            "position": -0.40541895044300524
+          },
+          "nonlinearity": {
+            "activation": -0.00011533068230745355,
+            "position": -0.0955015547941649
+          },
+          "autocorrelation_sum": {
+            "activation": 0.001025125295240707,
+            "position": -0.9868511036157976
+          },
+          "sensitivity": {
+            "activation": 0.3548339365873323,
+            "position": -1.6512971681138804
+          },
+          "influence": {
+            "activation": -0.037828258972542106,
+            "position": -2.061488254150997
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.00018959833483749993,
+        "spectral_entropy": 0.15637139658302013,
+        "lz76_complexity": 4.412456418497201e-05,
+        "run_length": 0.00024055927288364211,
+        "gzip_ratio": 9.421142343437011e-05,
+        "algebraic_degree": 0.07443748258789928,
+        "nonlinearity": 0.0007206059754466872,
+        "autocorrelation_sum": 0.0034909654199482758,
+        "sensitivity": 0.6975110668183194,
+        "influence": 0.06689998902002571
+      },
+      "test_spearman_r": 0.5929800271987915
+    },
+    {
+      "rank": 4,
+      "spearman_r": 0.5941745042800903,
+      "generation": 7676,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.16433787071836126
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.2352011934555383
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 8.748137534335252e-06,
+          "spectral_entropy": 0.08857580926672563,
+          "lz76_complexity": 2.17924972659838e-06,
+          "run_length": 4.945748104599283e-05,
+          "gzip_ratio": 5.234556844432345e-05,
+          "algebraic_degree": -0.03165203093421615,
+          "nonlinearity": 0.00015007686825322847,
+          "autocorrelation_sum": 9.108856531084166e-06,
+          "sensitivity": -0.3727547204267453,
+          "influence": 0.038088171611847924
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -3.19891797153018e-06,
+          "shannon_entropy * spectral_entropy": -4.252971981900698e-05,
+          "shannon_entropy * run_length": -1.9947599290620246e-05,
+          "shannon_entropy * gzip_ratio": -1.555074008338223e-05,
+          "shannon_entropy * algebraic_degree": -1.4165173357487801e-05,
+          "shannon_entropy * nonlinearity": 8.938147593278968e-06,
+          "shannon_entropy * autocorrelation_sum": 3.210718931880101e-05,
+          "shannon_entropy * sensitivity": -3.396826341096266e-05,
+          "shannon_entropy * influence": 5.279926276241888e-05,
+          "spectral_entropy * spectral_entropy": -0.0005796410448947518,
+          "spectral_entropy * lz76_complexity": -1.2637697469551587e-05,
+          "spectral_entropy * run_length": -5.9656846685529765e-05,
+          "spectral_entropy * gzip_ratio": -1.2421725002338013e-05,
+          "spectral_entropy * algebraic_degree": 0.0002384545094221487,
+          "spectral_entropy * nonlinearity": 0.0007460758687180493,
+          "spectral_entropy * autocorrelation_sum": -0.0010850790922289828,
+          "spectral_entropy * sensitivity": -7.096784079866314e-06,
+          "spectral_entropy * influence": 2.1012002895576677e-05,
+          "lz76_complexity * lz76_complexity": 1.100535319752489e-05,
+          "lz76_complexity * run_length": -8.46502527266802e-06,
+          "lz76_complexity * algebraic_degree": 4.526779579155235e-06,
+          "lz76_complexity * nonlinearity": -1.0186527420106707e-05,
+          "lz76_complexity * autocorrelation_sum": -1.5297169181091624e-05,
+          "lz76_complexity * sensitivity": -3.4812877642297544e-06,
+          "lz76_complexity * influence": -1.6304460949515233e-05,
+          "run_length * run_length": -6.361555218292951e-05,
+          "run_length * gzip_ratio": -9.926994592970487e-06,
+          "run_length * algebraic_degree": 2.1797420631738006e-05,
+          "run_length * nonlinearity": 6.953426000594141e-06,
+          "run_length * autocorrelation_sum": -4.095963029820269e-05,
+          "run_length * sensitivity": 1.3228504467356322e-05,
+          "run_length * influence": -1.250215275653732e-06,
+          "gzip_ratio * gzip_ratio": -8.416417280349961e-06,
+          "gzip_ratio * algebraic_degree": -1.7064458361138507e-06,
+          "gzip_ratio * nonlinearity": 2.948873059581061e-06,
+          "gzip_ratio * autocorrelation_sum": 1.3170328419088251e-05,
+          "gzip_ratio * influence": -1.2122619192907815e-05,
+          "algebraic_degree * algebraic_degree": -0.009064621961374135,
+          "algebraic_degree * nonlinearity": -0.00012624813074729133,
+          "algebraic_degree * autocorrelation_sum": 0.001059769769943885,
+          "algebraic_degree * sensitivity": -2.0665558682782294e-06,
+          "algebraic_degree * influence": -1.8435274811484413e-05,
+          "nonlinearity * nonlinearity": 5.7352059081670534e-05,
+          "nonlinearity * autocorrelation_sum": -5.181596951631768e-05,
+          "nonlinearity * influence": 5.043775813211021e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0017912557745749095,
+          "autocorrelation_sum * sensitivity": 1.5209782424333978e-05,
+          "autocorrelation_sum * influence": 2.217959996013743e-05,
+          "sensitivity * sensitivity": -0.06580042173353422,
+          "sensitivity * influence": -3.1255415564387156e-06,
+          "influence * influence": -7.217270831667403e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.487539167387508e-05,
+            "position": -1.312972480072198
+          },
+          "spectral_entropy": {
+            "activation": -0.08757239830230412,
+            "position": -3.0613561254068054
+          },
+          "lz76_complexity": {
+            "activation": 1.4889559837059983e-06,
+            "position": -0.2004546787556548
+          },
+          "run_length": {
+            "activation": 7.065939526553267e-05,
+            "position": 0.08060571118768585
+          },
+          "gzip_ratio": {
+            "activation": 1.2575523724088398e-05,
+            "position": -1.4854663326886646
+          },
+          "algebraic_degree": {
+            "activation": 0.043192155771557106,
+            "position": -0.4054214214926616
+          },
+          "nonlinearity": {
+            "activation": -0.00011583816195174234,
+            "position": -0.09549146026099031
+          },
+          "autocorrelation_sum": {
+            "activation": 0.0010333681043991558,
+            "position": -0.9868366367918511
+          },
+          "sensitivity": {
+            "activation": 0.354842958914886,
+            "position": -1.6512924663960176
+          },
+          "influence": {
+            "activation": -0.03781367528693168,
+            "position": -2.0615413614432336
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.0001909969310114258,
+        "spectral_entropy": 0.1563457130522098,
+        "lz76_complexity": 4.46620084281519e-05,
+        "run_length": 0.00024160858801048203,
+        "gzip_ratio": 9.486666309049095e-05,
+        "algebraic_degree": 0.07442090778462795,
+        "nonlinearity": 0.0007256920349789544,
+        "autocorrelation_sum": 0.0035178836527101427,
+        "sensitivity": 0.6975393386330716,
+        "influence": 0.066878330651861
+      },
+      "test_spearman_r": 0.5929834842681885
+    },
+    {
+      "rank": 5,
+      "spearman_r": 0.5941745042800903,
+      "generation": 7688,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.16434237241733718
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.2351175302901647
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 9.181536921977288e-06,
+          "spectral_entropy": 0.08856327162714843,
+          "lz76_complexity": 2.5534544533940643e-06,
+          "run_length": 4.9558780959615575e-05,
+          "gzip_ratio": 5.005570876865015e-05,
+          "algebraic_degree": -0.03161692165536155,
+          "nonlinearity": 0.00015089024987743202,
+          "autocorrelation_sum": 1.093446286089229e-05,
+          "sensitivity": -0.37274922333389643,
+          "influence": 0.03809664067921671
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -3.27951429307159e-06,
+          "shannon_entropy * spectral_entropy": -4.230530581948785e-05,
+          "shannon_entropy * lz76_complexity": 1.0615683681032077e-06,
+          "shannon_entropy * run_length": -2.0079648609210268e-05,
+          "shannon_entropy * gzip_ratio": -1.5691329796241355e-05,
+          "shannon_entropy * algebraic_degree": -1.4072544678110156e-05,
+          "shannon_entropy * nonlinearity": 9.111605624814693e-06,
+          "shannon_entropy * autocorrelation_sum": 3.2700137418470905e-05,
+          "shannon_entropy * sensitivity": -3.384854236602893e-05,
+          "shannon_entropy * influence": 5.271659078060897e-05,
+          "spectral_entropy * spectral_entropy": -0.0005789109971108211,
+          "spectral_entropy * lz76_complexity": -1.2641586937684114e-05,
+          "spectral_entropy * run_length": -6.0231192638844194e-05,
+          "spectral_entropy * gzip_ratio": -1.2307747346541044e-05,
+          "spectral_entropy * algebraic_degree": 0.00023875331119439238,
+          "spectral_entropy * nonlinearity": 0.0007452305545769966,
+          "spectral_entropy * autocorrelation_sum": -0.0010835585757380474,
+          "spectral_entropy * sensitivity": -7.199068982387955e-06,
+          "spectral_entropy * influence": 2.1184282873531567e-05,
+          "lz76_complexity * lz76_complexity": 1.1301366179469419e-05,
+          "lz76_complexity * run_length": -8.31861484371751e-06,
+          "lz76_complexity * algebraic_degree": 4.5525413701958535e-06,
+          "lz76_complexity * nonlinearity": -1.0127723474128253e-05,
+          "lz76_complexity * autocorrelation_sum": -1.533033867090883e-05,
+          "lz76_complexity * sensitivity": -3.4372675926969818e-06,
+          "lz76_complexity * influence": -1.6501496911921465e-05,
+          "run_length * run_length": -6.358936455034189e-05,
+          "run_length * gzip_ratio": -9.993729956608909e-06,
+          "run_length * algebraic_degree": 2.1937428640702444e-05,
+          "run_length * nonlinearity": 6.92551709690237e-06,
+          "run_length * autocorrelation_sum": -4.176476163959246e-05,
+          "run_length * sensitivity": 1.319896668678429e-05,
+          "run_length * influence": -1.3694883597418098e-06,
+          "gzip_ratio * gzip_ratio": -8.221898938140822e-06,
+          "gzip_ratio * algebraic_degree": -1.7341686197967563e-06,
+          "gzip_ratio * nonlinearity": 2.881564320030572e-06,
+          "gzip_ratio * autocorrelation_sum": 1.3263527329743551e-05,
+          "gzip_ratio * influence": -1.2235988834100411e-05,
+          "algebraic_degree * algebraic_degree": -0.009054308351204675,
+          "algebraic_degree * nonlinearity": -0.00012521812299996082,
+          "algebraic_degree * autocorrelation_sum": 0.001059571122914612,
+          "algebraic_degree * sensitivity": -2.162121926867852e-06,
+          "algebraic_degree * influence": -1.8390677065667873e-05,
+          "nonlinearity * nonlinearity": 5.6352750995069306e-05,
+          "nonlinearity * autocorrelation_sum": -5.280484706591967e-05,
+          "nonlinearity * influence": 5.0301011090212494e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0017889974596354654,
+          "autocorrelation_sum * sensitivity": 1.545786983916037e-05,
+          "autocorrelation_sum * influence": 2.2045053212142696e-05,
+          "sensitivity * sensitivity": -0.06580029087759323,
+          "sensitivity * influence": -3.3604398299677703e-06,
+          "influence * influence": -7.193413449902305e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.425151491146366e-05,
+            "position": -1.312990585638831
+          },
+          "spectral_entropy": {
+            "activation": -0.08756043942593815,
+            "position": -3.0613697360366574
+          },
+          "run_length": {
+            "activation": 7.02391233902254e-05,
+            "position": 0.08057548301348808
+          },
+          "gzip_ratio": {
+            "activation": 1.4836933109916866e-05,
+            "position": -1.4854970780306906
+          },
+          "algebraic_degree": {
+            "activation": 0.043143458091479354,
+            "position": -0.4054202420685935
+          },
+          "nonlinearity": {
+            "activation": -0.00011617168263990681,
+            "position": -0.09547581749474356
+          },
+          "autocorrelation_sum": {
+            "activation": 0.0010316737710640257,
+            "position": -0.9868146068527961
+          },
+          "sensitivity": {
+            "activation": 0.35483730844387773,
+            "position": -1.6512796039430828
+          },
+          "influence": {
+            "activation": -0.037822303836534815,
+            "position": -2.061666169740141
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.00019123679992243055,
+        "spectral_entropy": 0.15633872778917746,
+        "lz76_complexity": 4.4953172614612445e-05,
+        "run_length": 0.00024204783929036484,
+        "gzip_ratio": 9.490430312999592e-05,
+        "algebraic_degree": 0.0743453701755714,
+        "nonlinearity": 0.0007254257376660818,
+        "autocorrelation_sum": 0.003516769787827329,
+        "sensitivity": 0.6976004266004578,
+        "influence": 0.06690013779434242
+      },
+      "test_spearman_r": 0.592979371547699
+    },
+    {
+      "rank": 6,
+      "spearman_r": 0.5941745638847351,
+      "generation": 7686,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.16480108888002398
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.2350966373238011
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 9.789182399488221e-06,
+          "spectral_entropy": 0.08853945913097933,
+          "lz76_complexity": 2.764012952564138e-06,
+          "run_length": 5.005920021977913e-05,
+          "gzip_ratio": 5.119509168384221e-05,
+          "algebraic_degree": -0.03159411829429277,
+          "nonlinearity": 0.00015015894271830696,
+          "autocorrelation_sum": 9.18246604079026e-06,
+          "sensitivity": -0.3727575744441695,
+          "influence": 0.03807298721538057
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -3.326476732983349e-06,
+          "shannon_entropy * spectral_entropy": -4.279870123527978e-05,
+          "shannon_entropy * run_length": -2.042057465115751e-05,
+          "shannon_entropy * gzip_ratio": -1.5559454518255835e-05,
+          "shannon_entropy * algebraic_degree": -1.4509411776573921e-05,
+          "shannon_entropy * nonlinearity": 9.421692499840852e-06,
+          "shannon_entropy * autocorrelation_sum": 3.3624903492574696e-05,
+          "shannon_entropy * sensitivity": -3.433360047818498e-05,
+          "shannon_entropy * influence": 5.364857778241174e-05,
+          "spectral_entropy * spectral_entropy": -0.0005854192729309253,
+          "spectral_entropy * lz76_complexity": -1.2609012003753864e-05,
+          "spectral_entropy * run_length": -6.024470725373019e-05,
+          "spectral_entropy * gzip_ratio": -1.2598776630733861e-05,
+          "spectral_entropy * algebraic_degree": 0.00024163222418339302,
+          "spectral_entropy * nonlinearity": 0.0007530155402954124,
+          "spectral_entropy * autocorrelation_sum": -0.001096632912688779,
+          "spectral_entropy * sensitivity": -6.86768232602055e-06,
+          "spectral_entropy * influence": 2.1155490084785013e-05,
+          "lz76_complexity * lz76_complexity": 1.1336887023892901e-05,
+          "lz76_complexity * run_length": -8.26408704340611e-06,
+          "lz76_complexity * algebraic_degree": 4.429606818850741e-06,
+          "lz76_complexity * nonlinearity": -9.912304250198907e-06,
+          "lz76_complexity * autocorrelation_sum": -1.492949946878136e-05,
+          "lz76_complexity * sensitivity": -3.533178178287471e-06,
+          "lz76_complexity * influence": -1.652814803886015e-05,
+          "run_length * run_length": -6.449611391498868e-05,
+          "run_length * gzip_ratio": -9.93035462878257e-06,
+          "run_length * algebraic_degree": 2.201298628293745e-05,
+          "run_length * nonlinearity": 7.0749450626278945e-06,
+          "run_length * autocorrelation_sum": -4.136857629178638e-05,
+          "run_length * sensitivity": 1.324559912444041e-05,
+          "run_length * influence": -1.256946333671014e-06,
+          "gzip_ratio * gzip_ratio": -8.421052098905022e-06,
+          "gzip_ratio * algebraic_degree": -1.67666236191234e-06,
+          "gzip_ratio * nonlinearity": 2.734850693669234e-06,
+          "gzip_ratio * autocorrelation_sum": 1.3295567760786611e-05,
+          "gzip_ratio * influence": -1.2408024471515868e-05,
+          "algebraic_degree * algebraic_degree": -0.009052776759441897,
+          "algebraic_degree * nonlinearity": -0.00012653680889414742,
+          "algebraic_degree * autocorrelation_sum": 0.0010726974386826924,
+          "algebraic_degree * sensitivity": -2.2826250479626435e-06,
+          "algebraic_degree * influence": -1.844654254835686e-05,
+          "nonlinearity * nonlinearity": 5.5452978480725064e-05,
+          "nonlinearity * autocorrelation_sum": -5.538782465227295e-05,
+          "nonlinearity * influence": 5.088883434581128e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0018117446759825008,
+          "autocorrelation_sum * sensitivity": 1.6240444125563854e-05,
+          "autocorrelation_sum * influence": 2.1863641320453778e-05,
+          "sensitivity * sensitivity": -0.06580168348695659,
+          "sensitivity * influence": -3.123440076177933e-06,
+          "influence * influence": -7.294777918473845e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.513281128450409e-05,
+            "position": -1.3130037311015528
+          },
+          "spectral_entropy": {
+            "activation": -0.08752471087145759,
+            "position": -3.0613962646740913
+          },
+          "run_length": {
+            "activation": 7.128404816083481e-05,
+            "position": 0.08056054244520466
+          },
+          "gzip_ratio": {
+            "activation": 1.4341721574507709e-05,
+            "position": -1.4855319702187961
+          },
+          "algebraic_degree": {
+            "activation": 0.04310602329823679,
+            "position": -0.4054231694518188
+          },
+          "nonlinearity": {
+            "activation": -0.00011255083565827086,
+            "position": -0.0954619894116246
+          },
+          "autocorrelation_sum": {
+            "activation": 0.0010459983159794427,
+            "position": -0.9867907474640528
+          },
+          "sensitivity": {
+            "activation": 0.3548456555423357,
+            "position": -1.6512762959049359
+          },
+          "influence": {
+            "activation": -0.037795348626761455,
+            "position": -2.061756686911559
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.00019406325626847,
+        "spectral_entropy": 0.1563119935018524,
+        "lz76_complexity": 4.436403787293555e-05,
+        "run_length": 0.00024421802706292534,
+        "gzip_ratio": 9.558675865726677e-05,
+        "algebraic_degree": 0.07430331110379117,
+        "nonlinearity": 0.0007262461055682731,
+        "autocorrelation_sum": 0.0035610233563208365,
+        "sensitivity": 0.6976581579645685,
+        "influence": 0.06686103588803717
+      },
+      "test_spearman_r": 0.5929747819900513
+    },
+    {
+      "rank": 7,
+      "spearman_r": 0.5941745042800903,
+      "generation": 7683,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.16434655818844868
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.23510182769147783
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 1.0981211109398795e-05,
+          "spectral_entropy": 0.08855554905398111,
+          "lz76_complexity": 2.3105281120804847e-06,
+          "run_length": 4.9777992324406024e-05,
+          "gzip_ratio": 4.99755378524971e-05,
+          "algebraic_degree": -0.031611339161113076,
+          "nonlinearity": 0.00014586854620358709,
+          "autocorrelation_sum": 6.957483843669385e-06,
+          "sensitivity": -0.3727516682960174,
+          "influence": 0.038087302068195585
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -2.836935675924199e-06,
+          "shannon_entropy * spectral_entropy": -4.2092560390415146e-05,
+          "shannon_entropy * run_length": -2.007113577437816e-05,
+          "shannon_entropy * gzip_ratio": -1.5682800225515358e-05,
+          "shannon_entropy * algebraic_degree": -1.4341520305712066e-05,
+          "shannon_entropy * nonlinearity": 9.461693135367365e-06,
+          "shannon_entropy * autocorrelation_sum": 3.327906309791262e-05,
+          "shannon_entropy * sensitivity": -3.37969106206905e-05,
+          "shannon_entropy * influence": 5.287026149935851e-05,
+          "spectral_entropy * spectral_entropy": -0.0005802691736971006,
+          "spectral_entropy * lz76_complexity": -1.2669868549624787e-05,
+          "spectral_entropy * run_length": -5.9928288197850146e-05,
+          "spectral_entropy * gzip_ratio": -1.2079903211141882e-05,
+          "spectral_entropy * algebraic_degree": 0.0002394026597877455,
+          "spectral_entropy * nonlinearity": 0.0007465100738340568,
+          "spectral_entropy * autocorrelation_sum": -0.0010864222239484475,
+          "spectral_entropy * sensitivity": -6.71085966969749e-06,
+          "spectral_entropy * influence": 2.0654103735756387e-05,
+          "lz76_complexity * lz76_complexity": 1.0948474125575073e-05,
+          "lz76_complexity * run_length": -8.098818461577346e-06,
+          "lz76_complexity * algebraic_degree": 4.800104353418071e-06,
+          "lz76_complexity * nonlinearity": -1.0594835469639013e-05,
+          "lz76_complexity * autocorrelation_sum": -1.609933765225599e-05,
+          "lz76_complexity * sensitivity": -3.459377713664597e-06,
+          "lz76_complexity * influence": -1.610153327253704e-05,
+          "run_length * run_length": -6.366919125239382e-05,
+          "run_length * gzip_ratio": -1.0043374225755378e-05,
+          "run_length * algebraic_degree": 2.1938263499082663e-05,
+          "run_length * nonlinearity": 6.771578871361309e-06,
+          "run_length * autocorrelation_sum": -4.142592765772697e-05,
+          "run_length * sensitivity": 1.308630943624845e-05,
+          "run_length * influence": -1.2889532144125279e-06,
+          "gzip_ratio * gzip_ratio": -8.319028960944451e-06,
+          "gzip_ratio * algebraic_degree": -1.9406970581991608e-06,
+          "gzip_ratio * nonlinearity": 3.4271215199401884e-06,
+          "gzip_ratio * autocorrelation_sum": 1.4253584853534523e-05,
+          "gzip_ratio * influence": -1.2291716514779732e-05,
+          "algebraic_degree * algebraic_degree": -0.009053674314549027,
+          "algebraic_degree * nonlinearity": -0.0001261052348788477,
+          "algebraic_degree * autocorrelation_sum": 0.0010619120184356475,
+          "algebraic_degree * sensitivity": -2.2326878740020092e-06,
+          "algebraic_degree * influence": -1.831839765850089e-05,
+          "nonlinearity * nonlinearity": 5.307224943771857e-05,
+          "nonlinearity * autocorrelation_sum": -5.5425259266642835e-05,
+          "nonlinearity * influence": 5.041896852418447e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0017950818676430026,
+          "autocorrelation_sum * sensitivity": 1.588840170005947e-05,
+          "autocorrelation_sum * influence": 2.163615870545535e-05,
+          "sensitivity * sensitivity": -0.06580079012341045,
+          "sensitivity * influence": -3.210483969558569e-06,
+          "influence * influence": -7.232524414999743e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.276439193103474e-05,
+            "position": -1.3129953502719682
+          },
+          "spectral_entropy": {
+            "activation": -0.08755035252264103,
+            "position": -3.061381710933712
+          },
+          "lz76_complexity": {
+            "activation": 1.1120303071658036e-06,
+            "position": -0.20047347290168624
+          },
+          "run_length": {
+            "activation": 7.01733095827672e-05,
+            "position": 0.08057398825065737
+          },
+          "gzip_ratio": {
+            "activation": 1.4962445371722913e-05,
+            "position": -1.48551161289319
+          },
+          "algebraic_degree": {
+            "activation": 0.04313542923003181,
+            "position": -0.4054214341033747
+          },
+          "nonlinearity": {
+            "activation": -0.00010623979138376167,
+            "position": -0.09548006383165304
+          },
+          "autocorrelation_sum": {
+            "activation": 0.001038713391357867,
+            "position": -0.9868113073468437
+          },
+          "sensitivity": {
+            "activation": 0.3548398469661572,
+            "position": -1.6512800058414163
+          },
+          "influence": {
+            "activation": -0.03781250570117983,
+            "position": -2.0616851739137356
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.00019156540757216752,
+        "spectral_entropy": 0.15633129828456985,
+        "lz76_complexity": 4.481826818397594e-05,
+        "run_length": 0.00024174879968558188,
+        "gzip_ratio": 9.556527319773808e-05,
+        "algebraic_degree": 0.07433757303137743,
+        "nonlinearity": 0.0007121221022863104,
+        "autocorrelation_sum": 0.0035292688656720682,
+        "sensitivity": 0.6976305271482909,
+        "influence": 0.06688551281916415
+      },
+      "test_spearman_r": 0.5929718613624573
+    },
+    {
+      "rank": 8,
+      "spearman_r": 0.5941743850708008,
+      "generation": 7674,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.16424715123933498
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.23509344462734438
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 1.0682928079103952e-05,
+          "spectral_entropy": 0.08857393110168384,
+          "lz76_complexity": 2.5591541810601386e-06,
+          "run_length": 4.956946112381555e-05,
+          "gzip_ratio": 5.22828107229005e-05,
+          "algebraic_degree": -0.03161011659913423,
+          "nonlinearity": 0.00014668599859387658,
+          "autocorrelation_sum": 6.499409488569424e-06,
+          "sensitivity": -0.3727429023083996,
+          "influence": 0.03810587337922152
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -2.8106331710765226e-06,
+          "shannon_entropy * spectral_entropy": -4.249649392654975e-05,
+          "shannon_entropy * run_length": -1.9869986646059676e-05,
+          "shannon_entropy * gzip_ratio": -1.5674663889826783e-05,
+          "shannon_entropy * algebraic_degree": -1.3837298550572988e-05,
+          "shannon_entropy * nonlinearity": 9.146601540402649e-06,
+          "shannon_entropy * autocorrelation_sum": 3.2178406268654585e-05,
+          "shannon_entropy * sensitivity": -3.361077315058855e-05,
+          "shannon_entropy * influence": 5.254023824372421e-05,
+          "spectral_entropy * spectral_entropy": -0.000576576261715823,
+          "spectral_entropy * lz76_complexity": -1.238674188567301e-05,
+          "spectral_entropy * run_length": -5.949145936420895e-05,
+          "spectral_entropy * gzip_ratio": -1.218097101733281e-05,
+          "spectral_entropy * algebraic_degree": 0.0002373226283558165,
+          "spectral_entropy * nonlinearity": 0.0007446249767827349,
+          "spectral_entropy * autocorrelation_sum": -0.001077526970137902,
+          "spectral_entropy * sensitivity": -7.0510949632628044e-06,
+          "spectral_entropy * influence": 2.0808766854766216e-05,
+          "lz76_complexity * lz76_complexity": 1.08579642530799e-05,
+          "lz76_complexity * run_length": -8.524537664992772e-06,
+          "lz76_complexity * algebraic_degree": 4.348455818918639e-06,
+          "lz76_complexity * nonlinearity": -9.995765559651601e-06,
+          "lz76_complexity * autocorrelation_sum": -1.4738631402413393e-05,
+          "lz76_complexity * sensitivity": -3.298420356019183e-06,
+          "lz76_complexity * influence": -1.6372979965316046e-05,
+          "run_length * run_length": -6.328855818347638e-05,
+          "run_length * gzip_ratio": -9.795544265414374e-06,
+          "run_length * algebraic_degree": 2.175671476898552e-05,
+          "run_length * nonlinearity": 7.014799652453287e-06,
+          "run_length * autocorrelation_sum": -4.0822579167612405e-05,
+          "run_length * sensitivity": 1.2956013595809263e-05,
+          "run_length * influence": -1.2691618609914468e-06,
+          "gzip_ratio * gzip_ratio": -8.31036075609725e-06,
+          "gzip_ratio * algebraic_degree": -1.8625939901758317e-06,
+          "gzip_ratio * nonlinearity": 3.040009802552052e-06,
+          "gzip_ratio * autocorrelation_sum": 1.3394239440124892e-05,
+          "gzip_ratio * influence": -1.1996930501493494e-05,
+          "algebraic_degree * algebraic_degree": -0.00905160421801116,
+          "algebraic_degree * nonlinearity": -0.00012619586999301378,
+          "algebraic_degree * autocorrelation_sum": 0.0010550541714312808,
+          "algebraic_degree * sensitivity": -2.0573036504984595e-06,
+          "algebraic_degree * influence": -1.8218869172725483e-05,
+          "nonlinearity * nonlinearity": 5.4505850360883225e-05,
+          "nonlinearity * autocorrelation_sum": -5.074334171925535e-05,
+          "nonlinearity * influence": 4.996504886160172e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0017820177894764865,
+          "autocorrelation_sum * sensitivity": 1.5521921936849965e-05,
+          "autocorrelation_sum * influence": 2.1186750468169308e-05,
+          "sensitivity * sensitivity": -0.06579902831899025,
+          "sensitivity * influence": -3.208814783294674e-06,
+          "influence * influence": -7.169414558614939e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.266258360323106e-05,
+            "position": -1.3129960904629
+          },
+          "spectral_entropy": {
+            "activation": -0.08757346979649915,
+            "position": -3.0613766514907175
+          },
+          "lz76_complexity": {
+            "activation": 1.3041437286940028e-06,
+            "position": -0.20047061735517885
+          },
+          "run_length": {
+            "activation": 7.009346883907407e-05,
+            "position": 0.08057623558095879
+          },
+          "gzip_ratio": {
+            "activation": 1.2452021430984978e-05,
+            "position": -1.4854976806316689
+          },
+          "algebraic_degree": {
+            "activation": 0.0431361716970409,
+            "position": -0.40541879272058273
+          },
+          "nonlinearity": {
+            "activation": -0.00010827929032457079,
+            "position": -0.09547905643228342
+          },
+          "autocorrelation_sum": {
+            "activation": 0.0010344603040714016,
+            "position": -0.9868175483688588
+          },
+          "sensitivity": {
+            "activation": 0.35483141602810286,
+            "position": -1.651283543399525
+          },
+          "influence": {
+            "activation": -0.03783254760964552,
+            "position": -2.0616682481536683
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.00019018261433721305,
+        "spectral_entropy": 0.1563580326802365,
+        "lz76_complexity": 4.4206682635063436e-05,
+        "run_length": 0.00024065268291716582,
+        "gzip_ratio": 9.46056406377338e-05,
+        "algebraic_degree": 0.07433032184601907,
+        "nonlinearity": 0.0007123571165099029,
+        "autocorrelation_sum": 0.0035025503702417406,
+        "sensitivity": 0.6976091370782865,
+        "influence": 0.0669179532881793
+      },
+      "test_spearman_r": 0.5929760336875916
+    },
+    {
+      "rank": 9,
+      "spearman_r": 0.594174325466156,
+      "generation": 7686,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.1647512670236616
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.23510898822127538
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 1.0124052969070873e-05,
+          "spectral_entropy": 0.08853650169690172,
+          "lz76_complexity": 2.604374962941862e-06,
+          "run_length": 4.974820420600572e-05,
+          "gzip_ratio": 5.0811597289752426e-05,
+          "algebraic_degree": -0.03159690240219947,
+          "nonlinearity": 0.00015282460984051213,
+          "autocorrelation_sum": 1.0421474399408533e-05,
+          "sensitivity": -0.3727594601496109,
+          "influence": 0.03806679000876557
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -3.0980686971567154e-06,
+          "shannon_entropy * spectral_entropy": -4.285586334729837e-05,
+          "shannon_entropy * lz76_complexity": 1.1645442674333698e-06,
+          "shannon_entropy * run_length": -2.0291907473549047e-05,
+          "shannon_entropy * gzip_ratio": -1.590354201368812e-05,
+          "shannon_entropy * algebraic_degree": -1.4585972858595944e-05,
+          "shannon_entropy * nonlinearity": 9.291694062623744e-06,
+          "shannon_entropy * autocorrelation_sum": 3.320634202522007e-05,
+          "shannon_entropy * sensitivity": -3.430916653903256e-05,
+          "shannon_entropy * influence": 5.319210000215516e-05,
+          "spectral_entropy * spectral_entropy": -0.000585940787142675,
+          "spectral_entropy * lz76_complexity": -1.2730445920279145e-05,
+          "spectral_entropy * run_length": -6.0701944547372975e-05,
+          "spectral_entropy * gzip_ratio": -1.261841746161672e-05,
+          "spectral_entropy * algebraic_degree": 0.00024225613294386947,
+          "spectral_entropy * nonlinearity": 0.0007554006408743016,
+          "spectral_entropy * autocorrelation_sum": -0.0010966405692428459,
+          "spectral_entropy * sensitivity": -7.3504515819332725e-06,
+          "spectral_entropy * influence": 2.146432317459643e-05,
+          "lz76_complexity * lz76_complexity": 1.1332122066135753e-05,
+          "lz76_complexity * run_length": -8.624237095930729e-06,
+          "lz76_complexity * algebraic_degree": 4.501299846723543e-06,
+          "lz76_complexity * nonlinearity": -1.0055069814916942e-05,
+          "lz76_complexity * autocorrelation_sum": -1.52729698261942e-05,
+          "lz76_complexity * sensitivity": -3.357947921533069e-06,
+          "lz76_complexity * influence": -1.6463585730409492e-05,
+          "run_length * run_length": -6.467901520781315e-05,
+          "run_length * gzip_ratio": -9.954007796791688e-06,
+          "run_length * algebraic_degree": 2.216714035986087e-05,
+          "run_length * nonlinearity": 6.92988354036198e-06,
+          "run_length * autocorrelation_sum": -4.213959429221232e-05,
+          "run_length * sensitivity": 1.3293389513480826e-05,
+          "run_length * influence": -1.1998038401833338e-06,
+          "gzip_ratio * gzip_ratio": -8.432088527055957e-06,
+          "gzip_ratio * algebraic_degree": -1.9207286460330627e-06,
+          "gzip_ratio * nonlinearity": 2.979144983602811e-06,
+          "gzip_ratio * autocorrelation_sum": 1.3511311882880089e-05,
+          "gzip_ratio * influence": -1.238362879550012e-05,
+          "algebraic_degree * algebraic_degree": -0.00905369925534899,
+          "algebraic_degree * nonlinearity": -0.000126784243487476,
+          "algebraic_degree * autocorrelation_sum": 0.0010742878712858184,
+          "algebraic_degree * sensitivity": -2.199264187571448e-06,
+          "algebraic_degree * influence": -1.8608016331141492e-05,
+          "nonlinearity * nonlinearity": 5.477218152333012e-05,
+          "nonlinearity * autocorrelation_sum": -5.6351158468714e-05,
+          "nonlinearity * sensitivity": -1.021324516760325e-06,
+          "nonlinearity * influence": 5.121425381294044e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.001813847106220436,
+          "autocorrelation_sum * sensitivity": 1.5344438486361987e-05,
+          "autocorrelation_sum * influence": 2.249046063455047e-05,
+          "sensitivity * sensitivity": -0.06580214640591901,
+          "sensitivity * influence": -3.4466794708623124e-06,
+          "influence * influence": -7.29273079353078e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.47930716974421e-05,
+            "position": -1.3130037203257265
+          },
+          "spectral_entropy": {
+            "activation": -0.08751984037863617,
+            "position": -3.0613963315414843
+          },
+          "run_length": {
+            "activation": 7.219500969205179e-05,
+            "position": 0.08056164876724715
+          },
+          "gzip_ratio": {
+            "activation": 1.5027585475654491e-05,
+            "position": -1.4855308243528347
+          },
+          "algebraic_degree": {
+            "activation": 0.043108494857138094,
+            "position": -0.40542370024944097
+          },
+          "nonlinearity": {
+            "activation": -0.00011578672806889111,
+            "position": -0.09545992851519709
+          },
+          "autocorrelation_sum": {
+            "activation": 0.0010479716627332305,
+            "position": -0.986789368341927
+          },
+          "sensitivity": {
+            "activation": 0.3548473895481403,
+            "position": -1.6512756970302005
+          },
+          "influence": {
+            "activation": -0.03778870919731649,
+            "position": -2.061750629990329
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.0001938045288036386,
+        "spectral_entropy": 0.15630597453885797,
+        "lz76_complexity": 4.4900798198281926e-05,
+        "run_length": 0.0002455559792445922,
+        "gzip_ratio": 9.624921009563999e-05,
+        "algebraic_degree": 0.07430936007253405,
+        "nonlinearity": 0.0007327795298432856,
+        "autocorrelation_sum": 0.003567069551236429,
+        "sensitivity": 0.6976547381810966,
+        "influence": 0.06684956761008938
+      },
+      "test_spearman_r": 0.5929751992225647
+    },
+    {
+      "rank": 10,
+      "spearman_r": 0.5941742658615112,
+      "generation": 7665,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.1641420291233774
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.2350973501796544
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 1.1032229619641068e-05,
+          "spectral_entropy": 0.08858618849392802,
+          "lz76_complexity": 2.550235301790573e-06,
+          "run_length": 4.9185534138776155e-05,
+          "gzip_ratio": 5.0442901332122656e-05,
+          "algebraic_degree": -0.0315972911167096,
+          "nonlinearity": 0.00015035655815027668,
+          "autocorrelation_sum": 1.2360821550124622e-05,
+          "sensitivity": -0.3727350230064664,
+          "influence": 0.038099207727956566
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -2.7328513831366426e-06,
+          "shannon_entropy * spectral_entropy": -4.234956735250445e-05,
+          "shannon_entropy * run_length": -1.977819832553001e-05,
+          "shannon_entropy * gzip_ratio": -1.5414614028253615e-05,
+          "shannon_entropy * algebraic_degree": -1.3834367870536796e-05,
+          "shannon_entropy * nonlinearity": 8.479127712248798e-06,
+          "shannon_entropy * autocorrelation_sum": 3.185130777922151e-05,
+          "shannon_entropy * sensitivity": -3.356627554451827e-05,
+          "shannon_entropy * influence": 5.196249187172651e-05,
+          "spectral_entropy * spectral_entropy": -0.0005769964923520739,
+          "spectral_entropy * lz76_complexity": -1.2563915450031228e-05,
+          "spectral_entropy * run_length": -5.939171222927489e-05,
+          "spectral_entropy * gzip_ratio": -1.1404309436075617e-05,
+          "spectral_entropy * algebraic_degree": 0.00023743324763033098,
+          "spectral_entropy * nonlinearity": 0.0007446653400347669,
+          "spectral_entropy * autocorrelation_sum": -0.0010784151689608337,
+          "spectral_entropy * sensitivity": -6.803675936122781e-06,
+          "spectral_entropy * influence": 2.0316712647625634e-05,
+          "lz76_complexity * lz76_complexity": 1.1217253289499508e-05,
+          "lz76_complexity * run_length": -8.209808996069039e-06,
+          "lz76_complexity * algebraic_degree": 4.512862495292645e-06,
+          "lz76_complexity * nonlinearity": -1.0198963603423584e-05,
+          "lz76_complexity * autocorrelation_sum": -1.5398127671466146e-05,
+          "lz76_complexity * sensitivity": -3.5268397443477934e-06,
+          "lz76_complexity * influence": -1.6444958140736656e-05,
+          "run_length * run_length": -6.319829885657661e-05,
+          "run_length * gzip_ratio": -9.943044318831506e-06,
+          "run_length * algebraic_degree": 2.1806508865595058e-05,
+          "run_length * nonlinearity": 6.683162555072237e-06,
+          "run_length * autocorrelation_sum": -4.079583845210888e-05,
+          "run_length * sensitivity": 1.3207046565892593e-05,
+          "run_length * influence": -1.139014762464028e-06,
+          "gzip_ratio * gzip_ratio": -8.171614508582718e-06,
+          "gzip_ratio * algebraic_degree": -2.264585151888754e-06,
+          "gzip_ratio * nonlinearity": 3.5224919713768623e-06,
+          "gzip_ratio * autocorrelation_sum": 1.4940542719444622e-05,
+          "gzip_ratio * influence": -1.1797389472669489e-05,
+          "algebraic_degree * algebraic_degree": -0.00904734864066643,
+          "algebraic_degree * nonlinearity": -0.0001260205172179995,
+          "algebraic_degree * autocorrelation_sum": 0.0010538667075093932,
+          "algebraic_degree * sensitivity": -2.339820361829459e-06,
+          "algebraic_degree * influence": -1.803103826729862e-05,
+          "nonlinearity * nonlinearity": 5.6320679507344485e-05,
+          "nonlinearity * autocorrelation_sum": -4.8914897200275824e-05,
+          "nonlinearity * influence": 5.028894685446898e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0017794042012311002,
+          "autocorrelation_sum * sensitivity": 1.6084180164337764e-05,
+          "autocorrelation_sum * influence": 2.0713427274065975e-05,
+          "sensitivity * sensitivity": -0.06579659772004993,
+          "sensitivity * influence": -3.5510508000006133e-06,
+          "influence * influence": -7.136042539339868e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.197432066379967e-05,
+            "position": -1.3130058777964844
+          },
+          "spectral_entropy": {
+            "activation": -0.0875863754537338,
+            "position": -3.0613962112637108
+          },
+          "lz76_complexity": {
+            "activation": 1.1605554236235068e-06,
+            "position": -0.200471358348486
+          },
+          "run_length": {
+            "activation": 7.025722830377645e-05,
+            "position": 0.08057901505195487
+          },
+          "gzip_ratio": {
+            "activation": 1.4035285895917204e-05,
+            "position": -1.485490207104782
+          },
+          "algebraic_degree": {
+            "activation": 0.04311785150170513,
+            "position": -0.40542227197324077
+          },
+          "nonlinearity": {
+            "activation": -0.00011599917451948765,
+            "position": -0.09547114893894625
+          },
+          "autocorrelation_sum": {
+            "activation": 0.0010277241742743758,
+            "position": -0.986809966918582
+          },
+          "sensitivity": {
+            "activation": 0.3548241155136003,
+            "position": -1.6512979688689662
+          },
+          "influence": {
+            "activation": -0.0378265965580377,
+            "position": -2.0616629169019665
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.00018880634429149708,
+        "spectral_entropy": 0.15638480578268613,
+        "lz76_complexity": 4.495219473793079e-05,
+        "run_length": 0.00024014644090963674,
+        "gzip_ratio": 9.509346221509418e-05,
+        "algebraic_degree": 0.0743011031417925,
+        "nonlinearity": 0.0007231326371326759,
+        "autocorrelation_sum": 0.0034995022737516006,
+        "sensitivity": 0.697614539020163,
+        "influence": 0.0669079187023199
+      },
+      "test_spearman_r": 0.5929796695709229
+    },
+    {
+      "rank": 11,
+      "spearman_r": 0.5941742658615112,
+      "generation": 7684,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.1646319686872324
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.23505312921712185
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 1.1076611243346904e-05,
+          "spectral_entropy": 0.08853403404107732,
+          "lz76_complexity": 1.9348023630093744e-06,
+          "run_length": 4.9882600978378696e-05,
+          "gzip_ratio": 5.248883748873909e-05,
+          "algebraic_degree": -0.03157948312843116,
+          "nonlinearity": 0.00015247068289292386,
+          "autocorrelation_sum": 1.1353525904360036e-05,
+          "sensitivity": -0.37275340599029083,
+          "influence": 0.038079455432231964
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -3.092443502709447e-06,
+          "shannon_entropy * spectral_entropy": -4.298160746866627e-05,
+          "shannon_entropy * run_length": -2.015069733261258e-05,
+          "shannon_entropy * gzip_ratio": -1.5873808265723376e-05,
+          "shannon_entropy * algebraic_degree": -1.4164509682265358e-05,
+          "shannon_entropy * nonlinearity": 9.213521692869734e-06,
+          "shannon_entropy * autocorrelation_sum": 3.244134404789128e-05,
+          "shannon_entropy * sensitivity": -3.415177775215254e-05,
+          "shannon_entropy * influence": 5.3337546426674166e-05,
+          "spectral_entropy * spectral_entropy": -0.0005837792332238714,
+          "spectral_entropy * lz76_complexity": -1.2709751780557774e-05,
+          "spectral_entropy * run_length": -6.062905621091747e-05,
+          "spectral_entropy * gzip_ratio": -1.2451543454211505e-05,
+          "spectral_entropy * algebraic_degree": 0.00024064744147850016,
+          "spectral_entropy * nonlinearity": 0.0007521998169489893,
+          "spectral_entropy * autocorrelation_sum": -0.001092501608028003,
+          "spectral_entropy * sensitivity": -7.177123800917166e-06,
+          "spectral_entropy * influence": 2.1293026973984005e-05,
+          "lz76_complexity * lz76_complexity": 1.0957773092555073e-05,
+          "lz76_complexity * run_length": -8.473054651395602e-06,
+          "lz76_complexity * algebraic_degree": 4.565167543651203e-06,
+          "lz76_complexity * nonlinearity": -9.832373594731538e-06,
+          "lz76_complexity * autocorrelation_sum": -1.5245708349195847e-05,
+          "lz76_complexity * sensitivity": -3.4640541977823745e-06,
+          "lz76_complexity * influence": -1.634139210369887e-05,
+          "run_length * run_length": -6.42847636109377e-05,
+          "run_length * gzip_ratio": -9.945437536405929e-06,
+          "run_length * algebraic_degree": 2.2190676043447388e-05,
+          "run_length * nonlinearity": 6.794128972392445e-06,
+          "run_length * autocorrelation_sum": -4.194636203780696e-05,
+          "run_length * sensitivity": 1.3329159658074588e-05,
+          "run_length * influence": -1.5172590804008254e-06,
+          "gzip_ratio * gzip_ratio": -8.327720976147273e-06,
+          "gzip_ratio * algebraic_degree": -1.831716511576361e-06,
+          "gzip_ratio * nonlinearity": 2.835886617511301e-06,
+          "gzip_ratio * autocorrelation_sum": 1.3609804978357914e-05,
+          "gzip_ratio * influence": -1.2429553305783483e-05,
+          "algebraic_degree * algebraic_degree": -0.009047574265436665,
+          "algebraic_degree * nonlinearity": -0.00012668760793323568,
+          "algebraic_degree * autocorrelation_sum": 0.0010686287529256418,
+          "algebraic_degree * sensitivity": -2.014003437238623e-06,
+          "algebraic_degree * influence": -1.8862228058532264e-05,
+          "nonlinearity * nonlinearity": 5.5439807230962415e-05,
+          "nonlinearity * autocorrelation_sum": -5.5087300765128693e-05,
+          "nonlinearity * influence": 5.09400265583081e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0018054978127190829,
+          "autocorrelation_sum * sensitivity": 1.542059851286923e-05,
+          "autocorrelation_sum * influence": 2.2309966098913406e-05,
+          "sensitivity * sensitivity": -0.06580133723173735,
+          "sensitivity * influence": -3.096889137410478e-06,
+          "influence * influence": -7.262913809058408e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.344425791072397e-05,
+            "position": -1.3130109033046335
+          },
+          "spectral_entropy": {
+            "activation": -0.08752173715483952,
+            "position": -3.0613999708879964
+          },
+          "lz76_complexity": {
+            "activation": 1.7568041054411098e-06,
+            "position": -0.2004927560064324
+          },
+          "run_length": {
+            "activation": 7.172694302032957e-05,
+            "position": 0.08054623510635768
+          },
+          "gzip_ratio": {
+            "activation": 1.305787874211431e-05,
+            "position": -1.48554266757395
+          },
+          "algebraic_degree": {
+            "activation": 0.04308672246161025,
+            "position": -0.4054233113787596
+          },
+          "nonlinearity": {
+            "activation": -0.00011631485536242673,
+            "position": -0.09545475950406052
+          },
+          "autocorrelation_sum": {
+            "activation": 0.0010417055866962354,
+            "position": -0.9867819867353238
+          },
+          "sensitivity": {
+            "activation": 0.35484137188660175,
+            "position": -1.6512686893512891
+          },
+          "influence": {
+            "activation": -0.03780274192981979,
+            "position": -2.061808583355164
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.0001926667876491894,
+        "spectral_entropy": 0.15630888355925246,
+        "lz76_complexity": 4.4398699092171594e-05,
+        "run_length": 0.00024478739574735665,
+        "gzip_ratio": 9.578130770647853e-05,
+        "algebraic_degree": 0.07427061445037535,
+        "nonlinearity": 0.0007310104356530931,
+        "autocorrelation_sum": 0.0035499539841917466,
+        "sensitivity": 0.6976852244739906,
+        "influence": 0.06687667890634157
+      },
+      "test_spearman_r": 0.5929765701293945
+    },
+    {
+      "rank": 12,
+      "spearman_r": 0.5941742062568665,
+      "generation": 7684,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.16434316360718515
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.23507586504195258
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 1.0695152009936294e-05,
+          "spectral_entropy": 0.08856105471828543,
+          "lz76_complexity": 2.458525687818673e-06,
+          "run_length": 4.9432178589445814e-05,
+          "gzip_ratio": 4.996381575887732e-05,
+          "algebraic_degree": -0.0315969300800341,
+          "nonlinearity": 0.0001454927782326781,
+          "autocorrelation_sum": 7.3509677570773886e-06,
+          "sensitivity": -0.3727464261297004,
+          "influence": 0.03809064885526798
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -3.081728497708264e-06,
+          "shannon_entropy * spectral_entropy": -4.2627903648996136e-05,
+          "shannon_entropy * run_length": -1.992126743986945e-05,
+          "shannon_entropy * gzip_ratio": -1.5895266605486924e-05,
+          "shannon_entropy * algebraic_degree": -1.4057687501016299e-05,
+          "shannon_entropy * nonlinearity": 9.058938859566227e-06,
+          "shannon_entropy * autocorrelation_sum": 3.245557917734885e-05,
+          "shannon_entropy * sensitivity": -3.38137913841807e-05,
+          "shannon_entropy * influence": 5.290427578578492e-05,
+          "spectral_entropy * spectral_entropy": -0.0005790706108829333,
+          "spectral_entropy * lz76_complexity": -1.2682025096358976e-05,
+          "spectral_entropy * run_length": -6.0322712882883194e-05,
+          "spectral_entropy * gzip_ratio": -1.234505875805266e-05,
+          "spectral_entropy * algebraic_degree": 0.0002391021860000389,
+          "spectral_entropy * nonlinearity": 0.0007458011491724272,
+          "spectral_entropy * autocorrelation_sum": -0.0010840082877791894,
+          "spectral_entropy * sensitivity": -7.490858691916667e-06,
+          "spectral_entropy * influence": 2.160591737700263e-05,
+          "lz76_complexity * lz76_complexity": 1.1253666808894873e-05,
+          "lz76_complexity * run_length": -8.418434259127287e-06,
+          "lz76_complexity * algebraic_degree": 4.6303037408348255e-06,
+          "lz76_complexity * nonlinearity": -9.800617638680408e-06,
+          "lz76_complexity * autocorrelation_sum": -1.5376345509353607e-05,
+          "lz76_complexity * sensitivity": -3.208011555366175e-06,
+          "lz76_complexity * influence": -1.6081602931767658e-05,
+          "run_length * run_length": -6.378695029587719e-05,
+          "run_length * gzip_ratio": -9.93977746513583e-06,
+          "run_length * algebraic_degree": 2.225350707185862e-05,
+          "run_length * nonlinearity": 6.470415422735942e-06,
+          "run_length * autocorrelation_sum": -4.22946576962477e-05,
+          "run_length * sensitivity": 1.31045717975264e-05,
+          "run_length * influence": -1.2267810346385155e-06,
+          "gzip_ratio * gzip_ratio": -8.181006521065568e-06,
+          "gzip_ratio * algebraic_degree": -1.7134020882714966e-06,
+          "gzip_ratio * nonlinearity": 2.7172547608686725e-06,
+          "gzip_ratio * autocorrelation_sum": 1.3229777863376475e-05,
+          "gzip_ratio * influence": -1.2180744195758339e-05,
+          "algebraic_degree * algebraic_degree": -0.009049090703733331,
+          "algebraic_degree * nonlinearity": -0.00012587609794909935,
+          "algebraic_degree * autocorrelation_sum": 0.0010602187533035976,
+          "algebraic_degree * sensitivity": -1.9453658975061017e-06,
+          "algebraic_degree * influence": -1.8658525892715924e-05,
+          "nonlinearity * nonlinearity": 5.375697456960987e-05,
+          "nonlinearity * autocorrelation_sum": -5.360576412445629e-05,
+          "nonlinearity * influence": 5.0595721012408983e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0017908851701905618,
+          "autocorrelation_sum * sensitivity": 1.4979316398131397e-05,
+          "autocorrelation_sum * influence": 2.2697512801339813e-05,
+          "sensitivity * sensitivity": -0.06579968717139018,
+          "sensitivity * influence": -3.1039859886394047e-06,
+          "influence * influence": -7.214331831698832e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.29934904896593e-05,
+            "position": -1.3130029772688838
+          },
+          "spectral_entropy": {
+            "activation": -0.08755757084888798,
+            "position": -3.061390302386065
+          },
+          "run_length": {
+            "activation": 7.083161979377815e-05,
+            "position": 0.080569532671502
+          },
+          "gzip_ratio": {
+            "activation": 1.495934035745698e-05,
+            "position": -1.4855148186661082
+          },
+          "algebraic_degree": {
+            "activation": 0.04311656516746695,
+            "position": -0.40542295573290693
+          },
+          "nonlinearity": {
+            "activation": -0.00010699013421594439,
+            "position": -0.09547341273239486
+          },
+          "autocorrelation_sum": {
+            "activation": 0.0010359084700465443,
+            "position": -0.9868046030188895
+          },
+          "sensitivity": {
+            "activation": 0.3548348982612707,
+            "position": -1.6512829314706516
+          },
+          "influence": {
+            "activation": -0.03781657706389324,
+            "position": -2.0617107163190203
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.00019135194694504742,
+        "spectral_entropy": 0.15634716431494364,
+        "lz76_complexity": 4.452404383502718e-05,
+        "run_length": 0.00024270762008544801,
+        "gzip_ratio": 9.473123770780235e-05,
+        "algebraic_degree": 0.07430599797242332,
+        "nonlinearity": 0.0007110449788671688,
+        "autocorrelation_sum": 0.0035203058287734358,
+        "sensitivity": 0.6976467574668203,
+        "influence": 0.06689541458959898
+      },
+      "test_spearman_r": 0.592976987361908
+    },
+    {
+      "rank": 13,
+      "spearman_r": 0.5941742658615112,
+      "generation": 7687,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.16451577094551129
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.235009565333844
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 1.0362767241298704e-05,
+          "spectral_entropy": 0.08853236149927439,
+          "lz76_complexity": 2.2070978212475586e-06,
+          "run_length": 5.016891446422764e-05,
+          "gzip_ratio": 5.1838454225343205e-05,
+          "algebraic_degree": -0.0315635255087455,
+          "nonlinearity": 0.00015267045814423258,
+          "autocorrelation_sum": 1.0813142555546031e-05,
+          "sensitivity": -0.37274904813328813,
+          "influence": 0.03809231347774564
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -3.00721239553225e-06,
+          "shannon_entropy * spectral_entropy": -4.318535466330136e-05,
+          "shannon_entropy * run_length": -2.0234273357563778e-05,
+          "shannon_entropy * gzip_ratio": -1.577577046230836e-05,
+          "shannon_entropy * algebraic_degree": -1.3870605740175715e-05,
+          "shannon_entropy * nonlinearity": 9.117890339156368e-06,
+          "shannon_entropy * autocorrelation_sum": 3.2166233272870614e-05,
+          "shannon_entropy * sensitivity": -3.399422349120613e-05,
+          "shannon_entropy * influence": 5.327508333068527e-05,
+          "spectral_entropy * spectral_entropy": -0.0005826516966101184,
+          "spectral_entropy * lz76_complexity": -1.2515030524765092e-05,
+          "spectral_entropy * run_length": -6.010052246518857e-05,
+          "spectral_entropy * gzip_ratio": -1.2749969996258575e-05,
+          "spectral_entropy * algebraic_degree": 0.00024042295550391718,
+          "spectral_entropy * nonlinearity": 0.0007500366819795867,
+          "spectral_entropy * autocorrelation_sum": -0.0010906487315392051,
+          "spectral_entropy * sensitivity": -7.09670097216928e-06,
+          "spectral_entropy * influence": 2.114501960304552e-05,
+          "lz76_complexity * lz76_complexity": 1.1299295078638222e-05,
+          "lz76_complexity * run_length": -8.364037362301654e-06,
+          "lz76_complexity * algebraic_degree": 4.524325705938099e-06,
+          "lz76_complexity * nonlinearity": -9.737664091112586e-06,
+          "lz76_complexity * autocorrelation_sum": -1.504836281821652e-05,
+          "lz76_complexity * sensitivity": -3.4263093035485196e-06,
+          "lz76_complexity * influence": -1.6420360543355695e-05,
+          "run_length * run_length": -6.414381252029065e-05,
+          "run_length * gzip_ratio": -9.991463550432903e-06,
+          "run_length * algebraic_degree": 2.1705627299069185e-05,
+          "run_length * nonlinearity": 7.098789264618197e-06,
+          "run_length * autocorrelation_sum": -4.128300218532151e-05,
+          "run_length * sensitivity": 1.3133690867196399e-05,
+          "run_length * influence": -1.0357223177239727e-06,
+          "gzip_ratio * gzip_ratio": -8.280420961423718e-06,
+          "gzip_ratio * algebraic_degree": -1.6604053962204699e-06,
+          "gzip_ratio * nonlinearity": 2.5069626649927815e-06,
+          "gzip_ratio * autocorrelation_sum": 1.28051765661342e-05,
+          "gzip_ratio * influence": -1.2409546655531982e-05,
+          "algebraic_degree * algebraic_degree": -0.009041975668365173,
+          "algebraic_degree * nonlinearity": -0.00012600829318632528,
+          "algebraic_degree * autocorrelation_sum": 0.001066175188388268,
+          "algebraic_degree * sensitivity": -2.143755393128899e-06,
+          "algebraic_degree * influence": -1.8300693840308024e-05,
+          "nonlinearity * nonlinearity": 5.626291214573574e-05,
+          "nonlinearity * autocorrelation_sum": -5.4162904722701684e-05,
+          "nonlinearity * influence": 5.0687008521448376e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0018009289629067253,
+          "autocorrelation_sum * sensitivity": 1.5441520436937147e-05,
+          "autocorrelation_sum * influence": 2.180555684659877e-05,
+          "sensitivity * sensitivity": -0.06580088408347158,
+          "sensitivity * influence": -3.2403994777375294e-06,
+          "influence * influence": -7.262658607638487e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.387862273621317e-05,
+            "position": -1.3130179580150625
+          },
+          "spectral_entropy": {
+            "activation": -0.08752283222274634,
+            "position": -3.0614018272357644
+          },
+          "lz76_complexity": {
+            "activation": 1.0858750318924754e-06,
+            "position": -0.2005014863721584
+          },
+          "run_length": {
+            "activation": 7.050193122017608e-05,
+            "position": 0.08053520932745109
+          },
+          "gzip_ratio": {
+            "activation": 1.3364686949562487e-05,
+            "position": -1.4855503358918996
+          },
+          "algebraic_degree": {
+            "activation": 0.04306567491781684,
+            "position": -0.4054220535941496
+          },
+          "nonlinearity": {
+            "activation": -0.00011769559403825071,
+            "position": -0.09544590053834551
+          },
+          "autocorrelation_sum": {
+            "activation": 0.0010391850469371488,
+            "position": -0.986772334185105
+          },
+          "sensitivity": {
+            "activation": 0.35483703999726535,
+            "position": -1.651263806482961
+          },
+          "influence": {
+            "activation": -0.037816084739596106,
+            "position": -2.0618616622167423
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.00019209667341896924,
+        "spectral_entropy": 0.15631186892600885,
+        "lz76_complexity": 4.41849809549723e-05,
+        "run_length": 0.00024295627184418256,
+        "gzip_ratio": 9.506924935357594e-05,
+        "algebraic_degree": 0.07423415943495021,
+        "nonlinearity": 0.000731412573954782,
+        "autocorrelation_sum": 0.0035400277255111497,
+        "sensitivity": 0.6977065016902733,
+        "influence": 0.06690172247373012
+      },
+      "test_spearman_r": 0.5929728150367737
+    },
+    {
+      "rank": 14,
+      "spearman_r": 0.5941740870475769,
+      "generation": 7682,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.16427650412711226
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.23517111979077102
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 1.138069361783235e-05,
+          "spectral_entropy": 0.08857281702172778,
+          "lz76_complexity": 2.240528056077043e-06,
+          "run_length": 4.912174923667567e-05,
+          "gzip_ratio": 5.081003649031865e-05,
+          "algebraic_degree": -0.03164023750364825,
+          "nonlinearity": 0.00014815347408296474,
+          "autocorrelation_sum": 7.585818587725068e-06,
+          "sensitivity": -0.37275136431284484,
+          "influence": 0.03808772964662478
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -2.9732893224717944e-06,
+          "shannon_entropy * spectral_entropy": -4.26656324634774e-05,
+          "shannon_entropy * run_length": -1.9990643272516875e-05,
+          "shannon_entropy * gzip_ratio": -1.537243877616641e-05,
+          "shannon_entropy * algebraic_degree": -1.4076482844915487e-05,
+          "shannon_entropy * nonlinearity": 9.554519731213686e-06,
+          "shannon_entropy * autocorrelation_sum": 3.2422619671072846e-05,
+          "shannon_entropy * sensitivity": -3.40731904773485e-05,
+          "shannon_entropy * influence": 5.283354371651896e-05,
+          "spectral_entropy * spectral_entropy": -0.0005793574023622225,
+          "spectral_entropy * lz76_complexity": -1.2714233119066425e-05,
+          "spectral_entropy * run_length": -5.9873482262610306e-05,
+          "spectral_entropy * gzip_ratio": -1.2226473073549402e-05,
+          "spectral_entropy * algebraic_degree": 0.00023868177750789222,
+          "spectral_entropy * nonlinearity": 0.0007455631424038478,
+          "spectral_entropy * autocorrelation_sum": -0.0010837393839668473,
+          "spectral_entropy * sensitivity": -7.128950160379889e-06,
+          "spectral_entropy * influence": 2.04124401610078e-05,
+          "lz76_complexity * lz76_complexity": 1.102860627420956e-05,
+          "lz76_complexity * run_length": -8.115762739206404e-06,
+          "lz76_complexity * algebraic_degree": 4.618742938256375e-06,
+          "lz76_complexity * nonlinearity": -9.895978916621433e-06,
+          "lz76_complexity * autocorrelation_sum": -1.5309478810324653e-05,
+          "lz76_complexity * sensitivity": -3.4548356485997875e-06,
+          "lz76_complexity * influence": -1.6171419958693605e-05,
+          "run_length * run_length": -6.373869916805206e-05,
+          "run_length * gzip_ratio": -9.966992190128626e-06,
+          "run_length * algebraic_degree": 2.180403922126196e-05,
+          "run_length * nonlinearity": 7.1159344605203315e-06,
+          "run_length * autocorrelation_sum": -4.1151902264360365e-05,
+          "run_length * sensitivity": 1.2956484861692042e-05,
+          "run_length * influence": -1.2902641441956694e-06,
+          "gzip_ratio * gzip_ratio": -8.138191980301423e-06,
+          "gzip_ratio * algebraic_degree": -1.7779303726958257e-06,
+          "gzip_ratio * nonlinearity": 2.8630685591844026e-06,
+          "gzip_ratio * autocorrelation_sum": 1.3566060867905744e-05,
+          "gzip_ratio * influence": -1.2355678132181838e-05,
+          "algebraic_degree * algebraic_degree": -0.009060787047182474,
+          "algebraic_degree * nonlinearity": -0.00012580448327286726,
+          "algebraic_degree * autocorrelation_sum": 0.0010591521662845018,
+          "algebraic_degree * sensitivity": -1.8922602049568933e-06,
+          "algebraic_degree * influence": -1.8317696015846284e-05,
+          "nonlinearity * nonlinearity": 5.5027528562962875e-05,
+          "nonlinearity * autocorrelation_sum": -5.3850999987635274e-05,
+          "nonlinearity * sensitivity": -1.0777197553305862e-06,
+          "nonlinearity * influence": 5.0450043082794303e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.00179006061095608,
+          "autocorrelation_sum * sensitivity": 1.4903956914260722e-05,
+          "autocorrelation_sum * influence": 2.1496694144076886e-05,
+          "sensitivity * sensitivity": -0.06580021594090542,
+          "sensitivity * influence": -2.8611384304401627e-06,
+          "influence * influence": -7.211670332929e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.184608490843086e-05,
+            "position": -1.3129795154160002
+          },
+          "spectral_entropy": {
+            "activation": -0.08756982477092362,
+            "position": -3.061362672492592
+          },
+          "lz76_complexity": {
+            "activation": 1.2903562053850487e-06,
+            "position": -0.20045774019848686
+          },
+          "run_length": {
+            "activation": 7.116648934511417e-05,
+            "position": 0.08059668110317222
+          },
+          "gzip_ratio": {
+            "activation": 1.3958975274402298e-05,
+            "position": -1.4854778237257615
+          },
+          "algebraic_degree": {
+            "activation": 0.0431761172478249,
+            "position": -0.4054212573092996
+          },
+          "nonlinearity": {
+            "activation": -0.00011204596875665189,
+            "position": -0.09549152795283164
+          },
+          "autocorrelation_sum": {
+            "activation": 0.0010351015661236238,
+            "position": -0.9868324915958474
+          },
+          "sensitivity": {
+            "activation": 0.35483953291355075,
+            "position": -1.651288832035831
+          },
+          "influence": {
+            "activation": -0.03781360857332038,
+            "position": -2.0615750989302346
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.00019078593222655703,
+        "spectral_entropy": 0.15634741818915246,
+        "lz76_complexity": 4.428155925227716e-05,
+        "run_length": 0.0002419145252187731,
+        "gzip_ratio": 9.47970095262907e-05,
+        "algebraic_degree": 0.07439627724082085,
+        "nonlinearity": 0.0007194450036339457,
+        "autocorrelation_sum": 0.0035171934249372447,
+        "sensitivity": 0.6975674050184307,
+        "influence": 0.06688048209680099
+      },
+      "test_spearman_r": 0.5929756164550781
+    },
+    {
+      "rank": 15,
+      "spearman_r": 0.5941741466522217,
+      "generation": 7682,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.16434819895408392
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.23510906923362984
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 1.0761085665971337e-05,
+          "spectral_entropy": 0.08856603901857055,
+          "lz76_complexity": 2.3764004660115396e-06,
+          "run_length": 4.944143913089943e-05,
+          "gzip_ratio": 5.0719231358756805e-05,
+          "algebraic_degree": -0.031610168915413385,
+          "nonlinearity": 0.00014584504900786127,
+          "autocorrelation_sum": 8.034370012373158e-06,
+          "sensitivity": -0.3727473663317627,
+          "influence": 0.038087093509125446
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -3.1117189129633647e-06,
+          "shannon_entropy * spectral_entropy": -4.2372771134935834e-05,
+          "shannon_entropy * run_length": -2.001623324335652e-05,
+          "shannon_entropy * gzip_ratio": -1.5730078820468656e-05,
+          "shannon_entropy * algebraic_degree": -1.3973420719015009e-05,
+          "shannon_entropy * nonlinearity": 9.316033260975644e-06,
+          "shannon_entropy * autocorrelation_sum": 3.2514479974831426e-05,
+          "shannon_entropy * sensitivity": -3.3925986391052176e-05,
+          "shannon_entropy * influence": 5.291856020820406e-05,
+          "spectral_entropy * spectral_entropy": -0.0005792979226095024,
+          "spectral_entropy * lz76_complexity": -1.2582532824563709e-05,
+          "spectral_entropy * run_length": -5.988925103392791e-05,
+          "spectral_entropy * gzip_ratio": -1.2317043553441597e-05,
+          "spectral_entropy * algebraic_degree": 0.00023895537723611746,
+          "spectral_entropy * nonlinearity": 0.0007451212533515662,
+          "spectral_entropy * autocorrelation_sum": -0.001085058752116948,
+          "spectral_entropy * sensitivity": -6.9943907110187535e-06,
+          "spectral_entropy * influence": 2.111683697747554e-05,
+          "lz76_complexity * lz76_complexity": 1.1295031425215496e-05,
+          "lz76_complexity * run_length": -8.205198457490755e-06,
+          "lz76_complexity * algebraic_degree": 4.465103977537752e-06,
+          "lz76_complexity * nonlinearity": -9.832232257593236e-06,
+          "lz76_complexity * autocorrelation_sum": -1.5010551213882373e-05,
+          "lz76_complexity * sensitivity": -3.5030566842217816e-06,
+          "lz76_complexity * influence": -1.6190923427720885e-05,
+          "run_length * run_length": -6.370473606207396e-05,
+          "run_length * gzip_ratio": -9.886448620555785e-06,
+          "run_length * algebraic_degree": 2.1810724104772528e-05,
+          "run_length * nonlinearity": 6.901575172948477e-06,
+          "run_length * autocorrelation_sum": -4.13980173581336e-05,
+          "run_length * sensitivity": 1.3200830061805032e-05,
+          "run_length * influence": -1.2628755435950319e-06,
+          "gzip_ratio * gzip_ratio": -8.361189539647512e-06,
+          "gzip_ratio * algebraic_degree": -1.7705600301254008e-06,
+          "gzip_ratio * nonlinearity": 3.062411691667165e-06,
+          "gzip_ratio * autocorrelation_sum": 1.3497355077237142e-05,
+          "gzip_ratio * influence": -1.2222876004181734e-05,
+          "algebraic_degree * algebraic_degree": -0.009052696356008055,
+          "algebraic_degree * nonlinearity": -0.0001258649573815038,
+          "algebraic_degree * autocorrelation_sum": 0.0010600463052781626,
+          "algebraic_degree * sensitivity": -2.1556548642960754e-06,
+          "algebraic_degree * influence": -1.86207760393556e-05,
+          "nonlinearity * nonlinearity": 5.3210501963485555e-05,
+          "nonlinearity * autocorrelation_sum": -5.524751240329483e-05,
+          "nonlinearity * influence": 5.0435784847169305e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0017920795383758058,
+          "autocorrelation_sum * sensitivity": 1.5619799721101885e-05,
+          "autocorrelation_sum * influence": 2.2244077967911335e-05,
+          "sensitivity * sensitivity": -0.06579990566220328,
+          "sensitivity * influence": -3.105658508121768e-06,
+          "influence * influence": -7.231687664198427e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.279936719088064e-05,
+            "position": -1.31299724379186
+          },
+          "spectral_entropy": {
+            "activation": -0.08756294901028523,
+            "position": -3.0613873467942865
+          },
+          "lz76_complexity": {
+            "activation": 1.0693488539994376e-06,
+            "position": -0.20047305430393386
+          },
+          "run_length": {
+            "activation": 7.049341318454572e-05,
+            "position": 0.08058130125160125
+          },
+          "gzip_ratio": {
+            "activation": 1.4134076363509568e-05,
+            "position": -1.4855036711094545
+          },
+          "algebraic_degree": {
+            "activation": 0.04313540546143635,
+            "position": -0.40542246213022937
+          },
+          "nonlinearity": {
+            "activation": -0.00010705044658297477,
+            "position": -0.09547942156918798
+          },
+          "autocorrelation_sum": {
+            "activation": 0.0010349602256506851,
+            "position": -0.9868134143352676
+          },
+          "sensitivity": {
+            "activation": 0.354835806614827,
+            "position": -1.6512869219276862
+          },
+          "influence": {
+            "activation": -0.03781263198513845,
+            "position": -2.0616589863400194
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.0001912103810350567,
+        "spectral_entropy": 0.1563501015577811,
+        "lz76_complexity": 4.430157961454573e-05,
+        "run_length": 0.00024173017115466664,
+        "gzip_ratio": 9.510881867628782e-05,
+        "algebraic_degree": 0.07433432590613069,
+        "nonlinearity": 0.0007116576421681314,
+        "autocorrelation_sum": 0.0035217737465148558,
+        "sensitivity": 0.6976236599759382,
+        "influence": 0.06688613022098655
+      },
+      "test_spearman_r": 0.5929738283157349
+    },
+    {
+      "rank": 16,
+      "spearman_r": 0.5941741466522217,
+      "generation": 7688,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.16440464589379455
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.23511880967005952
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 7.565777588835841e-06,
+          "spectral_entropy": 0.08857037099352112,
+          "lz76_complexity": 2.4726874214382e-06,
+          "run_length": 4.991139073533091e-05,
+          "gzip_ratio": 5.186418397123348e-05,
+          "algebraic_degree": -0.03160548512911433,
+          "nonlinearity": 0.00015041004724076912,
+          "autocorrelation_sum": 1.0540371085504826e-05,
+          "sensitivity": -0.3727473021731136,
+          "influence": 0.038085954302823556
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -3.5157096159518087e-06,
+          "shannon_entropy * spectral_entropy": -4.242642345991227e-05,
+          "shannon_entropy * run_length": -1.9955640051234247e-05,
+          "shannon_entropy * gzip_ratio": -1.583125042895556e-05,
+          "shannon_entropy * algebraic_degree": -1.4301715894308978e-05,
+          "shannon_entropy * nonlinearity": 9.266705639268434e-06,
+          "shannon_entropy * autocorrelation_sum": 3.2849680241710166e-05,
+          "shannon_entropy * sensitivity": -3.3725134311725146e-05,
+          "shannon_entropy * influence": 5.313716057890286e-05,
+          "spectral_entropy * spectral_entropy": -0.0005805933459251064,
+          "spectral_entropy * lz76_complexity": -1.2632172068284353e-05,
+          "spectral_entropy * run_length": -6.013571548416655e-05,
+          "spectral_entropy * gzip_ratio": -1.2557497488902223e-05,
+          "spectral_entropy * algebraic_degree": 0.00023936179500836256,
+          "spectral_entropy * nonlinearity": 0.0007473985144401922,
+          "spectral_entropy * autocorrelation_sum": -0.0010856314522141345,
+          "spectral_entropy * sensitivity": -6.806334331439086e-06,
+          "spectral_entropy * influence": 2.0831072519863e-05,
+          "lz76_complexity * lz76_complexity": 1.1290354358555527e-05,
+          "lz76_complexity * run_length": -8.520020171575115e-06,
+          "lz76_complexity * algebraic_degree": 4.547801279521118e-06,
+          "lz76_complexity * nonlinearity": -9.501475406293355e-06,
+          "lz76_complexity * autocorrelation_sum": -1.4892121004571825e-05,
+          "lz76_complexity * sensitivity": -3.405938584709087e-06,
+          "lz76_complexity * influence": -1.6047549203081234e-05,
+          "run_length * run_length": -6.365063607339596e-05,
+          "run_length * gzip_ratio": -9.945357517526396e-06,
+          "run_length * algebraic_degree": 2.2056157380919278e-05,
+          "run_length * nonlinearity": 6.771452139511107e-06,
+          "run_length * autocorrelation_sum": -4.158669699592365e-05,
+          "run_length * sensitivity": 1.3050160995512522e-05,
+          "run_length * influence": -1.32045397224082e-06,
+          "gzip_ratio * gzip_ratio": -8.202728246101696e-06,
+          "gzip_ratio * algebraic_degree": -1.6459194269660167e-06,
+          "gzip_ratio * nonlinearity": 2.7260724455824715e-06,
+          "gzip_ratio * autocorrelation_sum": 1.3021698862199767e-05,
+          "gzip_ratio * influence": -1.2212533429808162e-05,
+          "algebraic_degree * algebraic_degree": -0.009051744700833452,
+          "algebraic_degree * nonlinearity": -0.00012597470941277605,
+          "algebraic_degree * autocorrelation_sum": 0.0010609226515701556,
+          "algebraic_degree * sensitivity": -2.288845303685539e-06,
+          "algebraic_degree * influence": -1.830052129309081e-05,
+          "nonlinearity * nonlinearity": 5.487126602558325e-05,
+          "nonlinearity * autocorrelation_sum": -5.388710472368953e-05,
+          "nonlinearity * influence": 5.030694900018028e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.001792728057028555,
+          "autocorrelation_sum * sensitivity": 1.586856847161504e-05,
+          "autocorrelation_sum * influence": 2.1622335920817544e-05,
+          "sensitivity * sensitivity": -0.06579925334705873,
+          "sensitivity * influence": -3.1442249667621937e-06,
+          "influence * influence": -7.2240697212153e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.616553481704152e-05,
+            "position": -1.3129988097830603
+          },
+          "spectral_entropy": {
+            "activation": -0.08756506697015497,
+            "position": -3.061392334624236
+          },
+          "run_length": {
+            "activation": 7.023771334589938e-05,
+            "position": 0.08058402105479931
+          },
+          "gzip_ratio": {
+            "activation": 1.3145613812091353e-05,
+            "position": -1.485500138390496
+          },
+          "algebraic_degree": {
+            "activation": 0.04312672829225615,
+            "position": -0.4054248894582945
+          },
+          "nonlinearity": {
+            "activation": -0.00011382964512702035,
+            "position": -0.09547227580261869
+          },
+          "autocorrelation_sum": {
+            "activation": 0.001035361457915944,
+            "position": -0.9868078181530843
+          },
+          "sensitivity": {
+            "activation": 0.3548356982231652,
+            "position": -1.6512928625075103
+          },
+          "influence": {
+            "activation": -0.03781112137102473,
+            "position": -2.061658887219356
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.0001920334494294471,
+        "spectral_entropy": 0.15635713497906215,
+        "lz76_complexity": 4.426797554999075e-05,
+        "run_length": 0.00024220776948691687,
+        "gzip_ratio": 9.493511778943599e-05,
+        "algebraic_degree": 0.07432190647719361,
+        "nonlinearity": 0.0007230188536600681,
+        "autocorrelation_sum": 0.003524715910714224,
+        "sensitivity": 0.6976171104746641,
+        "influence": 0.06688266899244992
+      },
+      "test_spearman_r": 0.592976450920105
+    },
+    {
+      "rank": 17,
+      "spearman_r": 0.5941740274429321,
+      "generation": 7683,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.16429301716274192
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.2351615362498765
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 1.0567881358749606e-05,
+          "spectral_entropy": 0.08857495131701394,
+          "lz76_complexity": 1.9017909236846266e-06,
+          "run_length": 4.918352855524457e-05,
+          "gzip_ratio": 5.179932006698813e-05,
+          "algebraic_degree": -0.03162816912642451,
+          "nonlinearity": 0.00014954667325702537,
+          "autocorrelation_sum": 1.1119632233796464e-05,
+          "sensitivity": -0.3727479055226125,
+          "influence": 0.03808172817547254
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -3.10666472643328e-06,
+          "shannon_entropy * spectral_entropy": -4.249940994475146e-05,
+          "shannon_entropy * run_length": -2.0164031909600835e-05,
+          "shannon_entropy * gzip_ratio": -1.566103404948835e-05,
+          "shannon_entropy * algebraic_degree": -1.4154617466366876e-05,
+          "shannon_entropy * nonlinearity": 9.202019207301562e-06,
+          "shannon_entropy * autocorrelation_sum": 3.2412654236298336e-05,
+          "shannon_entropy * sensitivity": -3.3970253441870235e-05,
+          "shannon_entropy * influence": 5.3108971251727435e-05,
+          "spectral_entropy * spectral_entropy": -0.0005793921530040868,
+          "spectral_entropy * lz76_complexity": -1.2650939724867138e-05,
+          "spectral_entropy * run_length": -6.029020865590618e-05,
+          "spectral_entropy * gzip_ratio": -1.2004600312314795e-05,
+          "spectral_entropy * algebraic_degree": 0.0002391862679320049,
+          "spectral_entropy * nonlinearity": 0.0007455668882850159,
+          "spectral_entropy * autocorrelation_sum": -0.0010846362384463943,
+          "spectral_entropy * sensitivity": -7.206819633413957e-06,
+          "spectral_entropy * influence": 2.1021008465043852e-05,
+          "lz76_complexity * lz76_complexity": 1.1008491059473151e-05,
+          "lz76_complexity * run_length": -8.229031640240592e-06,
+          "lz76_complexity * algebraic_degree": 4.555994127943428e-06,
+          "lz76_complexity * nonlinearity": -1.0161173028387641e-05,
+          "lz76_complexity * autocorrelation_sum": -1.527995715561501e-05,
+          "lz76_complexity * sensitivity": -3.469328753431519e-06,
+          "lz76_complexity * influence": -1.6494982172248237e-05,
+          "run_length * run_length": -6.372212284349168e-05,
+          "run_length * gzip_ratio": -9.994257722704378e-06,
+          "run_length * algebraic_degree": 2.199913077737925e-05,
+          "run_length * nonlinearity": 6.976623382935195e-06,
+          "run_length * autocorrelation_sum": -4.173574505712597e-05,
+          "run_length * sensitivity": 1.2991880644487787e-05,
+          "run_length * influence": -1.259529380964457e-06,
+          "gzip_ratio * gzip_ratio": -8.217316516913588e-06,
+          "gzip_ratio * algebraic_degree": -2.114585853200191e-06,
+          "gzip_ratio * nonlinearity": 3.332480821190151e-06,
+          "gzip_ratio * autocorrelation_sum": 1.411300415180395e-05,
+          "gzip_ratio * influence": -1.1928836838123016e-05,
+          "algebraic_degree * algebraic_degree": -0.009057537267787248,
+          "algebraic_degree * nonlinearity": -0.0001259533023557481,
+          "algebraic_degree * autocorrelation_sum": 0.0010600645227867125,
+          "algebraic_degree * sensitivity": -2.0241094241056014e-06,
+          "algebraic_degree * influence": -1.849190764324851e-05,
+          "nonlinearity * nonlinearity": 5.557377328783058e-05,
+          "nonlinearity * autocorrelation_sum": -5.3196855928351386e-05,
+          "nonlinearity * sensitivity": -1.1420943997274187e-06,
+          "nonlinearity * influence": 5.0737888189541004e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0017905859730082837,
+          "autocorrelation_sum * sensitivity": 1.4833474102074938e-05,
+          "autocorrelation_sum * influence": 2.2216232885216003e-05,
+          "sensitivity * sensitivity": -0.06579889293199429,
+          "sensitivity * influence": -3.108554273017241e-06,
+          "influence * influence": -7.212606259999475e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.288329226637186e-05,
+            "position": -1.312989801249238
+          },
+          "spectral_entropy": {
+            "activation": -0.08757103657883641,
+            "position": -3.0613774232555726
+          },
+          "lz76_complexity": {
+            "activation": 1.9404839155791534e-06,
+            "position": -0.20046223802727
+          },
+          "run_length": {
+            "activation": 7.128725090971545e-05,
+            "position": 0.08059519510217474
+          },
+          "gzip_ratio": {
+            "activation": 1.314927819417829e-05,
+            "position": -1.4854824080718962
+          },
+          "algebraic_degree": {
+            "activation": 0.04315886576078255,
+            "position": -0.405423988755888
+          },
+          "nonlinearity": {
+            "activation": -0.00011369838396807403,
+            "position": -0.09548435133931071
+          },
+          "autocorrelation_sum": {
+            "activation": 0.001032873757865461,
+            "position": -0.9868233494242544
+          },
+          "sensitivity": {
+            "activation": 0.3548364466356857,
+            "position": -1.651295971304957
+          },
+          "influence": {
+            "activation": -0.037807170439473556,
+            "position": -2.061593084136579
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.00019124160600282372,
+        "spectral_entropy": 0.15635633444911753,
+        "lz76_complexity": 4.476228880705348e-05,
+        "run_length": 0.00024267266579109458,
+        "gzip_ratio": 9.530655749136253e-05,
+        "algebraic_degree": 0.07437110315481248,
+        "nonlinearity": 0.0007226672558518644,
+        "autocorrelation_sum": 0.0035201897840917897,
+        "sensitivity": 0.6975830552323676,
+        "influence": 0.06687266700566634
+      },
+      "test_spearman_r": 0.5929809808731079
+    },
+    {
+      "rank": 18,
+      "spearman_r": 0.5941740274429321,
+      "generation": 7672,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.16437259808999705
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.23515779717707053
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 1.0433766673758941e-05,
+          "spectral_entropy": 0.08856894220630014,
+          "lz76_complexity": 2.9436513886377634e-06,
+          "run_length": 4.919585017510926e-05,
+          "gzip_ratio": 4.851620485330121e-05,
+          "algebraic_degree": -0.03162498590468984,
+          "nonlinearity": 0.00015339789430741428,
+          "autocorrelation_sum": 1.3137633988242248e-05,
+          "sensitivity": -0.3727490534754849,
+          "influence": 0.03808623305616984
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -3.022349395801159e-06,
+          "shannon_entropy * spectral_entropy": -4.1943476938312684e-05,
+          "shannon_entropy * run_length": -2.013453727837016e-05,
+          "shannon_entropy * gzip_ratio": -1.5675192629176805e-05,
+          "shannon_entropy * algebraic_degree": -1.4187117210586875e-05,
+          "shannon_entropy * nonlinearity": 9.141844727405049e-06,
+          "shannon_entropy * autocorrelation_sum": 3.31033760526863e-05,
+          "shannon_entropy * sensitivity": -3.42645095003175e-05,
+          "shannon_entropy * influence": 5.294395860722023e-05,
+          "spectral_entropy * spectral_entropy": -0.0005806058959916385,
+          "spectral_entropy * lz76_complexity": -1.2571814243583059e-05,
+          "spectral_entropy * run_length": -5.98835578501564e-05,
+          "spectral_entropy * gzip_ratio": -1.2431327767587033e-05,
+          "spectral_entropy * algebraic_degree": 0.0002390626216467269,
+          "spectral_entropy * nonlinearity": 0.0007477861437945983,
+          "spectral_entropy * autocorrelation_sum": -0.001086800260915137,
+          "spectral_entropy * sensitivity": -7.1820392075678395e-06,
+          "spectral_entropy * influence": 2.1541745478057485e-05,
+          "lz76_complexity * lz76_complexity": 1.1188814734845887e-05,
+          "lz76_complexity * run_length": -8.48516147191917e-06,
+          "lz76_complexity * algebraic_degree": 4.562869729041444e-06,
+          "lz76_complexity * nonlinearity": -1.0347854721276738e-05,
+          "lz76_complexity * autocorrelation_sum": -1.5504334430942875e-05,
+          "lz76_complexity * sensitivity": -3.3371333140293367e-06,
+          "lz76_complexity * influence": -1.6399890722790244e-05,
+          "run_length * run_length": -6.381275446719939e-05,
+          "run_length * gzip_ratio": -9.744073160010209e-06,
+          "run_length * algebraic_degree": 2.190725976139575e-05,
+          "run_length * nonlinearity": 6.779126786845601e-06,
+          "run_length * autocorrelation_sum": -4.133177381410243e-05,
+          "run_length * sensitivity": 1.3030296422110799e-05,
+          "run_length * influence": -1.0050724898038217e-06,
+          "gzip_ratio * gzip_ratio": -8.29812275870052e-06,
+          "gzip_ratio * algebraic_degree": -2.035679011020051e-06,
+          "gzip_ratio * nonlinearity": 3.5898112823985938e-06,
+          "gzip_ratio * autocorrelation_sum": 1.4146211915421107e-05,
+          "gzip_ratio * influence": -1.2098711786444796e-05,
+          "algebraic_degree * algebraic_degree": -0.00905740609139258,
+          "algebraic_degree * nonlinearity": -0.00012642674910498403,
+          "algebraic_degree * autocorrelation_sum": 0.0010611068826388067,
+          "algebraic_degree * sensitivity": -2.2296689996239303e-06,
+          "algebraic_degree * influence": -1.85159588451059e-05,
+          "nonlinearity * nonlinearity": 5.866002191987818e-05,
+          "nonlinearity * autocorrelation_sum": -4.9722617967338484e-05,
+          "nonlinearity * influence": 5.049847568265854e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0017919482807484156,
+          "autocorrelation_sum * sensitivity": 1.5449375888913315e-05,
+          "autocorrelation_sum * influence": 2.2471265664277397e-05,
+          "sensitivity * sensitivity": -0.06579967997179893,
+          "sensitivity * influence": -2.990386086108266e-06,
+          "influence * influence": -7.228855375623112e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.366411556261277e-05,
+            "position": -1.3129872998327063
+          },
+          "spectral_entropy": {
+            "activation": -0.08756362282438176,
+            "position": -3.061374253037644
+          },
+          "run_length": {
+            "activation": 7.109022265941686e-05,
+            "position": 0.08058502477002398
+          },
+          "gzip_ratio": {
+            "activation": 1.6509766306449062e-05,
+            "position": -1.4854819831941504
+          },
+          "algebraic_degree": {
+            "activation": 0.043152939987080065,
+            "position": -0.4054214726533256
+          },
+          "nonlinearity": {
+            "activation": -0.00012075123059804505,
+            "position": -0.0954735325700965
+          },
+          "autocorrelation_sum": {
+            "activation": 0.0010315914947720767,
+            "position": -0.9868164744923089
+          },
+          "sensitivity": {
+            "activation": 0.35483750638671663,
+            "position": -1.6512917103227134
+          },
+          "influence": {
+            "activation": -0.03781132101694047,
+            "position": -2.061626296495612
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.00019188292860404117,
+        "spectral_entropy": 0.1563460292312664,
+        "lz76_complexity": 4.4909912492313e-05,
+        "run_length": 0.0002419989170799332,
+        "gzip_ratio": 9.574285887709429e-05,
+        "algebraic_degree": 0.07436297265377136,
+        "nonlinearity": 0.0007344048965407566,
+        "autocorrelation_sum": 0.0035225074668879816,
+        "sensitivity": 0.6975796835082357,
+        "influence": 0.06687986762624437
+      },
+      "test_spearman_r": 0.5929811596870422
+    },
+    {
+      "rank": 19,
+      "spearman_r": 0.5941740274429321,
+      "generation": 7688,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.1645865009980353
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.2351386573343118
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 1.0911218858229778e-05,
+          "spectral_entropy": 0.08854867260155502,
+          "lz76_complexity": 2.561745438859368e-06,
+          "run_length": 4.936773057641233e-05,
+          "gzip_ratio": 5.2595453868407166e-05,
+          "algebraic_degree": -0.031618183436294675,
+          "nonlinearity": 0.00015063975295866554,
+          "autocorrelation_sum": 8.653087308200413e-06,
+          "sensitivity": -0.3727579977701213,
+          "influence": 0.038075805470702676
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -3.002966503431657e-06,
+          "shannon_entropy * spectral_entropy": -4.3280624861906994e-05,
+          "shannon_entropy * lz76_complexity": 1.0272308748055729e-06,
+          "shannon_entropy * run_length": -2.012922931931164e-05,
+          "shannon_entropy * gzip_ratio": -1.5889274245857e-05,
+          "shannon_entropy * algebraic_degree": -1.4381323250056405e-05,
+          "shannon_entropy * nonlinearity": 9.562194231961297e-06,
+          "shannon_entropy * autocorrelation_sum": 3.280851542348042e-05,
+          "shannon_entropy * sensitivity": -3.393788519648689e-05,
+          "shannon_entropy * influence": 5.322162203362576e-05,
+          "spectral_entropy * spectral_entropy": -0.0005838375893311877,
+          "spectral_entropy * lz76_complexity": -1.2682316679063518e-05,
+          "spectral_entropy * run_length": -6.037643150130348e-05,
+          "spectral_entropy * gzip_ratio": -1.282624214061453e-05,
+          "spectral_entropy * algebraic_degree": 0.0002409850890647691,
+          "spectral_entropy * nonlinearity": 0.0007511330018887614,
+          "spectral_entropy * autocorrelation_sum": -0.0010925342277672975,
+          "spectral_entropy * sensitivity": -7.1669401353515716e-06,
+          "spectral_entropy * influence": 2.1351571276747797e-05,
+          "lz76_complexity * lz76_complexity": 1.1236987961954802e-05,
+          "lz76_complexity * run_length": -8.443035680596048e-06,
+          "lz76_complexity * algebraic_degree": 4.4793855400844936e-06,
+          "lz76_complexity * nonlinearity": -1.0029225805280409e-05,
+          "lz76_complexity * autocorrelation_sum": -1.5504738514417513e-05,
+          "lz76_complexity * sensitivity": -3.4520843492321745e-06,
+          "lz76_complexity * influence": -1.642659509079601e-05,
+          "run_length * run_length": -6.451091204109364e-05,
+          "run_length * gzip_ratio": -1.011203375484406e-05,
+          "run_length * algebraic_degree": 2.209794010279353e-05,
+          "run_length * nonlinearity": 6.816921142564064e-06,
+          "run_length * autocorrelation_sum": -4.19195484010335e-05,
+          "run_length * sensitivity": 1.3235233817205455e-05,
+          "run_length * influence": -1.3321577245688162e-06,
+          "gzip_ratio * gzip_ratio": -8.391079754689311e-06,
+          "gzip_ratio * algebraic_degree": -1.576703839606413e-06,
+          "gzip_ratio * nonlinearity": 2.692257748869238e-06,
+          "gzip_ratio * autocorrelation_sum": 1.3050663133344022e-05,
+          "gzip_ratio * influence": -1.2336481643667661e-05,
+          "algebraic_degree * algebraic_degree": -0.00905790887678062,
+          "algebraic_degree * nonlinearity": -0.00012661939909844083,
+          "algebraic_degree * autocorrelation_sum": 0.0010684014413994082,
+          "algebraic_degree * sensitivity": -2.1677099262823472e-06,
+          "algebraic_degree * influence": -1.854324203073634e-05,
+          "nonlinearity * nonlinearity": 5.564951194689374e-05,
+          "nonlinearity * autocorrelation_sum": -5.488576221355733e-05,
+          "nonlinearity * influence": 5.0907039535548574e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0018049912318040067,
+          "autocorrelation_sum * sensitivity": 1.5579482270527452e-05,
+          "autocorrelation_sum * influence": 2.2330251019408708e-05,
+          "sensitivity * sensitivity": -0.06580213558250886,
+          "sensitivity * influence": -3.107287711433632e-06,
+          "influence * influence": -7.264211459353319e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.34909398029168e-05,
+            "position": -1.3129891381374648
+          },
+          "spectral_entropy": {
+            "activation": -0.08753742768750616,
+            "position": -3.0613770083395493
+          },
+          "run_length": {
+            "activation": 7.213048286521918e-05,
+            "position": 0.08057540026765288
+          },
+          "gzip_ratio": {
+            "activation": 1.2831557657692466e-05,
+            "position": -1.4855092712409266
+          },
+          "algebraic_degree": {
+            "activation": 0.04314101940635558,
+            "position": -0.40542214084609474
+          },
+          "nonlinearity": {
+            "activation": -0.0001140632908204009,
+            "position": -0.09547537629526864
+          },
+          "autocorrelation_sum": {
+            "activation": 0.001043393365301836,
+            "position": -0.9868098384447087
+          },
+          "sensitivity": {
+            "activation": 0.3548458395288674,
+            "position": -1.6512760836601166
+          },
+          "influence": {
+            "activation": -0.037799220960237245,
+            "position": -2.061676944664302
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.0001930100616343941,
+        "spectral_entropy": 0.15631758095256426,
+        "lz76_complexity": 4.469551936135232e-05,
+        "run_length": 0.00024463464922544893,
+        "gzip_ratio": 9.554199508817391e-05,
+        "algebraic_degree": 0.07435280750290682,
+        "nonlinearity": 0.0007271250214347309,
+        "autocorrelation_sum": 0.0035481337957716306,
+        "sensitivity": 0.6976139982349846,
+        "influence": 0.06686247226702859
+      },
+      "test_spearman_r": 0.5929756760597229
+    },
+    {
+      "rank": 20,
+      "spearman_r": 0.5941740274429321,
+      "generation": 7663,
+      "barrier_details": {
+        "natural_proof": {
+          "passes": true,
+          "density": 0.0186
+        },
+        "relativization": {
+          "passes": true,
+          "r2": 0.164308593740488
+        },
+        "algebrization": {
+          "passes": true,
+          "extensible_weight": 0.23509985729775426
+        }
+      },
+      "decoded_weights": {
+        "linear": {
+          "shannon_entropy": 1.0949062935219578e-05,
+          "spectral_entropy": 0.08856169922925602,
+          "lz76_complexity": 2.57881899986966e-06,
+          "run_length": 4.9958344066751515e-05,
+          "gzip_ratio": 4.951893039939872e-05,
+          "algebraic_degree": -0.03160340923568378,
+          "nonlinearity": 0.0001489689880247292,
+          "autocorrelation_sum": 8.757153891850626e-06,
+          "sensitivity": -0.3727492468594455,
+          "influence": 0.03808570615487325
+        },
+        "quadratic": {
+          "shannon_entropy * shannon_entropy": -2.745331297779285e-06,
+          "shannon_entropy * spectral_entropy": -4.310409423807996e-05,
+          "shannon_entropy * run_length": -2.0228100123634007e-05,
+          "shannon_entropy * gzip_ratio": -1.563896076805258e-05,
+          "shannon_entropy * algebraic_degree": -1.3696105529605583e-05,
+          "shannon_entropy * nonlinearity": 9.051586061923983e-06,
+          "shannon_entropy * autocorrelation_sum": 3.168595565353377e-05,
+          "shannon_entropy * sensitivity": -3.3618994356416036e-05,
+          "shannon_entropy * influence": 5.2272413050102405e-05,
+          "spectral_entropy * spectral_entropy": -0.0005800439280872147,
+          "spectral_entropy * lz76_complexity": -1.2980275287479938e-05,
+          "spectral_entropy * run_length": -5.9851204031999995e-05,
+          "spectral_entropy * gzip_ratio": -1.1706295358467931e-05,
+          "spectral_entropy * algebraic_degree": 0.00023900440795910418,
+          "spectral_entropy * nonlinearity": 0.000746654017709742,
+          "spectral_entropy * autocorrelation_sum": -0.001086282395376328,
+          "spectral_entropy * sensitivity": -7.0421171008942115e-06,
+          "spectral_entropy * influence": 2.1023527772429643e-05,
+          "lz76_complexity * lz76_complexity": 1.1060323251177335e-05,
+          "lz76_complexity * run_length": -8.344517219726756e-06,
+          "lz76_complexity * algebraic_degree": 4.686201727577075e-06,
+          "lz76_complexity * nonlinearity": -1.0204309781455155e-05,
+          "lz76_complexity * autocorrelation_sum": -1.5668286900152872e-05,
+          "lz76_complexity * sensitivity": -3.516952398560693e-06,
+          "lz76_complexity * influence": -1.6488942279474813e-05,
+          "run_length * run_length": -6.337952834185649e-05,
+          "run_length * gzip_ratio": -1.0045870356373527e-05,
+          "run_length * algebraic_degree": 2.2264698352779246e-05,
+          "run_length * nonlinearity": 6.147578841157114e-06,
+          "run_length * autocorrelation_sum": -4.241471252848766e-05,
+          "run_length * sensitivity": 1.3019118708563953e-05,
+          "run_length * influence": -1.104691173226669e-06,
+          "gzip_ratio * gzip_ratio": -8.381618468897252e-06,
+          "gzip_ratio * algebraic_degree": -2.0144431997749642e-06,
+          "gzip_ratio * nonlinearity": 3.142007057311335e-06,
+          "gzip_ratio * autocorrelation_sum": 1.4180953908266768e-05,
+          "gzip_ratio * influence": -1.1954084582500544e-05,
+          "algebraic_degree * algebraic_degree": -0.009051540476895912,
+          "algebraic_degree * nonlinearity": -0.00012638926852589436,
+          "algebraic_degree * autocorrelation_sum": 0.0010611744534087997,
+          "algebraic_degree * sensitivity": -1.94830515822379e-06,
+          "algebraic_degree * influence": -1.850934402698307e-05,
+          "nonlinearity * nonlinearity": 5.6686867966340707e-05,
+          "nonlinearity * autocorrelation_sum": -5.1437375794134264e-05,
+          "nonlinearity * influence": 5.0288879235276975e-05,
+          "autocorrelation_sum * autocorrelation_sum": -0.0017926996712559643,
+          "autocorrelation_sum * sensitivity": 1.5611158168614165e-05,
+          "autocorrelation_sum * influence": 2.160286923160605e-05,
+          "sensitivity * sensitivity": -0.06580006781806484,
+          "sensitivity * influence": -3.3297246650471506e-06,
+          "influence * influence": -7.190632181820406e-05
+        },
+        "threshold": {
+          "shannon_entropy": {
+            "activation": 9.265622860149685e-05,
+            "position": -1.3129982311649782
+          },
+          "spectral_entropy": {
+            "activation": -0.0875568450429254,
+            "position": -3.0613931897078026
+          },
+          "lz76_complexity": {
+            "activation": 1.0713119254106665e-06,
+            "position": -0.2004759732831115
+          },
+          "run_length": {
+            "activation": 6.938390768252114e-05,
+            "position": 0.0805753029774567
+          },
+          "gzip_ratio": {
+            "activation": 1.551682396413495e-05,
+            "position": -1.4855051106165085
+          },
+          "algebraic_degree": {
+            "activation": 0.04312397058582156,
+            "position": -0.40542439596137836
+          },
+          "nonlinearity": {
+            "activation": -0.00011318555240366159,
+            "position": -0.09547046731976426
+          },
+          "autocorrelation_sum": {
+            "activation": 0.0010362482564664289,
+            "position": -0.9868049423652991
+          },
+          "sensitivity": {
+            "activation": 0.35483728062199,
+            "position": -1.6512877009797624
+          },
+          "influence": {
+            "activation": -0.03781118575437992,
+            "position": -2.0616863985653815
+          }
+        }
+      },
+      "feature_importance": {
+        "shannon_entropy": 0.0001902704461313879,
+        "spectral_entropy": 0.1563449014732293,
+        "lz76_complexity": 4.508086140097905e-05,
+        "run_length": 0.00024129951029337228,
+        "gzip_ratio": 9.531930669967226e-05,
+        "algebraic_degree": 0.07431910610208742,
+        "nonlinearity": 0.0007217037809970002,
+        "autocorrelation_sum": 0.003523875495309157,
+        "sensitivity": 0.6976350301919798,
+        "influence": 0.06688341283187188
+      },
+      "test_spearman_r": 0.5929813385009766
+    }
+  ],
+  "diversity": {
+    "mean_cosine_similarity": 0.9999999994961773,
+    "n_compared": 20
+  }
+}

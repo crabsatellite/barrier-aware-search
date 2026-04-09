@@ -1,0 +1,45 @@
+{
+  "project": "barrier-aware-search",
+  "data": {
+    "prepared_npz": "../canonicalization-leakage-internal/data/prepared.npz",
+    "n_vars": 5,
+    "n_random_functions": 10000,
+    "random_seed": 42,
+    "measure_indices": [64, 74],
+    "measure_names": [
+      "shannon_entropy", "spectral_entropy", "lz76_complexity",
+      "run_length", "gzip_ratio", "algebraic_degree",
+      "nonlinearity", "autocorrelation_sum", "sensitivity", "influence"
+    ]
+  },
+  "search": {
+    "population_size": 100,
+    "max_generations": 10000,
+    "initial_sigma": 1.0,
+    "sigma_max": 100.0,
+    "sigma_min": 1e-6,
+    "target_fitness": 0.95,
+    "checkpoint_every": 50,
+    "top_k": 50,
+    "barrier_penalty": 10.0,
+    "l2_lambda": 0.001,
+    "device": "auto"
+  },
+  "barriers": {
+    "natural_proof": {
+      "density_poly_degree": 2
+    },
+    "relativization": {
+      "poly_degree": 2,
+      "r2_threshold": 0.99,
+      "n_samples": 10000
+    },
+    "algebrization": {
+      "extensible_indices": [0, 1, 5, 6, 7],
+      "weight_threshold": 0.8
+    }
+  },
+  "logging": {
+    "level": "INFO"
+  }
+}

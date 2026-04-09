@@ -1,0 +1,29 @@
+% jmlr2e.sty - Style file for JMLR
+% Simplified version for draft compilation
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{jmlr2e}[2026/03/28 JMLR style]
+
+\usepackage{natbib}
+\bibliographystyle{plainnat}
+
+% Page layout
+\usepackage[margin=1in]{geometry}
+
+% JMLR heading
+\newcommand{\jmlrheading}[6]{}
+
+% Short headings
+\newcommand{\ShortHeadings}[2]{%
+  \renewcommand{\leftmark}{#1}%
+  \renewcommand{\rightmark}{#2}%
+}
+
+% Editor
+\newcommand{\editor}[1]{}
+
+% Keywords
+\newenvironment{keywords}{\paragraph{Keywords:}}{}
+
+% First page style
+\pagestyle{plain}

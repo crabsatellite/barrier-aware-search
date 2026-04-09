@@ -1,0 +1,468 @@
+{
+  "sep": [
+    {
+      "seed": 137,
+      "final": {
+        "r": 0.590904951095581,
+        "feasible": true,
+        "np_density": 0.0391,
+        "sensitivity_importance": 0.013499886900935414,
+        "cross_term_frac": 0.015400448765926849,
+        "regime": "C"
+      },
+      "trajectory": [
+        {
+          "gen": 1000,
+          "r": 0.5854640007019043,
+          "regime": "C",
+          "sensitivity_importance": 0.032956362954739006,
+          "cross_term_frac": 0.028763511166629698,
+          "feasible": true
+        },
+        {
+          "gen": 2000,
+          "r": 0.5890989899635315,
+          "regime": "C",
+          "sensitivity_importance": 0.026467630173362684,
+          "cross_term_frac": 0.0244308387630253,
+          "feasible": true
+        },
+        {
+          "gen": 3000,
+          "r": 0.5902705788612366,
+          "regime": "C",
+          "sensitivity_importance": 0.026506160657276602,
+          "cross_term_frac": 0.02331991518920389,
+          "feasible": false
+        },
+        {
+          "gen": 4000,
+          "r": 0.5905481576919556,
+          "regime": "C",
+          "sensitivity_importance": 0.02509315704151484,
+          "cross_term_frac": 0.021645024402612057,
+          "feasible": false
+        },
+        {
+          "gen": 5000,
+          "r": 0.5907018184661865,
+          "regime": "C",
+          "sensitivity_importance": 0.021521639723174262,
+          "cross_term_frac": 0.019192548695604366,
+          "feasible": false
+        },
+        {
+          "gen": 6000,
+          "r": 0.5907573103904724,
+          "regime": "C",
+          "sensitivity_importance": 0.01861022619661111,
+          "cross_term_frac": 0.017738878132741262,
+          "feasible": false
+        },
+        {
+          "gen": 7000,
+          "r": 0.5908121466636658,
+          "regime": "C",
+          "sensitivity_importance": 0.0159453347590892,
+          "cross_term_frac": 0.016504696351320746,
+          "feasible": false
+        },
+        {
+          "gen": 8000,
+          "r": 0.590904951095581,
+          "regime": "C",
+          "sensitivity_importance": 0.013499886900935414,
+          "cross_term_frac": 0.015400448765926849,
+          "feasible": true
+        }
+      ]
+    },
+    {
+      "seed": 256,
+      "final": {
+        "r": 0.5904753804206848,
+        "feasible": true,
+        "np_density": 0.0395,
+        "sensitivity_importance": 0.019507230944836765,
+        "cross_term_frac": 0.016269696693633418,
+        "regime": "C"
+      },
+      "trajectory": [
+        {
+          "gen": 1000,
+          "r": 0.5858766436576843,
+          "regime": "C",
+          "sensitivity_importance": 0.020817099471915408,
+          "cross_term_frac": 0.02873312869817676,
+          "feasible": true
+        },
+        {
+          "gen": 2000,
+          "r": 0.5890201330184937,
+          "regime": "C",
+          "sensitivity_importance": 0.01939011237377164,
+          "cross_term_frac": 0.018219209525867298,
+          "feasible": false
+        },
+        {
+          "gen": 3000,
+          "r": 0.5898905992507935,
+          "regime": "C",
+          "sensitivity_importance": 0.02002939229612987,
+          "cross_term_frac": 0.01988305183927443,
+          "feasible": true
+        },
+        {
+          "gen": 4000,
+          "r": 0.5899831056594849,
+          "regime": "C",
+          "sensitivity_importance": 0.0181425082081926,
+          "cross_term_frac": 0.018846060016444892,
+          "feasible": false
+        },
+        {
+          "gen": 5000,
+          "r": 0.5899956822395325,
+          "regime": "C",
+          "sensitivity_importance": 0.018702180063269583,
+          "cross_term_frac": 0.019331721570679486,
+          "feasible": false
+        },
+        {
+          "gen": 6000,
+          "r": 0.5901607275009155,
+          "regime": "C",
+          "sensitivity_importance": 0.019822204042106502,
+          "cross_term_frac": 0.017642623979637503,
+          "feasible": true
+        },
+        {
+          "gen": 7000,
+          "r": 0.5903356075286865,
+          "regime": "C",
+          "sensitivity_importance": 0.01955892923898798,
+          "cross_term_frac": 0.016930895486684375,
+          "feasible": true
+        },
+        {
+          "gen": 8000,
+          "r": 0.5904753804206848,
+          "regime": "C",
+          "sensitivity_importance": 0.019507230944836765,
+          "cross_term_frac": 0.016269696693633418,
+          "feasible": true
+        }
+      ]
+    },
+    {
+      "seed": 1024,
+      "final": {
+        "r": 0.5918130874633789,
+        "feasible": false,
+        "np_density": 0.0415,
+        "sensitivity_importance": 0.027636793984561904,
+        "cross_term_frac": 0.01950214591000099,
+        "regime": "C"
+      },
+      "trajectory": [
+        {
+          "gen": 1000,
+          "r": 0.5876695513725281,
+          "regime": "C",
+          "sensitivity_importance": 0.01657064843540837,
+          "cross_term_frac": 0.028673391744701057,
+          "feasible": false
+        },
+        {
+          "gen": 2000,
+          "r": 0.5910782217979431,
+          "regime": "C",
+          "sensitivity_importance": 0.018335504668170764,
+          "cross_term_frac": 0.02082314260900383,
+          "feasible": true
+        },
+        {
+          "gen": 3000,
+          "r": 0.5914786458015442,
+          "regime": "C",
+          "sensitivity_importance": 0.020129087651446363,
+          "cross_term_frac": 0.020177375278640074,
+          "feasible": false
+        },
+        {
+          "gen": 4000,
+          "r": 0.5916074514389038,
+          "regime": "C",
+          "sensitivity_importance": 0.022279851613691982,
+          "cross_term_frac": 0.0200162821126246,
+          "feasible": true
+        },
+        {
+          "gen": 5000,
+          "r": 0.5916613936424255,
+          "regime": "C",
+          "sensitivity_importance": 0.025000382221836866,
+          "cross_term_frac": 0.020626621346371252,
+          "feasible": true
+        },
+        {
+          "gen": 6000,
+          "r": 0.5917107462882996,
+          "regime": "C",
+          "sensitivity_importance": 0.025481582664807795,
+          "cross_term_frac": 0.019689155575866483,
+          "feasible": false
+        },
+        {
+          "gen": 7000,
+          "r": 0.5917929410934448,
+          "regime": "C",
+          "sensitivity_importance": 0.02677551621838887,
+          "cross_term_frac": 0.019294335905579205,
+          "feasible": true
+        },
+        {
+          "gen": 8000,
+          "r": 0.5918130874633789,
+          "regime": "C",
+          "sensitivity_importance": 0.027636793984561904,
+          "cross_term_frac": 0.01950214591000099,
+          "feasible": false
+        }
+      ]
+    }
+  ],
+  "isotropic": [
+    {
+      "seed": 137,
+      "final": {
+        "r": 0.5918252468109131,
+        "feasible": false,
+        "np_density": 0.0438,
+        "sensitivity_importance": 0.0544480096853389,
+        "cross_term_frac": 0.02086290249605561,
+        "regime": "B"
+      },
+      "trajectory": [
+        {
+          "gen": 1000,
+          "r": 0.5851797461509705,
+          "regime": "C",
+          "sensitivity_importance": 0.04177219518305411,
+          "cross_term_frac": 0.040694898176683945,
+          "feasible": false
+        },
+        {
+          "gen": 2000,
+          "r": 0.589409589767456,
+          "regime": "C",
+          "sensitivity_importance": 0.04340543805815038,
+          "cross_term_frac": 0.02446671171625532,
+          "feasible": true
+        },
+        {
+          "gen": 3000,
+          "r": 0.5909773111343384,
+          "regime": "C",
+          "sensitivity_importance": 0.04549560727423795,
+          "cross_term_frac": 0.020966240376881995,
+          "feasible": true
+        },
+        {
+          "gen": 4000,
+          "r": 0.5914422869682312,
+          "regime": "C",
+          "sensitivity_importance": 0.047567846215540555,
+          "cross_term_frac": 0.019337029771498385,
+          "feasible": true
+        },
+        {
+          "gen": 5000,
+          "r": 0.5916243195533752,
+          "regime": "C",
+          "sensitivity_importance": 0.049592735533660004,
+          "cross_term_frac": 0.019037514316148127,
+          "feasible": false
+        },
+        {
+          "gen": 6000,
+          "r": 0.5917132496833801,
+          "regime": "B",
+          "sensitivity_importance": 0.0509858637371674,
+          "cross_term_frac": 0.019222266600522585,
+          "feasible": false
+        },
+        {
+          "gen": 7000,
+          "r": 0.591776430606842,
+          "regime": "B",
+          "sensitivity_importance": 0.053007549545199595,
+          "cross_term_frac": 0.019378010354142113,
+          "feasible": false
+        },
+        {
+          "gen": 8000,
+          "r": 0.5918252468109131,
+          "regime": "B",
+          "sensitivity_importance": 0.0544480096853389,
+          "cross_term_frac": 0.02086290249605561,
+          "feasible": false
+        }
+      ]
+    },
+    {
+      "seed": 256,
+      "final": {
+        "r": 0.5921047925949097,
+        "feasible": false,
+        "np_density": 0.0418,
+        "sensitivity_importance": 0.01947885859668937,
+        "cross_term_frac": 0.018400157645336635,
+        "regime": "C"
+      },
+      "trajectory": [
+        {
+          "gen": 1000,
+          "r": 0.588449239730835,
+          "regime": "C",
+          "sensitivity_importance": 0.030817923841628004,
+          "cross_term_frac": 0.043582836419599265,
+          "feasible": false
+        },
+        {
+          "gen": 2000,
+          "r": 0.5902673006057739,
+          "regime": "C",
+          "sensitivity_importance": 0.02591042208192905,
+          "cross_term_frac": 0.02835085658905974,
+          "feasible": true
+        },
+        {
+          "gen": 3000,
+          "r": 0.591235876083374,
+          "regime": "C",
+          "sensitivity_importance": 0.02301104980975241,
+          "cross_term_frac": 0.02322772105871375,
+          "feasible": true
+        },
+        {
+          "gen": 4000,
+          "r": 0.5916615128517151,
+          "regime": "C",
+          "sensitivity_importance": 0.022548411152307258,
+          "cross_term_frac": 0.02191907190883114,
+          "feasible": true
+        },
+        {
+          "gen": 5000,
+          "r": 0.5918492674827576,
+          "regime": "C",
+          "sensitivity_importance": 0.02085115640509292,
+          "cross_term_frac": 0.020404398753298032,
+          "feasible": false
+        },
+        {
+          "gen": 6000,
+          "r": 0.5919658541679382,
+          "regime": "C",
+          "sensitivity_importance": 0.019951369445801687,
+          "cross_term_frac": 0.019503813466874662,
+          "feasible": true
+        },
+        {
+          "gen": 7000,
+          "r": 0.5920550227165222,
+          "regime": "C",
+          "sensitivity_importance": 0.018878772828024696,
+          "cross_term_frac": 0.017552120561864813,
+          "feasible": false
+        },
+        {
+          "gen": 8000,
+          "r": 0.5921047925949097,
+          "regime": "C",
+          "sensitivity_importance": 0.01947885859668937,
+          "cross_term_frac": 0.018400157645336635,
+          "feasible": false
+        }
+      ]
+    },
+    {
+      "seed": 1024,
+      "final": {
+        "r": 0.591515839099884,
+        "feasible": false,
+        "np_density": 0.0417,
+        "sensitivity_importance": 0.007618158164506309,
+        "cross_term_frac": 0.017262852579643606,
+        "regime": "C"
+      },
+      "trajectory": [
+        {
+          "gen": 1000,
+          "r": 0.5857172608375549,
+          "regime": "C",
+          "sensitivity_importance": 0.015069660946165103,
+          "cross_term_frac": 0.0360746178055881,
+          "feasible": true
+        },
+        {
+          "gen": 2000,
+          "r": 0.589449942111969,
+          "regime": "C",
+          "sensitivity_importance": 0.010396262022509166,
+          "cross_term_frac": 0.02712048133562269,
+          "feasible": false
+        },
+        {
+          "gen": 3000,
+          "r": 0.5907871723175049,
+          "regime": "C",
+          "sensitivity_importance": 0.010007920970151183,
+          "cross_term_frac": 0.023180429595633927,
+          "feasible": false
+        },
+        {
+          "gen": 4000,
+          "r": 0.5912284851074219,
+          "regime": "C",
+          "sensitivity_importance": 0.00898198798589041,
+          "cross_term_frac": 0.01945603266433405,
+          "feasible": false
+        },
+        {
+          "gen": 5000,
+          "r": 0.5913744568824768,
+          "regime": "C",
+          "sensitivity_importance": 0.008239552850773497,
+          "cross_term_frac": 0.018043830907414404,
+          "feasible": false
+        },
+        {
+          "gen": 6000,
+          "r": 0.5914352536201477,
+          "regime": "C",
+          "sensitivity_importance": 0.007903078459401884,
+          "cross_term_frac": 0.01777375210891839,
+          "feasible": false
+        },
+        {
+          "gen": 7000,
+          "r": 0.5914900302886963,
+          "regime": "C",
+          "sensitivity_importance": 0.007382426169818237,
+          "cross_term_frac": 0.016639773587487413,
+          "feasible": false
+        },
+        {
+          "gen": 8000,
+          "r": 0.591515839099884,
+          "regime": "C",
+          "sensitivity_importance": 0.007618158164506309,
+          "cross_term_frac": 0.017262852579643606,
+          "feasible": false
+        }
+      ]
+    }
+  ]
+}
