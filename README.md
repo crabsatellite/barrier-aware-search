@@ -1,10 +1,12 @@
 # Barrier-Aware Search
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19489233.svg)](https://doi.org/10.5281/zenodo.19489233)
+
 Replication code and experimental data for:
 
 > **Cross-Dimensional Covariance Adaptation Induces Irreversible Drift Toward Deceptive Attractors in Barrier-Constrained Search**
 >
-> Alex Chengyu Li, 2026.
+> Alex Chengyu Li, 2026. DOI: [10.5281/zenodo.19489233](https://doi.org/10.5281/zenodo.19489233)
 
 ## Overview
 
@@ -115,6 +117,7 @@ MIT License. See [LICENSE](LICENSE).
          Toward Deceptive Attractors in Barrier-Constrained Search},
   author={Li, Alex Chengyu},
   year={2026},
+  doi={10.5281/zenodo.19489233},
   note={Preprint}
 }
 ```
