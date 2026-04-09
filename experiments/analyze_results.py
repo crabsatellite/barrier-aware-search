@@ -1,5 +1,5 @@
 """
-Analyze JMLR revision experiment results and generate summary tables.
+Analyze experiment results and generate summary tables.
 
 Usage:
     python analyze_results.py              # full analysis

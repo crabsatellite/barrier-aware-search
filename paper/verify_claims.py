@@ -1,6 +1,6 @@
 """
-Independent verification of ALL numerical claims in covariance_drift_ecj.tex
-against raw experimental data in data/jmlr_revision/.
+Independent verification of all numerical claims in the paper
+against raw experimental data.
 """
 import json
 import sys

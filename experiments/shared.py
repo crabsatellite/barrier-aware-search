@@ -1,5 +1,5 @@
 """
-Shared utilities for JMLR revision experiments.
+Shared utilities for experiments.
 Checkpoint-resumable, JSON-serialisable results.
 """
 

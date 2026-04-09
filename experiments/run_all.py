@@ -1,5 +1,5 @@
 """
-Master runner for all JMLR revision experiments.
+Master runner for all experiments.
 
 Executes experiments in priority order. Checkpoint-resumable at every level:
 each experiment script skips already-completed (seed, variant) pairs.
@@ -94,7 +94,7 @@ def phase4():
 def status():
     """Show progress for all experiments."""
     print("\n" + "=" * 50)
-    print("  JMLR Revision Experiment Status")
+    print("  Experiment Status")
     print("=" * 50)
 
     scripts = [
@@ -113,7 +113,7 @@ def status():
 
 def main():
     parser = argparse.ArgumentParser(
-        description="JMLR revision experiment runner")
+        description="Experiment runner")
     parser.add_argument("mode",
                         choices=["phase1", "phase2", "phase3", "phase4",
                                  "all", "status"])

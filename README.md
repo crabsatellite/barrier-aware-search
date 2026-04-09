@@ -4,7 +4,7 @@ Replication code and experimental data for:
 
 > **Cross-Dimensional Covariance Adaptation Induces Irreversible Drift Toward Deceptive Attractors in Barrier-Constrained Search**
 >
-> Alex Chengyu Li. *Evolutionary Computation* (MIT Press), 2026. Under review.
+> Alex Chengyu Li, 2026.
 
 ## Overview
 
@@ -30,14 +30,14 @@ barrier-aware-search/
 │   │   ├── relativization.py
 │   │   └── algebrization.py
 │   └── ...
-├── experiments/            # Experiment scripts (JMLR revision)
+├── experiments/            # Experiment scripts
 │   ├── exp_30seed.py       # 30-seed cross-optimizer comparison
 │   ├── exp_ablation.py     # Structural condition ablations
 │   ├── exp_lambda_escape.py # Population scaling + escape attempts
 │   ├── exp_mitigation.py   # Adaptive mitigation experiment
 │   └── ...
 ├── data/                   # Raw experimental results
-│   └── jmlr_revision/      # 30-seed replication data (JSON)
+│   └── jmlr_revision/      # 30-seed controlled comparison data (JSON)
 ├── figures/                # Generated visualizations (PDF)
 ├── logs/                   # Execution logs
 ├── checkpoints/            # CMA-ES state snapshots
@@ -93,7 +93,7 @@ cd paper
 build.bat
 ```
 
-Produces `covariance_drift_ecj.pdf` (ECJ submission format).
+Produces `covariance_drift_ecj.pdf`.
 
 ## Experimental Domain
 
@@ -110,13 +110,11 @@ MIT License. See [LICENSE](LICENSE).
 ## Citation
 
 ```bibtex
-@article{li2026covariance,
+@misc{li2026covariance,
   title={Cross-Dimensional Covariance Adaptation Induces Irreversible Drift
          Toward Deceptive Attractors in Barrier-Constrained Search},
   author={Li, Alex Chengyu},
-  journal={Evolutionary Computation},
   year={2026},
-  publisher={MIT Press},
-  note={Under review}
+  note={Preprint}
 }
 ```
